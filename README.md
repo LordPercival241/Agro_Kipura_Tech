@@ -1,4 +1,4 @@
-# 🌱 AgroPredict — Sistema de Monitoreo Agrícola con IoT e Inteligencia Artificial
+#  AgroPredict — Sistema de Monitoreo Agrícola con IoT e Inteligencia Artificial
 
 Sistema de monitoreo de plantas en tiempo real desarrollado para la **UTEC (Universidad de Tecnología e Ingeniería)**. Combina un dispositivo de medición de campo basado en **ESP32** con una **API de predicción** que utiliza un modelo de **Árbol de Decisión** entrenado con datos recolectados directamente en campo para determinar el estado de salud de la planta.
 
@@ -18,13 +18,13 @@ Los datos se envían vía **WiFi (HTTP POST)** cada 5 segundos a una API local e
 ### Estados que detecta el modelo:
 | Estado | Descripción |
 |---|---|
-| ✅ **Óptimo** | La planta se encuentra en condiciones ideales. |
-| 🔴 **Estrés Hídrico Severo** | El suelo está demasiado seco, se requiere riego. |
-| 🔵 **Asfixia Radicular (Suelo Saturado)** | Exceso de agua en el suelo, riesgo de asfixia de raíces. |
+| **Óptimo** | La planta se encuentra en condiciones ideales. |
+| **Estrés Hídrico Severo** | El suelo está demasiado seco, se requiere riego. |
+| **Asfixia Radicular (Suelo Saturado)** | Exceso de agua en el suelo, riesgo de asfixia de raíces. |
 
 ---
 
-## 🗂️ Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 AgroPredict_MVP/
@@ -47,7 +47,7 @@ AgroPredict_MVP/
 
 ---
 
-## ⚙️ Instalación y Uso
+##  Instalación y Uso
 
 ### 1. Preparar el Backend (Python)
 
@@ -81,7 +81,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ---
 
-## 🤖 Modelo de Inteligencia Artificial
+##  Modelo de Inteligencia Artificial
 
 - **Algoritmo:** Árbol de Decisión (`DecisionTreeClassifier` de scikit-learn)
 - **Exactitud en conjunto de prueba:** 96.00%
@@ -91,7 +91,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ---
 
-## 📡 Endpoints de la API
+##  Endpoints de la API
 
 | Método | Ruta | Descripción |
 |---|---|---|
@@ -102,7 +102,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 | Componente | Tecnología |
 |---|---|
@@ -114,6 +114,6 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ---
 
-## 👥 Equipo
+##  Equipo
 
 Proyecto desarrollado en la **Universidad de Tecnología e Ingeniería - UTEC**.
