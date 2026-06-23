@@ -1,195 +1,223 @@
+"""
+API Principal de AgroPredict
+============================
+Servidor FastAPI que recibe telemetría del dispositivo ESP32 vía WiFi,
+ejecuta la inferencia con el modelo de Árbol de Decisión entrenado y
+devuelve el estado de salud de la planta en tiempo real.
+
+Endpoints disponibles:
+  POST /api/v1/telemetria  → Recibe datos del ESP32 y retorna predicción.
+  GET  /api/v1/dashboard   → Retorna el historial y el último estado.
+  GET  /api/v1/exportar    → Descarga el historial completo en CSV.
+"""
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from datetime import datetime
+from typing import Optional
 import math
+import os
+import joblib
+import pandas as pd
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 
-app = FastAPI(title="AgroPredict MVP API", version="1.0.0")
+# ─────────────────────────────────────────────────────────────
+# INICIALIZACIÓN DE LA APLICACIÓN
+# ─────────────────────────────────────────────────────────────
+app = FastAPI(
+    title="AgroPredict API",
+    version="1.0.0",
+    description="API de predicción del estado de plantas agrícolas mediante sensores IoT y un modelo de Árbol de Decisión."
+)
 
-# Permitir CORS para que el Frontend local (HTML) pueda consultar la API
+# Habilitar CORS para que el frontend pueda consultar la API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # Permitir todos los origenes en desarrollo
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Modelo de datos entrante desde el ESP32
-class TelemetryData(BaseModel):
+# ─────────────────────────────────────────────────────────────
+# MODELO DE DATOS ENTRANTE DESDE EL ESP32
+# ─────────────────────────────────────────────────────────────
+class TelemetriaEntrada(BaseModel):
     device_id: str
     temperature_c: float
     humidity_air_pct: float
     pressure_pa: float
     soil_m_analog: float
     light_analog: float
+    soil_temp_c: Optional[float] = None  # Sensor DS18B20 (opcional si no está conectado)
 
-# Base de datos en memoria para el MVP (historial de lecturas)
-telemetry_history = []
+# ─────────────────────────────────────────────────────────────
+# VARIABLES GLOBALES
+# ─────────────────────────────────────────────────────────────
+historial_telemetria = []   # Historial en memoria (últimas 100 lecturas)
+ARCHIVO_CSV = "telemetry_log.csv"
 
-# Tracker de Estado Global para ML
-last_reading_time = None
-humedad_prolongada_horas = 0.0
-grados_dia_acumulados = 0.0
-T_BASE = 10.0 # Temperatura base fisiologica usual
+# ─────────────────────────────────────────────────────────────
+# CARGA DEL MODELO DE ÁRBOL DE DECISIÓN
+# ─────────────────────────────────────────────────────────────
+RUTA_MODELO = "agropredict_arbol_decision.pkl"
+modelo_ml = None
 
-# --- MOTOR DE FEATURE ENGINEERING AGRONOMICO ---
+if os.path.exists(RUTA_MODELO):
+    print("Cargando Modelo Predictivo: Árbol de Decisión...")
+    modelo_ml = joblib.load(RUTA_MODELO)
+    print("✅ Modelo cargado correctamente.")
+else:
+    print("⚠️  ATENCIÓN: Modelo no encontrado. Ejecuta 'Entrenamiento.py' para generarlo.")
 
-def calculate_vpd(temp_c: float, rh_pct: float) -> float:
+# ─────────────────────────────────────────────────────────────
+# FUNCIONES AUXILIARES
+# ─────────────────────────────────────────────────────────────
+def calcular_vpd(temp_c: float, hum_pct: float) -> float:
     """
     Calcula el Déficit de Presión de Vapor (VPD) en kPa.
-    VPD = Presion de Vapor de Saturacion (SVP) - Presion de Vapor Actual (AVP)
+    Fórmula de Tetens/Buck: VPD = SVP - AVP
     """
-    # Ecuacion de Tetens/Buck para SVP
     svp = 0.6108 * math.exp((17.27 * temp_c) / (temp_c + 237.3))
-    avp = svp * (rh_pct / 100.0)
-    vpd = svp - avp
-    return vpd
+    avp = svp * (hum_pct / 100.0)
+    return svp - avp
 
-def calculate_dew_point(temp_c: float, rh_pct: float) -> float:
+def calcular_punto_rocio(temp_c: float, hum_pct: float) -> float:
     """
-    Calcula el punto de rocío (Dew Point) mediante formula de Magnus.
-    Util para saber si habra condensacion (agua libre en hojas = hongos).
+    Calcula el punto de rocío (°C) mediante la fórmula de Magnus.
+    Útil para detectar riesgo de condensación y enfermedades fúngicas.
     """
-    a = 17.27
-    b = 237.3
-    alpha = ((a * temp_c) / (b + temp_c)) + math.log(max(rh_pct, 0.01) / 100.0)
-    dew_point = (b * alpha) / (a - alpha)
-    return dew_point
+    a, b = 17.27, 237.3
+    alpha = ((a * temp_c) / (b + temp_c)) + math.log(max(hum_pct, 0.01) / 100.0)
+    return (b * alpha) / (a - alpha)
 
-# --- ENDPOINTS ---
-import os
-import joblib
-import pandas as pd
+def guardar_en_csv(registro: dict):
+    """Guarda cada lectura recibida en un archivo CSV para persistencia histórica."""
+    try:
+        archivo_existe = os.path.isfile(ARCHIVO_CSV)
+        fila = {
+            "timestamp":    registro["timestamp"],
+            "device_id":    registro["device_id"],
+            "temp_c":       registro["raw"]["temperature_c"],
+            "hum_air_pct":  registro["raw"]["humidity_air_pct"],
+            "press_pa":     registro["raw"]["pressure_pa"],
+            "soil_analog":  registro["raw"]["soil_m_analog"],
+            "light_analog": registro["raw"]["light_analog"],
+            "temp_suelo":   registro["raw"].get("soil_temp_c"),
+            "vpd_kpa":      registro["features"]["vpd_kpa"],
+            "punto_rocio_c":registro["features"]["dew_point_c"],
+            "estado_ml":    registro["ml"]["status"],
+            "nivel_riesgo": registro["ml"]["risk"],
+        }
+        df = pd.DataFrame([fila])
+        df.to_csv(ARCHIVO_CSV, mode='a', index=False, header=not archivo_existe, encoding='utf-8')
+    except Exception as e:
+        print(f"Error al guardar en CSV: {e}")
 
-MODEL_PATH = "agropredict_model.pkl"
-ml_model = None
-if os.path.exists(MODEL_PATH):
-    print("Cargando Modelo Predictivo LightGBM...")
-    ml_model = joblib.load(MODEL_PATH)
-else:
-    print("ATENCION: Modelo no encontrado. Módulo experto activo.")
+# ─────────────────────────────────────────────────────────────
+# ENDPOINTS DE LA API
+# ─────────────────────────────────────────────────────────────
 
 @app.post("/api/v1/telemetry")
-async def receive_telemetry(data: TelemetryData):
-    # 1. Feature Engineering en tiempo real
-    vpd_kpa = calculate_vpd(data.temperature_c, data.humidity_air_pct)
-    dew_c = calculate_dew_point(data.temperature_c, data.humidity_air_pct)
-    
-    # 2. Actualizacion de Trackers de Estado (Stateful features)
-    global last_reading_time, humedad_prolongada_horas, grados_dia_acumulados
-    
-    now = datetime.now()
-    delta_hours = 0.0
-    
-    if last_reading_time is not None:
-        delta_hours = (now - last_reading_time).total_seconds() / 3600.0
-    
-    last_reading_time = now
-    
-    # Acumular Grados-Dia (se asume que la temperatura fue constante en el DeltaT)
-    if data.temperature_c > T_BASE:
-        # Sumamos la porcion del dia
-        grados_dia_acumulados += (data.temperature_c - T_BASE) * (delta_hours / 24.0)
-        
-    # Acumular horas de humedad alta (Riesgo Fungi)
-    if data.humidity_air_pct > 85.0 and vpd_kpa < 0.4:
-        humedad_prolongada_horas += delta_hours
-    else:
-        humedad_prolongada_horas = 0.0 # Se interrumpe la cadena de alta humedad
-        
-    # 3. Sistema Predictivo y Evaluacion Experta
-    status = "Óptimo"
-    alert = "Ninguna"
-    risk_level = "Bajo"
-    color_code = "#10B981" # Emerald Green
-    
-    # INFERENCIA DEL MODELO SI EXISTE
-    if ml_model is not None:
-        try:
-            # Replicar las 8 features exactas en el mismo orden que espera el modelo
-            features = pd.DataFrame([{
-                'temp_c': data.temperature_c,
-                'rh_pct': data.humidity_air_pct,
-                'pressure_pa': data.pressure_pa,
-                'soil_m_analog': data.soil_m_analog,
-                'light_analog': data.light_analog,
-                'vpd_kpa': vpd_kpa,
-                'horas_alta_humedad': humedad_prolongada_horas,
-                'grados_dia': grados_dia_acumulados
-            }])
-            status = ml_model.predict(features)[0]
-        except Exception as e:
-            print(f"Error en predicción: {e}")
-            
-    # Mapeo estético post-prediccion
-    if "Hídrico" in status:
-        alert = "Modificación de riego requerida detectada según lectura capacitiva."
-        risk_level = "Alto" if "Severo" in status else "Medio"
-        color_code = "#EF4444" if "Severo" in status else "#F59E0B"
-    elif "Asfixia" in status:
-        alert = "Alerta: Exceso de agua en el suelo u obstrucción de drenaje."
-        risk_level = "Alto"
-        color_code = "#3b82f6" 
-    elif "Fúngica" in status:
-        alert = "Alerta: Condiciones prolongadas aptas para condensación y hongos patógenos."
-        risk_level = "Alto"
-        color_code = "#F59E0B" 
-    elif "Plagas" in status:
-        alert = "Alerta: Acumulación de Grados-día superó umbral. Riesgo de brote de plagas (Araña Roja/Trips)."
-        risk_level = "Alto"
-        color_code = "#EF4444" 
-    elif "Térmico" in status:
-        alert = "Estrés fisiológico crítico. Condición térmica letal."
-        risk_level = "Alto"
-        color_code = "#EF4444" 
+async def recibir_telemetria(datos: TelemetriaEntrada):
+    """
+    Recibe los datos del ESP32, ejecuta la predicción del Árbol de Decisión
+    y retorna el estado de salud de la planta.
+    """
+    # 1. Calcular métricas agronómicas derivadas
+    vpd_kpa  = calcular_vpd(datos.temperature_c, datos.humidity_air_pct)
+    rocio_c  = calcular_punto_rocio(datos.temperature_c, datos.humidity_air_pct)
 
-    # 3. Guardar en registro histórico
-    record = {
-        "timestamp": datetime.now().isoformat(),
-        "device_id": data.device_id,
-        "raw": data.model_dump(),
+    # 2. Inferencia con el modelo de Árbol de Decisión
+    estado      = "Óptimo"
+    alerta      = "Sin alertas activas."
+    nivel_riesgo = "Bajo"
+    color_hex   = "#10B981"  # Verde esmeralda
+
+    if modelo_ml is not None:
+        try:
+            # Las 6 variables deben estar en el mismo orden que durante el entrenamiento
+            entrada = pd.DataFrame([{
+                "temp_c":       datos.temperature_c,
+                "hum_air_pct":  datos.humidity_air_pct,
+                "press_pa":     datos.pressure_pa,
+                "soil_analog":  datos.soil_m_analog,
+                "light_analog": datos.light_analog,
+                "temp_suelo":   datos.soil_temp_c if datos.soil_temp_c is not None else 23.0,
+            }])
+            estado = modelo_ml.predict(entrada)[0]
+        except Exception as e:
+            print(f"Error durante la predicción del modelo: {e}")
+
+    # 3. Definir alerta y nivel de riesgo según el estado predicho
+    if "Hídrico" in estado:
+        alerta      = "Modificación de riego requerida según la lectura del sensor capacitivo."
+        nivel_riesgo = "Alto" if "Severo" in estado else "Medio"
+        color_hex   = "#EF4444" if "Severo" in estado else "#F59E0B"
+    elif "Asfixia" in estado:
+        alerta      = "Exceso de agua en el suelo u obstrucción en el sistema de drenaje."
+        nivel_riesgo = "Alto"
+        color_hex   = "#3B82F6"
+
+    # 4. Construir y guardar el registro completo
+    # Nota: las claves 'features' y 'ml' se mantienen para compatibilidad con el frontend.
+    registro = {
+        "timestamp":  datetime.now().isoformat(),
+        "device_id":  datos.device_id,
+        "raw":        datos.model_dump(),
         "features": {
-            "vpd_kpa": round(vpd_kpa, 2),
-            "dew_point_c": round(dew_c, 2)
+            "vpd_kpa":       round(vpd_kpa, 3),
+            "dew_point_c":   round(rocio_c, 2),
         },
         "ml": {
-            "status": status,
-            "alert": alert,
-            "risk": risk_level,
-            "color": color_code
-        }
+            "status": estado,
+            "alert":  alerta,
+            "risk":   nivel_riesgo,
+            "color":  color_hex,
+        },
     }
-    
-    # Mantenemos las ultimas 100 lecturas en memoria
-    telemetry_history.append(record)
-    if len(telemetry_history) > 100:
-        telemetry_history.pop(0)
-        
-    print(f"[{record['timestamp']}] ESP32={data.device_id} | Suelo Analog={data.soil_m_analog} | VPD={round(vpd_kpa,2)} | Estado:{status}")
-    
-    return {"message": "Telemetria recibida correctamente", "prediction": record["ml"]}
+
+    historial_telemetria.append(registro)
+    if len(historial_telemetria) > 100:
+        historial_telemetria.pop(0)
+
+    guardar_en_csv(registro)
+
+    print(f"[{registro['timestamp']}] Dispositivo={datos.device_id} | "
+          f"Suelo Analog={datos.soil_m_analog} | VPD={round(vpd_kpa, 2)} kPa | "
+          f"Estado: {estado}")
+
+    return {"mensaje": "Telemetría recibida correctamente.", "prediccion": registro["ml"]}
 
 
 @app.get("/api/v1/dashboard")
-async def get_dashboard_data():
+async def obtener_dashboard():
     """
-    Endpoint para el portal Frontend. Devuelve el historial y el ultimo estado.
+    Retorna el historial de lecturas y el último estado registrado.
+    Consultado periódicamente por el frontend para actualizar el panel en tiempo real.
     """
-    if not telemetry_history:
-        return {"ready": False, "message": "No hay datos de sensores aun."}
-    
+    if not historial_telemetria:
+        return {"ready": False, "message": "Aún no se han recibido datos del dispositivo."}
+
     return {
-        "ready": True,
-        "latest": telemetry_history[-1],
-        "history": telemetry_history
+        "ready":   True,
+        "latest":  historial_telemetria[-1],
+        "history": historial_telemetria,
     }
 
-@app.get("/")
-async def root():
-    return {"message": "AgroPredict API is running. The frontend is Next.js and runs separately (e.g. on port 3000)."}
 
-# Nota: El Frontend de Next.js se ejecuta de manera independiente con 'npm run dev'
-# app.mount("/", StaticFiles(directory=os.path.join("..", "Frontend")), name="frontend")
+@app.get("/api/v1/exportar")
+async def exportar_csv():
+    """Descarga el historial completo de telemetría en formato CSV."""
+    if not os.path.exists(ARCHIVO_CSV):
+        raise HTTPException(status_code=404, detail="No hay registros históricos disponibles aún.")
+
+    nombre_archivo = f"agropredict_historial_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+    return FileResponse(path=ARCHIVO_CSV, filename=nombre_archivo, media_type="text/csv")
+
+
+@app.get("/")
+async def raiz():
+    """Endpoint raíz para verificar que la API está en línea."""
+    return {"mensaje": "AgroPredict API activa. Accede a /docs para ver la documentación interactiva."}

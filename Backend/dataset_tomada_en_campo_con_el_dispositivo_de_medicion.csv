@@ -1,0 +1,3001 @@
+temp_c,hum_air_pct,press_pa,soil_analog,light_analog,temp_suelo,estado
+24.6,68.7,99760,1935,10300,24.3,Estrés Hídrico Severo
+24.4,66.1,99755,2055,11200,24.0,Estrés Hídrico Severo
+24.8,73.1,99735,1935,13300,23.5,Estrés Hídrico Severo
+23.6,64.3,99735,1905,13950,22.7,Estrés Hídrico Severo
+23.4,69.1,99720,1965,12300,23.5,Estrés Hídrico Severo
+23.4,66.6,99740,2010,12700,23.5,Estrés Hídrico Severo
+23.4,67.1,99720,1860,13400,24.4,Estrés Hídrico Severo
+23.6,70.0,99770,1905,10200,23.9,Estrés Hídrico Severo
+23.4,69.9,99750,2055,13300,23.2,Estrés Hídrico Severo
+24.9,72.8,99745,1875,12650,23.6,Estrés Hídrico Severo
+23.5,63.9,99735,1965,13250,22.7,Estrés Hídrico Severo
+24.0,63.6,99735,1965,12950,24.5,Estrés Hídrico Severo
+25.6,69.8,99715,1950,12950,23.3,Estrés Hídrico Severo
+24.8,66.7,99775,1995,10400,23.6,Estrés Hídrico Severo
+25.0,65.5,99760,1905,8250,23.3,Estrés Hídrico Severo
+23.7,63.4,99755,1980,9150,24.0,Estrés Hídrico Severo
+23.5,63.5,99720,1920,12950,23.9,Estrés Hídrico Severo
+23.2,71.1,99715,1995,13000,24.0,Estrés Hídrico Severo
+23.5,64.5,99735,1875,12650,23.2,Estrés Hídrico Severo
+24.2,64.1,99740,1980,10600,23.3,Estrés Hídrico Severo
+23.6,64.4,99740,1875,14050,22.8,Estrés Hídrico Severo
+23.2,66.1,99720,1905,12850,23.9,Estrés Hídrico Severo
+23.7,62.9,99705,1920,12800,22.7,Estrés Hídrico Severo
+24.4,68.3,99735,1890,13600,23.8,Estrés Hídrico Severo
+23.7,63.9,99740,2055,10000,24.4,Estrés Hídrico Severo
+24.2,70.1,99720,1890,12900,24.3,Estrés Hídrico Severo
+24.5,65.1,99745,2055,13850,23.5,Estrés Hídrico Severo
+25.1,68.1,99715,2070,12450,23.5,Estrés Hídrico Severo
+23.1,71.4,99740,1965,13000,22.7,Estrés Hídrico Severo
+25.4,69.1,99705,1875,12400,24.0,Estrés Hídrico Severo
+25.2,67.5,99720,1950,12350,24.3,Estrés Hídrico Severo
+23.2,66.0,99745,2025,12450,23.0,Estrés Hídrico Severo
+26.0,64.9,99725,1950,11900,23.5,Estrés Hídrico Severo
+25.7,69.3,99705,1860,12750,24.2,Estrés Hídrico Severo
+23.4,71.9,99730,1980,12850,24.4,Estrés Hídrico Severo
+23.7,69.4,99710,2040,13600,23.0,Estrés Hídrico Severo
+25.3,68.3,99745,2025,12900,23.7,Estrés Hídrico Severo
+25.1,70.2,99715,1875,13800,22.9,Estrés Hídrico Severo
+24.0,66.8,99745,2010,12900,22.8,Estrés Hídrico Severo
+24.0,61.9,99760,1905,12700,24.4,Estrés Hídrico Severo
+24.4,67.8,99725,1920,11800,24.3,Estrés Hídrico Severo
+24.9,70.7,99780,2055,10500,24.1,Estrés Hídrico Severo
+25.3,62.9,99750,1905,11450,22.7,Estrés Hídrico Severo
+24.5,67.7,99790,1920,10200,24.3,Estrés Hídrico Severo
+24.5,64.2,99710,1830,13100,23.4,Estrés Hídrico Severo
+25.2,68.4,99775,2055,9450,23.3,Estrés Hídrico Severo
+23.5,62.3,99740,2025,12500,23.7,Estrés Hídrico Severo
+23.8,67.2,99715,1980,13350,22.7,Estrés Hídrico Severo
+25.1,70.4,99740,2010,12550,24.1,Estrés Hídrico Severo
+25.7,66.1,99745,1875,13000,23.7,Estrés Hídrico Severo
+24.6,69.4,99735,1965,10350,23.0,Estrés Hídrico Severo
+24.6,70.9,99720,1920,13750,22.9,Estrés Hídrico Severo
+23.4,71.5,99740,1860,12800,22.9,Estrés Hídrico Severo
+24.3,65.1,99740,1950,13800,22.7,Estrés Hídrico Severo
+24.5,66.5,99750,2040,12950,23.7,Estrés Hídrico Severo
+24.1,62.8,99750,1860,12550,24.3,Estrés Hídrico Severo
+23.8,72.5,99755,1905,13700,22.6,Estrés Hídrico Severo
+24.0,71.9,99735,1875,13550,22.7,Estrés Hídrico Severo
+23.5,66.3,99750,1905,10850,23.8,Estrés Hídrico Severo
+24.1,70.5,99710,2040,13100,24.2,Estrés Hídrico Severo
+23.6,68.1,99745,1950,13700,23.2,Estrés Hídrico Severo
+23.9,69.0,99730,1950,12450,23.3,Estrés Hídrico Severo
+23.8,63.0,99710,2025,12650,23.8,Estrés Hídrico Severo
+25.7,70.3,99715,1875,13700,23.1,Estrés Hídrico Severo
+25.1,63.5,99755,1980,12650,22.7,Estrés Hídrico Severo
+25.0,70.9,99730,1935,12900,24.0,Estrés Hídrico Severo
+25.8,69.9,99730,1995,12900,23.9,Estrés Hídrico Severo
+24.5,69.9,99760,2070,8600,23.7,Estrés Hídrico Severo
+23.2,62.9,99715,2010,12500,24.0,Estrés Hídrico Severo
+24.6,65.8,99725,1920,13550,23.9,Estrés Hídrico Severo
+24.8,65.4,99765,2040,7800,23.0,Estrés Hídrico Severo
+25.6,64.9,99715,1890,12850,23.3,Estrés Hídrico Severo
+24.5,63.5,99770,1860,9400,22.9,Estrés Hídrico Severo
+23.5,71.6,99725,1875,12850,22.8,Estrés Hídrico Severo
+24.0,67.6,99745,1905,13950,23.9,Estrés Hídrico Severo
+24.1,65.3,99750,1950,13400,24.3,Estrés Hídrico Severo
+25.3,64.9,99745,1995,9750,24.5,Estrés Hídrico Severo
+24.9,66.5,99745,2055,12700,23.9,Estrés Hídrico Severo
+24.2,68.2,99730,1950,13400,22.9,Estrés Hídrico Severo
+26.4,66.1,99780,1965,10400,22.8,Estrés Hídrico Severo
+24.7,72.4,99715,1845,12950,24.2,Estrés Hídrico Severo
+23.7,67.9,99745,1845,13700,23.7,Estrés Hídrico Severo
+23.2,72.5,99730,1965,13550,23.9,Estrés Hídrico Severo
+23.8,70.7,99720,1965,12700,24.2,Estrés Hídrico Severo
+23.7,64.8,99725,2040,10900,24.0,Estrés Hídrico Severo
+23.5,71.8,99740,1875,13800,24.3,Estrés Hídrico Severo
+23.6,64.0,99780,1860,8100,22.7,Estrés Hídrico Severo
+23.8,70.7,99720,1935,13550,24.1,Estrés Hídrico Severo
+23.4,66.7,99735,1890,12750,24.3,Estrés Hídrico Severo
+26.1,70.8,99735,1860,12900,23.2,Estrés Hídrico Severo
+23.1,71.6,99735,1995,13550,23.8,Estrés Hídrico Severo
+24.6,70.7,99715,1860,12700,23.2,Estrés Hídrico Severo
+24.1,70.4,99750,1980,13050,24.5,Estrés Hídrico Severo
+25.9,65.9,99715,1905,13700,22.6,Estrés Hídrico Severo
+23.7,61.6,99760,1890,9150,23.8,Estrés Hídrico Severo
+24.4,66.6,99735,1935,10300,23.0,Estrés Hídrico Severo
+25.9,64.5,99715,2025,13400,24.0,Estrés Hídrico Severo
+25.5,69.6,99725,1920,13400,23.0,Estrés Hídrico Severo
+25.9,66.0,99720,2025,12000,23.1,Estrés Hídrico Severo
+23.8,72.7,99755,1860,12800,23.5,Estrés Hídrico Severo
+23.9,68.5,99710,2025,13050,24.4,Estrés Hídrico Severo
+25.4,69.1,99755,1905,9850,23.0,Estrés Hídrico Severo
+25.7,63.9,99725,1995,13500,22.8,Estrés Hídrico Severo
+24.6,71.2,99700,1965,12850,24.1,Estrés Hídrico Severo
+24.7,72.0,99715,2055,12500,23.6,Estrés Hídrico Severo
+24.2,67.4,99730,1950,11550,24.4,Estrés Hídrico Severo
+25.5,68.6,99745,1860,10900,22.9,Estrés Hídrico Severo
+23.5,70.8,99725,1845,13750,23.9,Estrés Hídrico Severo
+23.9,64.6,99730,2025,13000,23.0,Estrés Hídrico Severo
+24.7,67.5,99740,1980,12100,22.9,Estrés Hídrico Severo
+24.6,66.1,99705,2010,13150,23.9,Estrés Hídrico Severo
+23.7,64.3,99730,1890,13100,23.7,Estrés Hídrico Severo
+23.3,66.4,99745,1920,13200,24.1,Estrés Hídrico Severo
+24.8,63.3,99735,1845,13900,23.2,Estrés Hídrico Severo
+23.8,62.9,99740,2055,13100,23.5,Estrés Hídrico Severo
+24.8,63.5,99720,1995,13400,23.4,Estrés Hídrico Severo
+23.8,71.8,99745,2070,11800,24.6,Estrés Hídrico Severo
+24.4,68.1,99745,1905,14050,23.1,Estrés Hídrico Severo
+24.5,72.3,99735,1980,12700,23.1,Estrés Hídrico Severo
+23.2,66.9,99755,1995,12550,23.3,Estrés Hídrico Severo
+24.4,64.4,99725,1920,12550,23.7,Estrés Hídrico Severo
+23.4,67.9,99705,2025,13350,23.1,Estrés Hídrico Severo
+23.2,67.0,99745,2055,13150,24.4,Estrés Hídrico Severo
+26.0,63.9,99780,2055,9000,23.1,Estrés Hídrico Severo
+24.0,69.2,99745,2010,9600,24.4,Estrés Hídrico Severo
+25.4,64.9,99725,1905,12150,22.8,Estrés Hídrico Severo
+23.8,68.5,99705,1890,13850,23.9,Estrés Hídrico Severo
+25.2,68.5,99730,2070,12600,24.4,Estrés Hídrico Severo
+25.4,64.3,99775,1860,9700,23.0,Estrés Hídrico Severo
+25.0,63.1,99745,2010,10750,24.6,Estrés Hídrico Severo
+24.3,70.6,99715,2010,12650,23.5,Estrés Hídrico Severo
+24.2,67.3,99715,1980,13700,24.5,Estrés Hídrico Severo
+24.0,63.2,99710,2070,13300,23.9,Estrés Hídrico Severo
+25.8,72.5,99720,1905,13000,23.2,Estrés Hídrico Severo
+25.5,63.2,99735,1905,13400,22.9,Estrés Hídrico Severo
+25.9,69.7,99765,1860,12350,23.2,Estrés Hídrico Severo
+23.4,72.5,99755,1950,12550,22.8,Estrés Hídrico Severo
+25.6,64.4,99715,1920,12950,22.9,Estrés Hídrico Severo
+26.2,62.5,99780,1935,9950,22.8,Estrés Hídrico Severo
+23.5,64.1,99740,2025,12400,23.4,Estrés Hídrico Severo
+23.1,65.6,99745,2055,12600,24.2,Estrés Hídrico Severo
+25.2,64.0,99765,1890,9300,22.9,Estrés Hídrico Severo
+24.7,69.7,99760,1935,8700,22.8,Estrés Hídrico Severo
+25.8,62.8,99720,2070,11600,23.9,Estrés Hídrico Severo
+23.6,67.7,99735,1860,10250,23.0,Estrés Hídrico Severo
+25.4,72.6,99715,1860,13650,22.8,Estrés Hídrico Severo
+23.5,70.7,99710,1875,13400,22.9,Estrés Hídrico Severo
+23.5,69.0,99765,1980,8600,24.4,Estrés Hídrico Severo
+23.6,65.2,99745,1875,12800,24.2,Estrés Hídrico Severo
+25.4,69.0,99760,2070,8450,23.3,Estrés Hídrico Severo
+25.0,68.3,99745,1950,9800,23.9,Estrés Hídrico Severo
+25.0,66.4,99755,1965,13000,23.7,Estrés Hídrico Severo
+24.0,63.8,99750,1890,13100,23.9,Estrés Hídrico Severo
+25.7,71.1,99745,1950,12750,23.9,Estrés Hídrico Severo
+24.3,66.6,99755,1995,13450,23.8,Estrés Hídrico Severo
+25.4,64.2,99735,2010,13100,23.2,Estrés Hídrico Severo
+24.2,66.3,99750,2010,12850,22.7,Estrés Hídrico Severo
+24.5,65.2,99740,1995,10400,23.5,Estrés Hídrico Severo
+24.3,70.8,99720,2040,13550,24.3,Estrés Hídrico Severo
+24.0,70.1,99745,2040,9250,23.8,Estrés Hídrico Severo
+25.1,70.3,99710,2010,12300,24.2,Estrés Hídrico Severo
+24.5,62.7,99715,1845,14100,24.5,Estrés Hídrico Severo
+23.6,67.1,99735,1830,12800,22.9,Estrés Hídrico Severo
+25.6,67.7,99740,1890,12500,23.9,Estrés Hídrico Severo
+24.1,62.8,99730,1980,12550,24.0,Estrés Hídrico Severo
+24.8,64.6,99720,1950,11600,24.6,Estrés Hídrico Severo
+25.6,70.3,99740,1920,13050,24.5,Estrés Hídrico Severo
+25.3,62.7,99750,2055,12750,24.0,Estrés Hídrico Severo
+23.3,68.1,99720,2055,12700,23.1,Estrés Hídrico Severo
+25.9,65.0,99770,2070,9750,24.2,Estrés Hídrico Severo
+25.3,61.7,99720,1935,12550,22.8,Estrés Hídrico Severo
+24.4,63.5,99750,2010,10750,24.2,Estrés Hídrico Severo
+23.3,72.5,99745,1905,13500,24.4,Estrés Hídrico Severo
+25.5,70.2,99720,1875,13950,23.3,Estrés Hídrico Severo
+24.9,72.7,99730,1890,12200,23.9,Estrés Hídrico Severo
+24.6,67.9,99785,1935,9900,23.5,Estrés Hídrico Severo
+25.7,64.0,99740,1935,13050,23.4,Estrés Hídrico Severo
+25.5,68.3,99740,2040,10650,23.2,Estrés Hídrico Severo
+23.9,67.0,99715,1890,12350,24.1,Estrés Hídrico Severo
+23.8,71.3,99700,2010,14000,24.4,Estrés Hídrico Severo
+23.9,63.1,99745,1980,12900,24.5,Estrés Hídrico Severo
+25.1,68.1,99725,1905,12600,23.0,Estrés Hídrico Severo
+23.1,64.3,99750,1965,7900,24.4,Estrés Hídrico Severo
+24.6,65.9,99750,1905,14000,24.0,Estrés Hídrico Severo
+25.2,70.1,99725,1980,13500,23.1,Estrés Hídrico Severo
+25.6,67.5,99710,1935,12650,22.7,Estrés Hídrico Severo
+24.4,65.1,99740,1890,12600,23.2,Estrés Hídrico Severo
+25.5,66.5,99735,1860,12850,24.4,Estrés Hídrico Severo
+23.2,67.4,99700,1965,12250,23.8,Estrés Hídrico Severo
+25.6,70.0,99720,2040,13250,24.0,Estrés Hídrico Severo
+23.6,70.9,99755,1935,11950,23.1,Estrés Hídrico Severo
+24.6,72.1,99730,2025,12850,24.1,Estrés Hídrico Severo
+25.8,68.7,99770,2010,9650,22.7,Estrés Hídrico Severo
+23.8,64.1,99760,2055,10700,23.4,Estrés Hídrico Severo
+23.7,69.1,99710,2010,12500,23.8,Estrés Hídrico Severo
+25.1,67.2,99705,1965,12700,22.9,Estrés Hídrico Severo
+25.1,65.3,99720,1995,12600,24.2,Estrés Hídrico Severo
+25.2,70.6,99715,2070,11950,23.1,Estrés Hídrico Severo
+25.4,62.6,99710,1950,11700,23.9,Estrés Hídrico Severo
+24.6,71.9,99750,1905,12650,23.4,Estrés Hídrico Severo
+23.8,67.7,99760,1845,13050,23.8,Estrés Hídrico Severo
+24.0,69.0,99750,2025,12900,22.8,Estrés Hídrico Severo
+23.9,67.7,99780,2040,10100,22.7,Estrés Hídrico Severo
+25.6,71.8,99710,1860,12800,24.4,Estrés Hídrico Severo
+24.8,69.2,99755,1965,13650,23.1,Estrés Hídrico Severo
+24.3,68.9,99745,1965,10500,24.3,Estrés Hídrico Severo
+24.4,63.4,99760,1875,12600,24.6,Estrés Hídrico Severo
+25.9,67.3,99755,2070,13150,23.0,Estrés Hídrico Severo
+23.9,62.3,99780,1905,9250,23.2,Estrés Hídrico Severo
+24.7,70.0,99750,1860,13750,23.9,Estrés Hídrico Severo
+24.9,65.9,99770,1995,9200,24.6,Estrés Hídrico Severo
+25.2,67.9,99745,2025,10450,24.5,Estrés Hídrico Severo
+23.0,63.1,99720,1845,12900,23.6,Estrés Hídrico Severo
+25.8,63.3,99750,1995,10550,24.2,Estrés Hídrico Severo
+25.9,69.4,99710,1965,12850,22.8,Estrés Hídrico Severo
+24.8,63.5,99765,1875,10300,24.6,Estrés Hídrico Severo
+25.1,62.9,99755,1860,12700,24.5,Estrés Hídrico Severo
+25.8,62.7,99715,1965,13500,22.9,Estrés Hídrico Severo
+25.0,72.2,99740,1905,12450,23.2,Estrés Hídrico Severo
+23.5,70.0,99755,2055,12600,22.8,Estrés Hídrico Severo
+24.7,66.5,99790,2040,10100,23.2,Estrés Hídrico Severo
+24.8,65.7,99760,2070,12150,24.3,Estrés Hídrico Severo
+24.7,64.8,99745,1905,12800,23.4,Estrés Hídrico Severo
+25.4,69.7,99760,2070,12450,22.8,Estrés Hídrico Severo
+26.1,68.8,99745,1965,11700,23.3,Estrés Hídrico Severo
+25.7,64.5,99715,1920,13800,24.5,Estrés Hídrico Severo
+24.3,64.6,99725,1845,12800,23.8,Estrés Hídrico Severo
+23.7,61.9,99770,1860,10800,23.5,Estrés Hídrico Severo
+25.9,69.3,99715,1995,12400,23.0,Estrés Hídrico Severo
+25.4,70.3,99735,1950,13500,24.6,Estrés Hídrico Severo
+23.3,65.3,99740,1890,12300,24.2,Estrés Hídrico Severo
+26.0,62.7,99730,1995,10850,23.2,Estrés Hídrico Severo
+26.0,61.9,99760,1905,11200,22.8,Estrés Hídrico Severo
+25.0,71.3,99750,1995,12950,22.7,Estrés Hídrico Severo
+25.2,64.6,99735,1950,12950,22.9,Estrés Hídrico Severo
+24.6,68.8,99735,2040,11250,23.8,Estrés Hídrico Severo
+23.2,68.8,99700,2025,13850,24.4,Estrés Hídrico Severo
+24.1,66.6,99750,1965,9350,23.6,Estrés Hídrico Severo
+25.5,64.2,99750,1905,13050,24.2,Estrés Hídrico Severo
+23.1,63.4,99720,1920,13050,23.5,Estrés Hídrico Severo
+24.4,67.8,99740,2040,12100,24.0,Estrés Hídrico Severo
+24.2,70.7,99755,1935,9250,24.1,Estrés Hídrico Severo
+25.0,68.0,99725,1905,12350,23.0,Estrés Hídrico Severo
+26.2,66.2,99790,1875,9450,23.3,Estrés Hídrico Severo
+24.0,63.2,99740,1935,13500,23.8,Estrés Hídrico Severo
+24.4,71.3,99715,1965,11750,22.8,Estrés Hídrico Severo
+25.3,70.1,99725,2025,13100,23.3,Estrés Hídrico Severo
+24.5,65.0,99705,1875,13400,23.6,Estrés Hídrico Severo
+23.6,72.6,99725,1935,13500,24.6,Estrés Hídrico Severo
+24.8,66.9,99770,2040,10600,23.6,Estrés Hídrico Severo
+23.4,68.7,99710,2025,13350,24.2,Estrés Hídrico Severo
+23.5,70.5,99755,1950,8900,23.5,Estrés Hídrico Severo
+24.4,70.8,99720,1950,13000,24.2,Estrés Hídrico Severo
+24.3,69.3,99760,1905,12000,23.8,Estrés Hídrico Severo
+25.8,63.4,99755,2055,13200,24.3,Estrés Hídrico Severo
+24.1,66.4,99710,1860,13000,23.4,Estrés Hídrico Severo
+24.8,71.4,99745,2040,12650,23.8,Estrés Hídrico Severo
+25.3,63.1,99755,2010,9800,23.9,Estrés Hídrico Severo
+23.3,65.9,99725,1980,13100,23.5,Estrés Hídrico Severo
+24.9,66.9,99740,1845,13750,22.9,Estrés Hídrico Severo
+23.4,67.1,99745,1950,12700,22.8,Estrés Hídrico Severo
+25.9,68.3,99755,1920,12600,22.6,Estrés Hídrico Severo
+23.3,72.1,99730,1875,12450,24.4,Estrés Hídrico Severo
+24.6,63.5,99755,2010,10050,23.1,Estrés Hídrico Severo
+23.4,63.4,99745,2055,14100,23.0,Estrés Hídrico Severo
+26.4,63.1,99750,1980,9650,24.1,Estrés Hídrico Severo
+24.5,71.5,99735,1995,13700,23.2,Estrés Hídrico Severo
+25.2,67.4,99765,1875,9350,23.6,Estrés Hídrico Severo
+23.2,65.7,99740,1920,13950,22.9,Estrés Hídrico Severo
+25.3,71.4,99750,1890,9250,24.5,Estrés Hídrico Severo
+23.5,71.2,99715,1980,13500,24.3,Estrés Hídrico Severo
+25.7,70.8,99750,2040,13050,24.3,Estrés Hídrico Severo
+24.0,70.3,99740,2010,10950,23.4,Estrés Hídrico Severo
+23.6,65.2,99745,1860,11050,24.1,Estrés Hídrico Severo
+23.1,69.8,99720,1905,12750,22.8,Estrés Hídrico Severo
+24.4,67.2,99705,1965,13800,22.6,Estrés Hídrico Severo
+24.7,71.0,99710,1935,13950,22.6,Estrés Hídrico Severo
+23.6,69.3,99720,2040,12900,23.8,Estrés Hídrico Severo
+25.2,70.5,99745,2025,13400,23.5,Estrés Hídrico Severo
+24.4,69.3,99725,1980,13150,23.7,Estrés Hídrico Severo
+24.6,64.4,99755,1920,12600,22.6,Estrés Hídrico Severo
+24.3,67.7,99735,1890,13050,23.4,Estrés Hídrico Severo
+24.1,72.5,99725,1860,12900,24.1,Estrés Hídrico Severo
+24.6,72.6,99735,1920,13200,23.5,Estrés Hídrico Severo
+23.6,62.6,99735,1935,13150,24.0,Estrés Hídrico Severo
+23.5,64.5,99745,1995,12600,23.0,Estrés Hídrico Severo
+25.6,64.1,99760,2010,8000,24.2,Estrés Hídrico Severo
+25.8,70.3,99725,1845,13650,23.8,Estrés Hídrico Severo
+24.0,70.8,99745,1920,12850,23.0,Estrés Hídrico Severo
+23.9,64.3,99755,1875,12800,23.0,Estrés Hídrico Severo
+24.9,68.1,99750,1875,12650,23.9,Estrés Hídrico Severo
+24.2,71.3,99730,2025,12750,24.2,Estrés Hídrico Severo
+23.0,70.0,99740,1845,12600,23.5,Estrés Hídrico Severo
+23.5,68.1,99720,1935,13550,23.1,Estrés Hídrico Severo
+25.5,67.0,99755,1890,10900,24.4,Estrés Hídrico Severo
+25.2,67.6,99730,2055,11150,24.0,Estrés Hídrico Severo
+23.1,65.7,99740,1965,12400,23.5,Estrés Hídrico Severo
+23.9,68.3,99740,1905,10100,23.6,Estrés Hídrico Severo
+23.8,69.7,99750,1965,9400,23.0,Estrés Hídrico Severo
+25.0,71.6,99755,2010,13150,23.8,Estrés Hídrico Severo
+23.3,69.0,99740,2070,10050,23.3,Estrés Hídrico Severo
+23.4,69.7,99710,1890,12900,24.6,Estrés Hídrico Severo
+25.4,64.2,99710,2040,12650,23.5,Estrés Hídrico Severo
+23.4,67.4,99745,2055,13650,23.5,Estrés Hídrico Severo
+25.4,60.9,99770,2070,9650,23.8,Estrés Hídrico Severo
+23.7,65.3,99725,1980,13350,24.4,Estrés Hídrico Severo
+23.7,68.6,99750,1995,11500,24.2,Estrés Hídrico Severo
+23.7,72.8,99745,1935,13400,23.5,Estrés Hídrico Severo
+25.1,63.9,99720,2010,12650,24.0,Estrés Hídrico Severo
+25.6,67.1,99745,1965,12250,23.8,Estrés Hídrico Severo
+25.7,70.0,99750,2010,12550,23.6,Estrés Hídrico Severo
+24.2,64.8,99770,1950,8700,22.9,Estrés Hídrico Severo
+25.0,68.3,99705,2010,13150,23.5,Estrés Hídrico Severo
+23.5,70.0,99745,2025,12550,23.1,Estrés Hídrico Severo
+23.8,68.8,99730,1875,12500,24.4,Estrés Hídrico Severo
+26.1,63.9,99730,2040,11950,23.3,Estrés Hídrico Severo
+23.4,64.4,99765,1980,9250,24.5,Estrés Hídrico Severo
+23.7,68.9,99735,2040,11400,23.7,Estrés Hídrico Severo
+24.0,67.1,99715,1965,11500,23.9,Estrés Hídrico Severo
+23.2,62.2,99745,1920,13350,23.6,Estrés Hídrico Severo
+23.6,69.7,99705,2055,12800,22.8,Estrés Hídrico Severo
+25.1,62.4,99735,1920,12000,23.4,Estrés Hídrico Severo
+24.3,70.1,99725,2025,13950,22.8,Estrés Hídrico Severo
+25.7,64.3,99710,1950,12800,23.9,Estrés Hídrico Severo
+25.5,72.6,99790,1980,10200,23.5,Estrés Hídrico Severo
+23.9,66.4,99710,1920,12450,24.2,Estrés Hídrico Severo
+24.2,64.4,99750,1995,10600,23.1,Estrés Hídrico Severo
+24.1,64.1,99725,1905,13350,22.9,Estrés Hídrico Severo
+25.0,65.6,99735,1860,11450,23.4,Estrés Hídrico Severo
+23.8,71.6,99740,1905,9200,24.4,Estrés Hídrico Severo
+24.9,73.0,99745,1830,13200,24.0,Estrés Hídrico Severo
+24.6,65.7,99760,2085,11800,23.5,Estrés Hídrico Severo
+24.6,67.2,99715,2055,12650,23.7,Estrés Hídrico Severo
+24.4,69.4,99740,1920,14050,22.7,Estrés Hídrico Severo
+23.9,71.8,99745,2010,12850,24.5,Estrés Hídrico Severo
+25.7,68.5,99750,1920,12900,23.9,Estrés Hídrico Severo
+25.7,64.8,99760,2010,10650,23.2,Estrés Hídrico Severo
+23.8,65.0,99765,2040,9700,23.8,Estrés Hídrico Severo
+25.6,69.7,99730,2055,13350,22.8,Estrés Hídrico Severo
+24.4,62.6,99740,1935,13450,24.5,Estrés Hídrico Severo
+26.1,67.3,99775,2025,10900,23.0,Estrés Hídrico Severo
+25.4,66.2,99720,1890,13850,23.9,Estrés Hídrico Severo
+24.7,69.5,99730,2085,11550,23.1,Estrés Hídrico Severo
+23.1,63.5,99750,1845,12900,24.0,Estrés Hídrico Severo
+23.8,68.7,99785,1995,7800,24.2,Estrés Hídrico Severo
+24.7,68.0,99785,2010,9000,24.0,Estrés Hídrico Severo
+25.1,69.0,99770,2010,9950,23.8,Estrés Hídrico Severo
+23.8,63.5,99725,1860,13800,24.3,Estrés Hídrico Severo
+23.4,68.6,99770,2070,9000,22.7,Estrés Hídrico Severo
+25.9,67.6,99745,1890,12050,23.3,Estrés Hídrico Severo
+26.0,68.4,99710,1980,13800,23.1,Estrés Hídrico Severo
+24.6,68.8,99765,1905,9050,24.5,Estrés Hídrico Severo
+23.5,69.6,99740,1905,13050,23.3,Estrés Hídrico Severo
+23.7,71.2,99715,1965,12750,24.1,Estrés Hídrico Severo
+23.1,65.6,99750,1935,13850,23.9,Estrés Hídrico Severo
+26.1,70.5,99740,1890,12450,23.0,Estrés Hídrico Severo
+23.4,67.9,99760,1875,13600,23.0,Estrés Hídrico Severo
+24.8,62.9,99705,1920,13900,23.1,Estrés Hídrico Severo
+24.2,61.5,99750,2025,9950,23.4,Estrés Hídrico Severo
+24.7,66.1,99770,2055,9050,23.0,Estrés Hídrico Severo
+24.9,70.5,99715,1860,13750,22.7,Estrés Hídrico Severo
+25.7,69.6,99755,1935,10600,24.4,Estrés Hídrico Severo
+23.6,70.7,99780,1875,8300,24.6,Estrés Hídrico Severo
+23.0,67.9,99720,1845,13350,23.3,Estrés Hídrico Severo
+23.5,66.6,99730,1980,13550,23.2,Estrés Hídrico Severo
+25.7,64.2,99740,1980,13000,22.6,Estrés Hídrico Severo
+25.5,65.8,99720,1875,13700,23.9,Estrés Hídrico Severo
+24.8,67.1,99755,1890,13700,24.2,Estrés Hídrico Severo
+25.2,62.9,99755,1860,12100,22.9,Estrés Hídrico Severo
+25.0,65.1,99740,2025,12450,22.9,Estrés Hídrico Severo
+23.9,66.9,99785,2085,9800,24.2,Estrés Hídrico Severo
+25.7,70.0,99730,1875,13600,23.8,Estrés Hídrico Severo
+24.3,72.7,99745,1890,13250,22.6,Estrés Hídrico Severo
+24.2,71.5,99740,2040,13750,23.8,Estrés Hídrico Severo
+24.6,69.2,99740,2040,12950,23.2,Estrés Hídrico Severo
+23.1,66.9,99755,1935,12850,23.4,Estrés Hídrico Severo
+23.9,68.4,99725,1860,11800,24.2,Estrés Hídrico Severo
+25.2,70.5,99740,1845,13650,24.2,Estrés Hídrico Severo
+23.6,62.5,99725,1980,12350,23.4,Estrés Hídrico Severo
+24.8,66.7,99720,1935,12650,24.5,Estrés Hídrico Severo
+24.1,69.5,99755,1860,9900,23.4,Estrés Hídrico Severo
+24.2,66.4,99750,1965,13500,24.2,Estrés Hídrico Severo
+24.3,67.9,99750,1860,12350,23.6,Estrés Hídrico Severo
+24.1,69.0,99745,2025,12500,24.4,Estrés Hídrico Severo
+25.3,65.0,99775,1935,10200,24.4,Estrés Hídrico Severo
+24.0,66.8,99765,1875,9800,22.8,Estrés Hídrico Severo
+25.1,65.8,99755,1995,13100,24.5,Estrés Hídrico Severo
+24.8,61.6,99740,1935,12150,24.3,Estrés Hídrico Severo
+25.4,61.1,99755,2070,10200,24.2,Estrés Hídrico Severo
+25.8,70.9,99715,1965,13950,23.0,Estrés Hídrico Severo
+25.1,65.3,99740,1905,13050,24.2,Estrés Hídrico Severo
+23.5,67.8,99735,2010,13350,24.3,Estrés Hídrico Severo
+23.1,65.7,99740,1905,11150,23.1,Estrés Hídrico Severo
+23.8,72.2,99710,2040,13050,24.5,Estrés Hídrico Severo
+24.8,65.7,99750,1935,12400,22.7,Estrés Hídrico Severo
+23.2,67.0,99715,1965,12150,22.9,Estrés Hídrico Severo
+24.4,71.5,99735,1860,12200,23.6,Estrés Hídrico Severo
+25.2,70.5,99755,1950,11600,23.8,Estrés Hídrico Severo
+24.0,64.6,99735,2040,13400,23.9,Estrés Hídrico Severo
+25.3,70.3,99720,2010,12900,22.7,Estrés Hídrico Severo
+23.7,66.6,99750,1905,12550,24.5,Estrés Hídrico Severo
+23.2,67.8,99745,1890,13700,22.7,Estrés Hídrico Severo
+25.3,63.5,99735,2025,13450,22.8,Estrés Hídrico Severo
+24.5,63.6,99785,2055,8600,22.6,Estrés Hídrico Severo
+25.5,68.9,99710,1875,12650,23.8,Estrés Hídrico Severo
+24.3,67.8,99730,1920,13350,24.4,Estrés Hídrico Severo
+24.0,66.6,99740,1935,12750,24.0,Estrés Hídrico Severo
+25.4,70.1,99740,2040,13450,24.2,Estrés Hídrico Severo
+25.4,70.8,99715,1860,13750,22.6,Estrés Hídrico Severo
+25.0,64.8,99745,1890,13100,23.7,Estrés Hídrico Severo
+24.2,68.3,99735,2025,12100,23.5,Estrés Hídrico Severo
+25.2,62.3,99755,1860,10400,23.6,Estrés Hídrico Severo
+24.1,69.7,99715,1935,12650,22.7,Estrés Hídrico Severo
+23.3,69.4,99780,1950,9750,23.9,Estrés Hídrico Severo
+26.0,72.1,99730,1920,10200,23.6,Estrés Hídrico Severo
+23.4,63.7,99755,1950,9150,24.2,Estrés Hídrico Severo
+25.8,63.2,99720,1965,13600,23.5,Estrés Hídrico Severo
+24.2,66.0,99750,1875,13150,22.9,Estrés Hídrico Severo
+24.0,64.2,99745,1995,12100,23.9,Estrés Hídrico Severo
+25.0,64.7,99750,2040,12300,23.0,Estrés Hídrico Severo
+26.0,70.0,99750,2025,10700,24.4,Estrés Hídrico Severo
+25.1,65.4,99735,1875,12700,23.8,Estrés Hídrico Severo
+25.4,65.5,99765,1875,9750,22.9,Estrés Hídrico Severo
+25.0,70.3,99755,1905,12000,24.5,Estrés Hídrico Severo
+25.5,65.6,99780,1935,11200,23.7,Estrés Hídrico Severo
+25.5,70.6,99710,1935,13700,22.7,Estrés Hídrico Severo
+23.6,63.4,99735,1995,12450,23.9,Estrés Hídrico Severo
+24.5,67.8,99705,1845,13000,23.1,Estrés Hídrico Severo
+23.7,63.0,99740,1845,12100,24.2,Estrés Hídrico Severo
+26.1,62.8,99720,1920,13700,24.2,Estrés Hídrico Severo
+25.8,72.0,99725,1995,13250,24.5,Estrés Hídrico Severo
+23.1,64.2,99725,1890,13300,23.6,Estrés Hídrico Severo
+25.3,67.3,99745,1995,11850,23.5,Estrés Hídrico Severo
+25.7,67.0,99720,1905,12500,24.1,Estrés Hídrico Severo
+23.9,64.4,99775,2055,9500,22.9,Estrés Hídrico Severo
+24.8,71.2,99730,2040,13100,23.7,Estrés Hídrico Severo
+25.9,62.8,99735,1920,9650,23.7,Estrés Hídrico Severo
+23.5,68.8,99750,1905,12950,22.8,Estrés Hídrico Severo
+25.0,72.2,99720,1935,13350,23.4,Estrés Hídrico Severo
+24.3,66.9,99735,1905,12150,24.3,Estrés Hídrico Severo
+25.7,72.1,99735,1995,13650,24.3,Estrés Hídrico Severo
+26.3,62.6,99725,2040,12650,22.8,Estrés Hídrico Severo
+25.8,66.8,99705,1995,13800,22.8,Estrés Hídrico Severo
+24.4,65.5,99720,2025,13150,23.1,Estrés Hídrico Severo
+25.7,69.4,99750,1920,13000,24.3,Estrés Hídrico Severo
+25.4,72.4,99730,1875,12300,22.8,Estrés Hídrico Severo
+24.2,64.6,99745,2025,12700,24.1,Estrés Hídrico Severo
+25.6,68.6,99735,1920,12800,22.8,Estrés Hídrico Severo
+23.0,64.6,99710,1995,12750,23.9,Estrés Hídrico Severo
+24.8,68.5,99725,1890,13250,23.3,Estrés Hídrico Severo
+23.9,67.2,99770,1875,9650,24.2,Estrés Hídrico Severo
+23.4,72.4,99720,2070,12800,23.1,Estrés Hídrico Severo
+23.2,68.7,99720,1875,12750,23.8,Estrés Hídrico Severo
+25.3,65.6,99730,2085,12300,23.1,Estrés Hídrico Severo
+24.4,62.0,99760,2070,10400,24.0,Estrés Hídrico Severo
+25.6,63.5,99765,2040,13050,24.4,Estrés Hídrico Severo
+23.3,65.1,99740,2010,10200,22.9,Estrés Hídrico Severo
+23.8,65.7,99730,1965,13650,24.4,Estrés Hídrico Severo
+24.8,70.5,99720,2055,12750,23.8,Estrés Hídrico Severo
+25.8,66.7,99785,1920,10350,22.9,Estrés Hídrico Severo
+23.9,67.8,99705,1935,12550,23.5,Estrés Hídrico Severo
+24.9,63.9,99760,1995,9400,22.9,Estrés Hídrico Severo
+26.1,69.9,99750,1950,12450,24.0,Estrés Hídrico Severo
+24.8,70.0,99740,1935,13250,24.1,Estrés Hídrico Severo
+23.6,63.3,99730,1920,13050,22.8,Estrés Hídrico Severo
+23.0,69.8,99720,1965,13300,23.6,Estrés Hídrico Severo
+25.6,68.1,99715,2025,13050,24.2,Estrés Hídrico Severo
+23.5,61.6,99755,1905,9950,24.5,Estrés Hídrico Severo
+25.6,67.4,99755,2070,7350,23.6,Estrés Hídrico Severo
+25.0,67.3,99735,2010,12850,24.5,Estrés Hídrico Severo
+25.8,64.6,99720,2025,12650,23.6,Estrés Hídrico Severo
+25.5,71.6,99720,1965,12750,23.3,Estrés Hídrico Severo
+26.0,71.1,99735,2025,13200,24.3,Estrés Hídrico Severo
+24.5,68.9,99755,1860,12600,23.6,Estrés Hídrico Severo
+25.2,67.3,99730,2025,13100,23.6,Estrés Hídrico Severo
+24.1,66.6,99705,1845,12850,23.5,Estrés Hídrico Severo
+24.4,69.1,99705,2040,13350,24.3,Estrés Hídrico Severo
+25.3,66.8,99765,2085,12050,24.3,Estrés Hídrico Severo
+25.6,63.5,99715,1905,13800,23.4,Estrés Hídrico Severo
+25.9,68.0,99705,1890,13900,23.2,Estrés Hídrico Severo
+25.2,70.9,99730,2025,13000,23.5,Estrés Hídrico Severo
+24.3,67.3,99750,1905,11250,23.7,Estrés Hídrico Severo
+24.4,62.6,99735,2025,13750,23.0,Estrés Hídrico Severo
+25.1,70.6,99715,1860,12200,24.2,Estrés Hídrico Severo
+23.7,64.9,99705,1860,13050,23.5,Estrés Hídrico Severo
+23.3,65.2,99750,2070,12850,23.3,Estrés Hídrico Severo
+24.5,62.9,99730,2010,12950,22.8,Estrés Hídrico Severo
+23.9,66.1,99740,2040,12300,23.0,Estrés Hídrico Severo
+23.9,70.2,99740,1905,13200,24.5,Estrés Hídrico Severo
+23.7,67.8,99735,1995,13500,23.2,Estrés Hídrico Severo
+23.5,63.6,99725,1995,12250,23.0,Estrés Hídrico Severo
+23.5,69.9,99745,1995,10100,23.5,Estrés Hídrico Severo
+26.2,70.8,99745,2010,13100,23.2,Estrés Hídrico Severo
+24.3,70.9,99750,1965,13350,22.6,Estrés Hídrico Severo
+24.1,65.3,99750,1935,13400,23.2,Estrés Hídrico Severo
+25.4,65.4,99740,1920,9800,23.7,Estrés Hídrico Severo
+23.9,71.9,99720,2040,12450,23.7,Estrés Hídrico Severo
+25.8,70.7,99790,1905,9350,23.3,Estrés Hídrico Severo
+25.4,63.0,99750,1995,11950,23.5,Estrés Hídrico Severo
+23.3,63.3,99750,1890,12650,24.5,Estrés Hídrico Severo
+24.7,65.5,99745,1995,10700,23.4,Estrés Hídrico Severo
+25.9,71.3,99735,2040,11950,23.1,Estrés Hídrico Severo
+26.1,67.6,99740,1920,11900,23.1,Estrés Hídrico Severo
+24.4,67.3,99740,1845,13350,23.5,Estrés Hídrico Severo
+24.9,63.9,99755,1890,10300,24.1,Estrés Hídrico Severo
+23.6,68.8,99705,1980,12650,23.0,Estrés Hídrico Severo
+26.0,70.4,99735,2025,13450,24.0,Estrés Hídrico Severo
+24.1,66.3,99720,1860,11750,22.7,Estrés Hídrico Severo
+25.7,70.5,99725,2010,12200,23.5,Estrés Hídrico Severo
+25.3,70.7,99780,1935,10050,24.2,Estrés Hídrico Severo
+24.8,65.1,99730,1950,13500,23.3,Estrés Hídrico Severo
+24.9,67.3,99750,2070,11700,23.7,Estrés Hídrico Severo
+23.7,65.7,99750,1920,8400,23.0,Estrés Hídrico Severo
+23.9,69.0,99770,1965,10100,24.1,Estrés Hídrico Severo
+23.9,68.4,99780,1860,10100,22.7,Estrés Hídrico Severo
+24.0,67.4,99740,1875,10400,24.3,Estrés Hídrico Severo
+25.2,70.7,99700,1890,13100,23.0,Estrés Hídrico Severo
+24.0,66.7,99720,1845,12500,24.3,Estrés Hídrico Severo
+23.6,70.5,99715,1995,12200,23.3,Estrés Hídrico Severo
+26.1,67.3,99750,1950,12500,24.1,Estrés Hídrico Severo
+25.7,64.7,99755,1965,13100,23.3,Estrés Hídrico Severo
+25.8,70.0,99730,1875,12900,24.4,Estrés Hídrico Severo
+26.0,70.7,99720,1890,12900,22.8,Estrés Hídrico Severo
+23.9,64.1,99770,2010,9350,23.0,Estrés Hídrico Severo
+24.2,71.6,99745,2055,12950,23.6,Estrés Hídrico Severo
+25.2,71.9,99700,1860,12350,22.7,Estrés Hídrico Severo
+25.5,63.9,99765,2055,10650,23.0,Estrés Hídrico Severo
+23.4,72.4,99730,1965,13800,24.5,Estrés Hídrico Severo
+25.4,64.4,99775,1980,10200,24.6,Estrés Hídrico Severo
+23.6,64.6,99715,1950,13650,23.4,Estrés Hídrico Severo
+24.1,62.7,99770,1860,10300,24.5,Estrés Hídrico Severo
+24.6,71.8,99705,1860,13400,23.6,Estrés Hídrico Severo
+24.8,69.1,99715,1980,12950,23.1,Estrés Hídrico Severo
+24.7,64.1,99745,1905,13450,24.0,Estrés Hídrico Severo
+23.7,65.3,99775,2055,10100,23.9,Estrés Hídrico Severo
+25.7,68.3,99705,1935,13400,24.5,Estrés Hídrico Severo
+23.9,62.9,99720,1875,13800,23.1,Estrés Hídrico Severo
+23.8,70.9,99720,2025,11950,24.0,Estrés Hídrico Severo
+25.7,70.7,99730,1905,11250,22.7,Estrés Hídrico Severo
+25.8,67.8,99715,1965,13600,22.8,Estrés Hídrico Severo
+26.0,70.6,99740,2010,9500,22.6,Estrés Hídrico Severo
+25.8,66.2,99735,2070,12250,24.6,Estrés Hídrico Severo
+25.0,72.6,99745,2025,13700,24.2,Estrés Hídrico Severo
+24.9,69.3,99760,2010,9750,24.2,Estrés Hídrico Severo
+23.7,68.8,99740,2010,12450,23.6,Estrés Hídrico Severo
+24.6,62.6,99740,2070,9750,23.2,Estrés Hídrico Severo
+24.2,70.9,99755,1905,13150,22.9,Estrés Hídrico Severo
+23.7,67.0,99745,1830,13750,23.2,Estrés Hídrico Severo
+25.3,64.4,99775,1920,9950,23.4,Estrés Hídrico Severo
+24.5,62.4,99750,1875,13350,24.1,Estrés Hídrico Severo
+23.2,68.2,99750,1995,12500,23.7,Estrés Hídrico Severo
+23.6,68.5,99730,1980,12200,22.8,Estrés Hídrico Severo
+25.4,68.3,99745,1995,10950,22.7,Estrés Hídrico Severo
+23.3,71.1,99740,1845,13150,22.8,Estrés Hídrico Severo
+25.6,63.4,99740,1995,13400,23.4,Estrés Hídrico Severo
+24.4,69.9,99740,1905,12350,24.5,Estrés Hídrico Severo
+24.3,64.6,99730,1995,13500,23.9,Estrés Hídrico Severo
+25.2,69.9,99720,1980,12950,24.2,Estrés Hídrico Severo
+25.5,71.2,99760,1935,9550,23.6,Estrés Hídrico Severo
+24.0,68.0,99750,1875,12500,23.3,Estrés Hídrico Severo
+25.4,67.9,99770,1875,10050,22.8,Estrés Hídrico Severo
+24.6,66.3,99730,2025,13400,24.4,Estrés Hídrico Severo
+23.7,67.2,99715,2040,13050,24.1,Estrés Hídrico Severo
+25.5,71.0,99715,1995,13600,22.9,Estrés Hídrico Severo
+25.4,66.9,99750,1860,13550,23.6,Estrés Hídrico Severo
+25.4,65.7,99740,1950,12950,23.6,Estrés Hídrico Severo
+26.0,66.5,99750,2025,12500,23.9,Estrés Hídrico Severo
+25.6,71.4,99730,2025,12400,24.5,Estrés Hídrico Severo
+25.5,65.6,99740,1875,12050,23.8,Estrés Hídrico Severo
+25.9,62.8,99745,1845,10300,23.7,Estrés Hídrico Severo
+25.1,69.4,99740,1995,14000,22.7,Estrés Hídrico Severo
+25.0,70.9,99720,1920,13650,22.7,Estrés Hídrico Severo
+24.8,63.7,99725,1890,13500,23.0,Estrés Hídrico Severo
+25.2,65.0,99735,1830,12700,22.7,Estrés Hídrico Severo
+23.4,64.0,99750,1965,12550,24.1,Estrés Hídrico Severo
+26.0,65.5,99715,2055,12700,24.1,Estrés Hídrico Severo
+25.6,67.3,99750,2055,13100,22.8,Estrés Hídrico Severo
+23.2,70.3,99750,1980,9400,24.3,Estrés Hídrico Severo
+25.5,69.3,99765,1965,8050,22.9,Estrés Hídrico Severo
+23.4,68.9,99715,1860,11900,23.2,Estrés Hídrico Severo
+24.0,66.6,99725,1965,12700,23.1,Estrés Hídrico Severo
+25.2,71.4,99765,1935,9400,23.4,Estrés Hídrico Severo
+23.5,67.6,99705,1980,12550,23.1,Estrés Hídrico Severo
+25.5,72.3,99730,1920,14050,23.6,Estrés Hídrico Severo
+25.9,67.2,99785,1905,9750,23.4,Estrés Hídrico Severo
+24.5,63.6,99710,1860,12750,24.6,Estrés Hídrico Severo
+23.0,69.6,99785,1920,7350,22.7,Estrés Hídrico Severo
+23.9,66.0,99740,1860,11950,22.8,Estrés Hídrico Severo
+25.3,68.0,99765,1890,10650,22.7,Estrés Hídrico Severo
+25.8,63.6,99715,2070,13050,23.8,Estrés Hídrico Severo
+24.9,64.2,99715,1935,12500,22.7,Estrés Hídrico Severo
+23.8,71.6,99715,1950,12400,24.3,Estrés Hídrico Severo
+24.8,65.0,99705,2040,12850,23.6,Estrés Hídrico Severo
+24.7,70.5,99715,2070,13900,23.6,Estrés Hídrico Severo
+25.7,63.7,99780,1995,10600,23.7,Estrés Hídrico Severo
+23.3,68.7,99750,2025,12650,23.0,Estrés Hídrico Severo
+25.7,69.4,99750,1935,12400,23.0,Estrés Hídrico Severo
+24.7,67.3,99740,1905,14000,23.2,Estrés Hídrico Severo
+25.8,65.8,99705,1935,13000,23.8,Estrés Hídrico Severo
+23.9,64.7,99720,1995,13600,23.0,Estrés Hídrico Severo
+24.8,63.0,99715,1995,12600,22.9,Estrés Hídrico Severo
+26.2,64.1,99750,1935,10900,24.6,Estrés Hídrico Severo
+23.4,68.6,99730,1860,13800,22.6,Estrés Hídrico Severo
+26.2,71.0,99735,2010,13000,24.2,Estrés Hídrico Severo
+25.0,71.5,99715,1875,13300,24.1,Estrés Hídrico Severo
+23.1,70.4,99720,1980,12700,23.2,Estrés Hídrico Severo
+23.8,70.5,99740,1995,13750,22.8,Estrés Hídrico Severo
+25.1,69.5,99745,1995,12800,22.9,Estrés Hídrico Severo
+23.1,65.2,99720,2010,12800,24.0,Estrés Hídrico Severo
+24.7,71.7,99745,2040,13550,23.8,Estrés Hídrico Severo
+24.4,68.0,99760,1965,12700,24.2,Estrés Hídrico Severo
+24.9,68.4,99755,2010,9800,24.4,Estrés Hídrico Severo
+23.1,63.8,99730,1980,12150,24.0,Estrés Hídrico Severo
+25.6,67.2,99740,1890,13100,22.9,Estrés Hídrico Severo
+26.3,65.9,99765,1860,12650,23.1,Estrés Hídrico Severo
+26.1,70.7,99760,1935,11800,24.3,Estrés Hídrico Severo
+25.2,68.5,99745,1950,9250,23.0,Estrés Hídrico Severo
+23.4,66.4,99720,1980,12900,22.7,Estrés Hídrico Severo
+25.4,72.0,99735,2025,13050,24.0,Estrés Hídrico Severo
+23.2,63.2,99730,1890,14200,23.4,Estrés Hídrico Severo
+23.1,66.9,99720,1875,12850,24.5,Estrés Hídrico Severo
+24.2,63.0,99775,2070,9900,23.9,Estrés Hídrico Severo
+24.5,69.9,99740,1860,14050,22.8,Estrés Hídrico Severo
+25.5,71.3,99755,1980,12300,24.5,Estrés Hídrico Severo
+25.3,65.0,99750,1995,12850,23.1,Estrés Hídrico Severo
+24.2,71.8,99740,1965,12900,23.3,Estrés Hídrico Severo
+23.7,65.6,99720,1860,13850,23.4,Estrés Hídrico Severo
+26.0,71.7,99730,1845,12750,22.7,Estrés Hídrico Severo
+24.2,70.4,99710,1860,13650,23.6,Estrés Hídrico Severo
+24.8,70.2,99740,1995,11900,22.9,Estrés Hídrico Severo
+23.6,62.3,99715,1950,13100,23.4,Estrés Hídrico Severo
+25.8,70.9,99750,1905,12700,23.3,Estrés Hídrico Severo
+25.5,68.6,99725,1995,12100,24.2,Estrés Hídrico Severo
+23.7,65.8,99745,2040,9300,24.2,Estrés Hídrico Severo
+23.2,71.2,99710,1845,13000,22.9,Estrés Hídrico Severo
+25.0,65.6,99705,1935,13600,23.3,Estrés Hídrico Severo
+24.9,71.3,99735,1995,12600,23.4,Estrés Hídrico Severo
+23.8,63.7,99740,1890,12600,22.9,Estrés Hídrico Severo
+25.8,70.2,99730,1905,12650,24.2,Estrés Hídrico Severo
+23.4,68.0,99710,1980,13000,24.0,Estrés Hídrico Severo
+24.3,63.5,99710,2040,12750,23.0,Estrés Hídrico Severo
+25.7,65.0,99700,2025,12800,23.4,Estrés Hídrico Severo
+24.3,62.8,99725,1980,11400,22.8,Estrés Hídrico Severo
+25.3,66.0,99760,2010,11550,23.9,Estrés Hídrico Severo
+24.4,65.5,99735,1935,10950,22.9,Estrés Hídrico Severo
+23.8,68.7,99715,1980,13950,24.5,Estrés Hídrico Severo
+26.1,65.2,99710,1935,12800,24.1,Estrés Hídrico Severo
+24.6,63.9,99750,1890,10300,23.4,Estrés Hídrico Severo
+26.1,68.7,99735,2010,12550,23.8,Estrés Hídrico Severo
+24.1,63.0,99740,1980,12200,24.4,Estrés Hídrico Severo
+23.6,71.6,99720,1920,13600,23.7,Estrés Hídrico Severo
+23.0,71.7,99705,2055,12850,23.0,Estrés Hídrico Severo
+25.4,67.6,99765,1860,10000,23.4,Estrés Hídrico Severo
+24.1,68.7,99755,1920,7050,24.3,Estrés Hídrico Severo
+25.6,71.7,99715,1860,13350,23.8,Estrés Hídrico Severo
+24.4,64.7,99755,2010,13400,23.9,Estrés Hídrico Severo
+26.3,61.6,99775,2010,9150,24.4,Estrés Hídrico Severo
+23.6,65.2,99770,1935,7650,24.4,Estrés Hídrico Severo
+25.6,70.4,99725,1995,14050,24.5,Estrés Hídrico Severo
+25.3,63.3,99765,1950,9300,22.8,Estrés Hídrico Severo
+25.3,68.4,99735,2010,13300,23.6,Estrés Hídrico Severo
+25.4,72.6,99740,1935,13750,24.0,Estrés Hídrico Severo
+25.3,71.4,99775,1935,9500,24.1,Estrés Hídrico Severo
+25.3,66.8,99720,2070,12400,23.8,Estrés Hídrico Severo
+23.4,63.4,99765,1905,9600,22.9,Estrés Hídrico Severo
+23.5,70.3,99735,1890,12850,24.2,Estrés Hídrico Severo
+25.8,68.8,99790,1995,7750,24.1,Estrés Hídrico Severo
+24.8,64.0,99745,2055,13150,22.7,Estrés Hídrico Severo
+25.8,62.5,99735,1950,12100,23.5,Estrés Hídrico Severo
+24.5,71.9,99740,1875,10600,23.0,Estrés Hídrico Severo
+23.3,69.4,99730,1920,13250,23.3,Estrés Hídrico Severo
+23.3,70.9,99710,1950,12400,22.6,Estrés Hídrico Severo
+25.1,71.7,99720,1875,13700,23.4,Estrés Hídrico Severo
+24.2,68.4,99710,1995,12900,23.7,Estrés Hídrico Severo
+23.6,68.2,99775,2085,8750,23.9,Estrés Hídrico Severo
+24.5,66.9,99710,1935,13350,23.9,Estrés Hídrico Severo
+23.6,64.8,99730,1935,12150,24.3,Estrés Hídrico Severo
+25.1,65.4,99780,1950,10800,23.1,Estrés Hídrico Severo
+23.7,70.4,99710,1860,12750,22.8,Estrés Hídrico Severo
+25.4,68.9,99730,2040,13600,24.3,Estrés Hídrico Severo
+23.9,71.7,99725,1935,13150,22.9,Estrés Hídrico Severo
+24.4,67.2,99740,1935,8400,24.5,Estrés Hídrico Severo
+23.2,68.6,99760,1995,11600,24.3,Estrés Hídrico Severo
+23.2,69.4,99710,1950,13000,23.6,Estrés Hídrico Severo
+24.2,68.7,99730,1980,12850,24.5,Estrés Hídrico Severo
+24.8,68.6,99740,1875,12250,22.8,Estrés Hídrico Severo
+24.8,65.3,99740,2025,13700,23.2,Estrés Hídrico Severo
+24.3,67.1,99750,2070,12000,23.9,Estrés Hídrico Severo
+25.1,63.8,99720,1995,12550,23.3,Estrés Hídrico Severo
+25.6,66.4,99705,2055,12500,24.5,Estrés Hídrico Severo
+25.2,67.6,99735,1875,12900,22.7,Estrés Hídrico Severo
+23.1,69.5,99735,1950,13600,23.7,Estrés Hídrico Severo
+24.8,71.1,99750,1995,12250,23.8,Estrés Hídrico Severo
+23.3,68.8,99785,1980,7400,23.9,Estrés Hídrico Severo
+23.7,70.0,99745,1920,12700,23.1,Estrés Hídrico Severo
+26.2,67.6,99745,1920,10550,23.3,Estrés Hídrico Severo
+23.4,69.3,99725,1860,13850,24.3,Estrés Hídrico Severo
+24.5,63.3,99740,1920,13000,22.9,Estrés Hídrico Severo
+24.9,65.1,99730,1875,14050,24.2,Estrés Hídrico Severo
+25.1,66.3,99705,2010,13300,23.7,Estrés Hídrico Severo
+24.6,67.5,99740,1890,12500,24.1,Estrés Hídrico Severo
+22.9,63.0,99750,1845,13850,24.0,Estrés Hídrico Severo
+23.9,64.3,99725,1965,12900,23.0,Estrés Hídrico Severo
+25.0,63.9,99735,1980,11100,23.8,Estrés Hídrico Severo
+23.3,72.7,99725,2040,13950,24.4,Estrés Hídrico Severo
+24.5,65.4,99750,1980,11600,23.5,Estrés Hídrico Severo
+23.0,67.5,99745,1920,12550,24.6,Estrés Hídrico Severo
+23.6,62.9,99745,2025,10500,23.5,Estrés Hídrico Severo
+24.2,68.4,99710,1950,13000,22.9,Estrés Hídrico Severo
+23.4,65.6,99780,1860,8650,23.3,Estrés Hídrico Severo
+24.7,64.7,99720,1965,12500,24.5,Estrés Hídrico Severo
+25.1,68.0,99735,2055,12300,23.2,Estrés Hídrico Severo
+25.8,61.2,99780,1935,11200,24.4,Estrés Hídrico Severo
+23.6,62.9,99710,1905,12550,24.3,Estrés Hídrico Severo
+23.5,65.0,99775,1890,7800,23.3,Estrés Hídrico Severo
+23.7,61.3,99740,1875,10300,22.8,Estrés Hídrico Severo
+24.9,64.0,99720,1935,13000,24.0,Estrés Hídrico Severo
+25.0,66.1,99740,1980,12450,23.2,Estrés Hídrico Severo
+23.5,68.8,99765,1875,10350,24.2,Estrés Hídrico Severo
+25.9,68.5,99785,2070,9050,23.5,Estrés Hídrico Severo
+23.6,67.6,99735,2025,12750,23.6,Estrés Hídrico Severo
+25.0,63.8,99755,1980,10800,24.2,Estrés Hídrico Severo
+25.3,71.3,99725,2040,12250,23.4,Estrés Hídrico Severo
+25.7,66.8,99750,1875,9900,23.5,Estrés Hídrico Severo
+25.0,63.4,99720,1950,13200,23.3,Estrés Hídrico Severo
+25.3,69.1,99705,1980,12800,23.3,Estrés Hídrico Severo
+24.0,63.4,99725,2025,13950,23.7,Estrés Hídrico Severo
+25.4,66.3,99760,2025,9750,24.2,Estrés Hídrico Severo
+23.2,68.0,99740,1905,12850,23.3,Estrés Hídrico Severo
+25.6,71.9,99735,2055,13200,23.7,Estrés Hídrico Severo
+24.8,67.0,99750,1890,13150,24.0,Estrés Hídrico Severo
+25.5,69.6,99710,2040,14000,23.1,Estrés Hídrico Severo
+24.4,72.8,99720,2055,13200,23.1,Estrés Hídrico Severo
+25.3,63.4,99740,1890,12250,24.5,Estrés Hídrico Severo
+24.6,65.3,99725,1995,12900,24.0,Estrés Hídrico Severo
+25.2,66.5,99710,1845,14000,23.7,Estrés Hídrico Severo
+23.2,66.7,99745,1920,12700,23.9,Estrés Hídrico Severo
+23.5,66.3,99745,1980,12500,22.7,Estrés Hídrico Severo
+23.7,71.9,99735,1950,12850,23.8,Estrés Hídrico Severo
+23.6,70.3,99740,2070,9100,23.6,Estrés Hídrico Severo
+25.6,68.8,99735,1995,13150,23.7,Estrés Hídrico Severo
+24.1,65.3,99740,1965,13150,23.3,Estrés Hídrico Severo
+25.8,70.9,99740,2025,12500,22.7,Estrés Hídrico Severo
+24.2,72.2,99770,2070,9700,23.0,Estrés Hídrico Severo
+23.7,70.2,99755,1860,11700,24.5,Estrés Hídrico Severo
+25.4,62.6,99735,2055,12750,23.4,Estrés Hídrico Severo
+25.4,67.7,99720,1875,12200,23.6,Estrés Hídrico Severo
+24.4,63.1,99730,2025,13050,22.7,Estrés Hídrico Severo
+24.8,64.7,99735,1890,13000,22.6,Estrés Hídrico Severo
+25.2,62.9,99745,1860,13050,24.1,Estrés Hídrico Severo
+23.6,69.2,99715,1935,12350,23.7,Estrés Hídrico Severo
+26.0,69.9,99750,2010,9150,23.6,Estrés Hídrico Severo
+26.0,64.3,99780,1950,10200,23.1,Estrés Hídrico Severo
+25.0,66.8,99745,1845,13850,24.1,Estrés Hídrico Severo
+23.6,67.2,99750,1980,13050,22.9,Estrés Hídrico Severo
+25.4,65.7,99750,2070,12400,23.0,Estrés Hídrico Severo
+23.6,63.7,99740,1950,13000,23.5,Estrés Hídrico Severo
+23.2,66.3,99740,1890,12600,23.1,Estrés Hídrico Severo
+23.8,70.1,99745,1935,13600,23.1,Estrés Hídrico Severo
+24.8,61.8,99760,1860,11450,23.9,Estrés Hídrico Severo
+25.6,63.6,99735,2010,12550,23.9,Estrés Hídrico Severo
+25.2,66.2,99705,2025,12750,24.2,Estrés Hídrico Severo
+25.2,72.2,99730,1980,13800,23.4,Estrés Hídrico Severo
+24.7,69.2,99745,1935,12400,22.8,Estrés Hídrico Severo
+24.1,69.0,99720,2025,12600,23.1,Estrés Hídrico Severo
+24.1,66.4,99755,1980,7450,24.6,Estrés Hídrico Severo
+26.0,68.1,99720,2010,13250,23.8,Estrés Hídrico Severo
+23.0,63.0,99715,1980,13250,24.0,Estrés Hídrico Severo
+25.6,69.4,99715,2010,13550,22.6,Estrés Hídrico Severo
+25.0,71.3,99725,1995,13200,23.7,Estrés Hídrico Severo
+24.7,67.0,99780,1950,9900,22.7,Estrés Hídrico Severo
+25.3,71.5,99760,2070,9900,23.8,Estrés Hídrico Severo
+24.4,69.8,99710,1965,13100,24.4,Estrés Hídrico Severo
+25.6,63.7,99710,1965,13100,24.6,Estrés Hídrico Severo
+25.6,71.6,99735,1890,12500,23.7,Estrés Hídrico Severo
+24.3,63.7,99725,1980,13900,23.5,Estrés Hídrico Severo
+23.9,68.1,99775,1980,10400,24.5,Estrés Hídrico Severo
+24.9,63.6,99740,1875,13350,23.9,Estrés Hídrico Severo
+26.1,62.6,99750,1875,12500,22.7,Estrés Hídrico Severo
+23.5,66.9,99715,1980,12800,23.5,Estrés Hídrico Severo
+25.3,64.3,99745,2025,12350,23.1,Estrés Hídrico Severo
+24.8,67.7,99710,1965,13350,23.5,Estrés Hídrico Severo
+25.2,68.7,99755,1890,13150,23.5,Estrés Hídrico Severo
+23.3,63.2,99730,1995,13800,23.7,Estrés Hídrico Severo
+25.1,63.8,99720,1860,13500,23.3,Estrés Hídrico Severo
+25.9,68.1,99735,1950,10600,22.9,Estrés Hídrico Severo
+23.6,66.2,99745,1890,10300,23.6,Estrés Hídrico Severo
+23.8,69.4,99740,1875,12900,24.2,Estrés Hídrico Severo
+26.0,68.7,99720,1875,13200,23.9,Estrés Hídrico Severo
+23.4,71.2,99730,1920,13000,23.2,Estrés Hídrico Severo
+25.5,69.7,99710,1860,12900,24.4,Estrés Hídrico Severo
+24.9,65.1,99775,1950,10350,24.4,Estrés Hídrico Severo
+24.1,68.3,99750,1980,12250,23.0,Estrés Hídrico Severo
+25.6,65.6,99745,1950,13550,22.6,Estrés Hídrico Severo
+24.7,64.0,99785,1935,10100,24.1,Estrés Hídrico Severo
+24.5,70.6,99720,2040,12400,24.3,Estrés Hídrico Severo
+24.2,67.7,99740,1890,9950,24.6,Estrés Hídrico Severo
+25.2,68.9,99770,1965,9750,24.4,Estrés Hídrico Severo
+23.5,70.4,99725,1845,12900,23.8,Estrés Hídrico Severo
+24.5,70.8,99725,1875,12400,23.7,Estrés Hídrico Severo
+26.3,71.7,99710,1995,11950,22.7,Estrés Hídrico Severo
+23.7,67.0,99715,1980,12150,23.1,Estrés Hídrico Severo
+25.4,65.7,99710,2055,12600,23.5,Estrés Hídrico Severo
+24.4,67.9,99750,1980,12350,23.9,Estrés Hídrico Severo
+25.3,66.5,99720,2055,13050,23.7,Estrés Hídrico Severo
+23.3,68.7,99730,1845,13950,24.1,Estrés Hídrico Severo
+26.3,68.0,99740,1875,10350,23.2,Estrés Hídrico Severo
+24.4,69.7,99740,1845,13700,23.7,Estrés Hídrico Severo
+23.7,66.3,99725,1875,12700,22.7,Estrés Hídrico Severo
+23.2,64.7,99785,1980,9550,23.4,Estrés Hídrico Severo
+23.5,67.1,99790,1995,8450,24.1,Estrés Hídrico Severo
+24.6,64.2,99755,1860,9250,23.9,Estrés Hídrico Severo
+24.0,71.9,99750,2055,13500,24.6,Estrés Hídrico Severo
+25.5,66.4,99755,2025,12950,23.1,Estrés Hídrico Severo
+24.7,62.3,99785,1920,9250,23.6,Estrés Hídrico Severo
+23.7,63.2,99755,1860,13100,23.2,Estrés Hídrico Severo
+25.3,68.6,99720,1890,12150,23.5,Estrés Hídrico Severo
+25.3,68.9,99750,1875,11400,24.3,Estrés Hídrico Severo
+23.9,65.0,99715,1890,11850,24.0,Estrés Hídrico Severo
+23.4,63.2,99710,1950,13950,24.3,Estrés Hídrico Severo
+23.0,67.0,99750,1890,13950,23.0,Estrés Hídrico Severo
+25.1,66.0,99720,1920,12550,24.3,Estrés Hídrico Severo
+25.1,68.9,99745,2070,13150,22.7,Estrés Hídrico Severo
+24.8,67.0,99775,2010,10800,24.4,Estrés Hídrico Severo
+25.9,64.5,99780,2070,10950,23.3,Estrés Hídrico Severo
+25.8,63.1,99785,1890,10150,23.2,Estrés Hídrico Severo
+24.9,72.1,99720,1920,13100,23.6,Estrés Hídrico Severo
+25.5,67.2,99705,1965,13250,24.5,Estrés Hídrico Severo
+23.6,69.8,99725,1860,13400,22.7,Estrés Hídrico Severo
+23.7,62.2,99750,1860,9550,23.3,Estrés Hídrico Severo
+23.8,67.5,99710,1995,13650,24.3,Estrés Hídrico Severo
+23.2,62.9,99720,1980,12550,23.4,Estrés Hídrico Severo
+24.6,67.6,99745,1920,12550,23.0,Estrés Hídrico Severo
+25.7,72.3,99730,1950,12750,23.5,Estrés Hídrico Severo
+23.0,66.5,99715,1935,12950,23.4,Estrés Hídrico Severo
+23.4,63.0,99735,1845,13000,24.4,Estrés Hídrico Severo
+24.5,63.5,99750,1935,9400,24.1,Estrés Hídrico Severo
+25.8,66.5,99700,1875,12950,23.6,Estrés Hídrico Severo
+23.8,64.2,99745,1860,12600,24.5,Estrés Hídrico Severo
+24.4,63.0,99730,2055,12700,23.5,Estrés Hídrico Severo
+23.5,68.5,99775,1980,10900,22.7,Estrés Hídrico Severo
+23.4,67.2,99705,2010,13150,23.1,Estrés Hídrico Severo
+25.9,65.7,99740,1920,12950,23.4,Estrés Hídrico Severo
+25.9,71.8,99775,1950,7950,22.9,Estrés Hídrico Severo
+22.9,63.8,99730,1890,13800,24.5,Estrés Hídrico Severo
+25.9,72.2,99735,1860,12900,24.1,Estrés Hídrico Severo
+25.3,64.4,99755,1890,12550,23.2,Estrés Hídrico Severo
+25.5,71.7,99730,2025,13350,23.7,Estrés Hídrico Severo
+24.3,68.8,99730,1995,13200,24.0,Estrés Hídrico Severo
+24.5,71.3,99790,1980,8800,24.5,Estrés Hídrico Severo
+24.7,72.3,99760,1965,11100,24.4,Estrés Hídrico Severo
+25.0,65.7,99765,2070,7150,23.7,Estrés Hídrico Severo
+23.3,72.2,99735,1860,13200,24.1,Estrés Hídrico Severo
+23.5,64.8,99755,1920,10600,23.7,Estrés Hídrico Severo
+23.9,66.7,99715,1905,12750,23.7,Estrés Hídrico Severo
+25.1,66.0,99735,2010,13850,22.8,Estrés Hídrico Severo
+23.6,68.1,99760,2070,11900,22.9,Estrés Hídrico Severo
+25.4,62.4,99785,1905,10700,23.7,Estrés Hídrico Severo
+25.9,68.4,99725,2040,13100,23.1,Estrés Hídrico Severo
+23.2,68.1,99725,2025,12800,22.6,Estrés Hídrico Severo
+24.9,70.4,99710,1890,12450,24.0,Estrés Hídrico Severo
+24.7,70.3,99765,1950,13000,22.7,Estrés Hídrico Severo
+25.5,67.6,99755,1935,12300,23.8,Estrés Hídrico Severo
+23.4,65.7,99735,2055,12750,23.6,Estrés Hídrico Severo
+25.5,64.8,99750,1890,12100,24.6,Estrés Hídrico Severo
+25.5,64.7,99775,2025,9350,23.5,Estrés Hídrico Severo
+25.8,62.8,99735,1905,13400,22.7,Estrés Hídrico Severo
+25.0,66.3,99715,2010,12600,23.7,Estrés Hídrico Severo
+24.9,64.0,99740,1950,11950,24.3,Estrés Hídrico Severo
+24.9,72.0,99740,1965,12900,24.6,Estrés Hídrico Severo
+26.0,67.7,99740,2040,11850,23.5,Estrés Hídrico Severo
+24.7,66.3,99725,2025,12900,23.2,Estrés Hídrico Severo
+23.2,67.9,99750,2025,13700,24.4,Estrés Hídrico Severo
+25.8,63.9,99715,1845,12800,23.0,Estrés Hídrico Severo
+25.5,65.3,99775,2010,9750,23.9,Estrés Hídrico Severo
+25.0,69.4,99745,1875,12800,23.4,Estrés Hídrico Severo
+24.0,66.2,99745,1950,13050,22.7,Estrés Hídrico Severo
+25.4,66.5,99740,1980,13100,23.3,Estrés Hídrico Severo
+24.2,72.2,99720,1920,13800,23.2,Estrés Hídrico Severo
+25.4,69.9,99745,1980,9800,24.0,Estrés Hídrico Severo
+23.7,67.1,99780,2085,9300,24.5,Estrés Hídrico Severo
+25.0,68.4,99740,1875,12350,23.2,Estrés Hídrico Severo
+26.4,67.1,99745,2010,9850,24.2,Estrés Hídrico Severo
+23.2,64.1,99740,1935,13400,22.7,Estrés Hídrico Severo
+25.9,66.9,99735,1860,13600,23.6,Estrés Hídrico Severo
+24.1,63.1,99735,1875,13500,22.8,Estrés Hídrico Severo
+26.0,66.9,99750,2070,12850,24.5,Estrés Hídrico Severo
+25.7,67.0,99720,2070,12050,24.2,Estrés Hídrico Severo
+24.7,64.9,99710,2040,13550,23.9,Estrés Hídrico Severo
+25.2,72.4,99745,2070,12850,24.2,Estrés Hídrico Severo
+25.5,71.7,99730,1875,12350,23.9,Estrés Hídrico Severo
+24.2,70.0,99740,1920,13400,24.5,Estrés Hídrico Severo
+24.0,67.9,99745,1995,12350,24.0,Estrés Hídrico Severo
+24.9,71.3,99740,1950,12900,24.4,Estrés Hídrico Severo
+25.8,62.9,99760,1950,12000,23.7,Estrés Hídrico Severo
+25.2,70.6,99725,1920,13550,22.8,Estrés Hídrico Severo
+25.4,63.9,99735,1980,13050,23.7,Estrés Hídrico Severo
+24.3,70.6,99740,1965,11250,22.8,Estrés Hídrico Severo
+25.7,65.3,99730,1890,11350,23.8,Estrés Hídrico Severo
+23.4,71.6,99765,1950,8800,23.5,Estrés Hídrico Severo
+24.7,71.5,99720,1965,13300,23.8,Estrés Hídrico Severo
+23.0,64.3,99755,1965,13500,22.6,Estrés Hídrico Severo
+24.4,66.6,99745,1905,12600,23.0,Estrés Hídrico Severo
+24.5,70.9,99765,2025,11000,23.6,Estrés Hídrico Severo
+24.2,67.0,99725,1830,12900,24.5,Estrés Hídrico Severo
+25.0,71.4,99700,1920,13250,23.3,Estrés Hídrico Severo
+24.2,68.7,99705,2010,13350,23.4,Estrés Hídrico Severo
+24.3,66.1,99730,1965,14000,24.0,Estrés Hídrico Severo
+23.6,65.8,99705,1905,12400,23.8,Estrés Hídrico Severo
+24.1,64.3,99735,1995,13750,23.2,Estrés Hídrico Severo
+23.8,70.8,99780,1995,9550,23.4,Estrés Hídrico Severo
+23.3,66.1,99750,2025,13000,23.0,Estrés Hídrico Severo
+25.2,66.0,99770,2010,10100,24.6,Estrés Hídrico Severo
+25.0,67.8,99715,1980,12850,22.8,Estrés Hídrico Severo
+24.9,68.8,99785,1965,9550,23.4,Estrés Hídrico Severo
+24.8,69.6,99780,1875,10800,22.7,Estrés Hídrico Severo
+24.1,72.8,99750,1920,9550,23.1,Estrés Hídrico Severo
+25.6,66.6,99740,1935,13500,24.2,Estrés Hídrico Severo
+24.6,70.8,99720,1965,13300,23.0,Estrés Hídrico Severo
+24.4,70.6,99745,1950,12450,22.8,Estrés Hídrico Severo
+23.1,68.5,99755,1890,12750,23.5,Estrés Hídrico Severo
+24.0,72.4,99710,1845,13100,22.6,Estrés Hídrico Severo
+24.0,64.5,99750,1950,12900,22.7,Estrés Hídrico Severo
+24.2,63.7,99740,1905,12800,24.2,Estrés Hídrico Severo
+25.1,70.7,99755,2025,12350,24.2,Estrés Hídrico Severo
+24.7,66.5,99730,1845,13100,24.4,Estrés Hídrico Severo
+25.2,69.8,99760,1980,11900,24.3,Estrés Hídrico Severo
+25.7,71.4,99710,2070,12300,24.0,Estrés Hídrico Severo
+25.3,63.3,99715,1875,12650,22.7,Estrés Hídrico Severo
+25.3,71.0,99710,1950,14050,24.1,Estrés Hídrico Severo
+26.0,66.6,99755,1860,14000,24.3,Estrés Hídrico Severo
+23.5,66.7,99750,2010,12600,24.2,Estrés Hídrico Severo
+23.8,68.9,99775,1980,8950,23.6,Estrés Hídrico Severo
+22.9,72.0,99745,1935,13400,23.1,Estrés Hídrico Severo
+24.9,62.9,99725,1965,12050,24.3,Estrés Hídrico Severo
+25.6,67.6,99720,2055,13450,24.0,Estrés Hídrico Severo
+23.6,69.8,99705,1890,12350,24.5,Estrés Hídrico Severo
+25.8,69.8,99715,1845,13550,22.9,Estrés Hídrico Severo
+23.3,69.7,99745,2055,10400,23.1,Estrés Hídrico Severo
+25.7,63.9,99725,1965,13150,23.0,Estrés Hídrico Severo
+24.1,65.7,99730,2040,11750,24.1,Estrés Hídrico Severo
+23.7,64.5,99740,1995,10150,23.0,Estrés Hídrico Severo
+24.9,68.9,99745,2040,10250,22.8,Estrés Hídrico Severo
+23.9,65.0,99715,1935,12650,24.6,Estrés Hídrico Severo
+24.3,63.4,99760,2025,12500,22.7,Estrés Hídrico Severo
+23.9,72.2,99740,2040,12600,24.2,Estrés Hídrico Severo
+25.5,62.2,99755,1965,13300,23.3,Estrés Hídrico Severo
+25.0,70.9,99760,1890,9900,24.3,Estrés Hídrico Severo
+24.2,69.0,99720,1920,12450,23.7,Estrés Hídrico Severo
+24.8,70.6,99745,1875,12750,24.4,Estrés Hídrico Severo
+25.1,66.0,99725,1905,13300,24.5,Estrés Hídrico Severo
+23.8,63.2,99725,1905,13450,22.6,Estrés Hídrico Severo
+24.6,68.2,99755,1980,9350,22.8,Estrés Hídrico Severo
+23.4,71.1,99710,1965,12550,23.1,Estrés Hídrico Severo
+23.9,69.4,99725,1950,11700,24.0,Estrés Hídrico Severo
+25.4,63.5,99725,1995,12900,24.4,Estrés Hídrico Severo
+23.5,70.4,99735,1860,13150,23.5,Estrés Hídrico Severo
+24.5,70.6,99705,1860,13150,23.8,Estrés Hídrico Severo
+25.1,69.6,99750,1890,8800,23.0,Estrés Hídrico Severo
+23.3,70.5,99750,1950,13350,24.2,Estrés Hídrico Severo
+24.6,71.0,99710,1890,13800,24.5,Estrés Hídrico Severo
+23.9,68.2,99720,1890,13900,23.1,Estrés Hídrico Severo
+25.9,63.5,99750,1935,13450,23.5,Estrés Hídrico Severo
+24.9,66.2,99725,2040,11600,22.8,Estrés Hídrico Severo
+25.5,63.6,99740,1860,9250,23.7,Estrés Hídrico Severo
+24.8,67.3,99760,2010,8700,23.6,Estrés Hídrico Severo
+23.1,66.8,99735,1995,11150,22.8,Estrés Hídrico Severo
+25.0,63.9,99765,2040,8850,23.5,Estrés Hídrico Severo
+26.3,64.8,99750,2070,11900,23.3,Estrés Hídrico Severo
+24.8,63.8,99725,1845,11350,23.6,Estrés Hídrico Severo
+25.5,71.0,99740,1875,13900,23.7,Estrés Hídrico Severo
+25.7,72.6,99735,2040,13150,22.6,Estrés Hídrico Severo
+23.6,63.6,99710,1935,13750,24.1,Estrés Hídrico Severo
+23.5,72.2,99730,1965,13350,24.0,Estrés Hídrico Severo
+25.2,66.5,99730,1995,11650,23.4,Estrés Hídrico Severo
+24.2,65.7,99745,1995,11900,22.7,Estrés Hídrico Severo
+25.9,61.9,99735,2070,10400,24.1,Estrés Hídrico Severo
+26.1,65.8,99765,2085,10100,24.5,Estrés Hídrico Severo
+24.2,71.1,99755,2025,9200,23.1,Estrés Hídrico Severo
+23.7,69.8,99755,1905,13450,23.3,Estrés Hídrico Severo
+25.2,63.1,99710,2040,12700,22.9,Estrés Hídrico Severo
+23.7,63.6,99720,1845,12850,23.7,Estrés Hídrico Severo
+25.5,67.1,99730,1890,13650,22.9,Estrés Hídrico Severo
+24.7,64.1,99775,2070,9450,23.3,Estrés Hídrico Severo
+25.2,64.3,99740,1905,12650,24.0,Estrés Hídrico Severo
+23.7,64.1,99750,1905,12650,23.7,Estrés Hídrico Severo
+24.9,70.8,99745,1860,13750,23.3,Estrés Hídrico Severo
+24.4,71.6,99750,2025,14100,23.5,Estrés Hídrico Severo
+24.7,67.3,99720,1950,13750,23.7,Estrés Hídrico Severo
+23.6,71.3,99730,1995,12650,22.6,Estrés Hídrico Severo
+25.2,65.7,99750,1890,13800,22.8,Estrés Hídrico Severo
+26.0,65.7,99795,2025,10200,24.4,Estrés Hídrico Severo
+23.7,65.1,99750,1995,13400,22.7,Estrés Hídrico Severo
+23.3,68.9,99725,1905,12700,24.0,Estrés Hídrico Severo
+23.1,72.6,99715,1920,13450,24.4,Estrés Hídrico Severo
+24.9,68.9,99730,1890,13900,23.1,Estrés Hídrico Severo
+24.7,66.2,99745,2055,13750,23.3,Estrés Hídrico Severo
+24.6,68.8,99730,1980,13250,23.8,Estrés Hídrico Severo
+23.7,63.9,99745,2055,10800,24.3,Estrés Hídrico Severo
+24.2,71.1,99750,1890,13100,24.4,Estrés Hídrico Severo
+24.8,63.3,99770,165,5800,24.7,Asfixia Radicular (Suelo Saturado)
+25.2,64.8,99780,390,7500,24.6,Asfixia Radicular (Suelo Saturado)
+23.6,69.6,99785,255,5700,24.8,Asfixia Radicular (Suelo Saturado)
+25.1,66.1,99725,210,8850,24.0,Asfixia Radicular (Suelo Saturado)
+24.3,65.0,99770,195,8100,23.2,Asfixia Radicular (Suelo Saturado)
+24.6,65.3,99785,315,5300,24.7,Asfixia Radicular (Suelo Saturado)
+23.3,65.7,99770,270,6500,24.5,Asfixia Radicular (Suelo Saturado)
+24.7,62.8,99775,180,7950,24.6,Asfixia Radicular (Suelo Saturado)
+23.5,67.6,99800,195,6050,24.2,Asfixia Radicular (Suelo Saturado)
+25.7,61.8,99750,345,8100,24.1,Asfixia Radicular (Suelo Saturado)
+24.7,66.2,99745,150,6100,22.8,Asfixia Radicular (Suelo Saturado)
+24.1,65.8,99745,330,6700,24.3,Asfixia Radicular (Suelo Saturado)
+24.9,68.5,99795,285,6300,23.0,Asfixia Radicular (Suelo Saturado)
+25.1,63.3,99775,240,6200,23.3,Asfixia Radicular (Suelo Saturado)
+24.4,70.9,99785,210,6050,23.9,Asfixia Radicular (Suelo Saturado)
+25.7,65.6,99730,180,8200,23.8,Asfixia Radicular (Suelo Saturado)
+24.4,66.8,99770,360,8350,22.9,Asfixia Radicular (Suelo Saturado)
+25.3,69.4,99795,165,7250,24.5,Asfixia Radicular (Suelo Saturado)
+22.8,65.4,99795,210,6350,24.6,Asfixia Radicular (Suelo Saturado)
+24.7,64.7,99745,300,9700,24.2,Asfixia Radicular (Suelo Saturado)
+25.6,70.2,99765,225,4750,24.0,Asfixia Radicular (Suelo Saturado)
+22.8,70.5,99780,240,6650,24.8,Asfixia Radicular (Suelo Saturado)
+23.1,72.6,99775,315,6800,23.0,Asfixia Radicular (Suelo Saturado)
+24.4,70.1,99745,240,7800,24.3,Asfixia Radicular (Suelo Saturado)
+24.4,64.5,99775,360,6800,23.1,Asfixia Radicular (Suelo Saturado)
+24.8,63.5,99750,330,7300,23.6,Asfixia Radicular (Suelo Saturado)
+25.1,68.5,99785,210,5650,24.0,Asfixia Radicular (Suelo Saturado)
+23.1,66.3,99775,225,6650,24.3,Asfixia Radicular (Suelo Saturado)
+22.7,65.7,99750,225,5950,22.8,Asfixia Radicular (Suelo Saturado)
+24.8,70.7,99770,285,6850,23.3,Asfixia Radicular (Suelo Saturado)
+23.6,66.2,99780,195,7050,23.9,Asfixia Radicular (Suelo Saturado)
+25.5,63.3,99755,390,8150,24.0,Asfixia Radicular (Suelo Saturado)
+24.1,68.5,99785,315,7200,24.1,Asfixia Radicular (Suelo Saturado)
+24.0,71.4,99740,210,7600,23.4,Asfixia Radicular (Suelo Saturado)
+24.9,63.5,99745,315,7900,24.0,Asfixia Radicular (Suelo Saturado)
+25.6,68.9,99760,270,6000,23.2,Asfixia Radicular (Suelo Saturado)
+24.1,71.2,99750,330,7200,23.2,Asfixia Radicular (Suelo Saturado)
+25.3,64.8,99775,300,5450,24.0,Asfixia Radicular (Suelo Saturado)
+23.6,63.4,99745,135,7050,24.2,Asfixia Radicular (Suelo Saturado)
+23.8,60.0,99775,195,7950,23.1,Asfixia Radicular (Suelo Saturado)
+23.9,65.5,99755,360,7050,23.1,Asfixia Radicular (Suelo Saturado)
+24.0,66.1,99780,270,6700,23.9,Asfixia Radicular (Suelo Saturado)
+23.7,72.9,99745,345,5600,23.4,Asfixia Radicular (Suelo Saturado)
+24.1,70.3,99750,150,7000,23.6,Asfixia Radicular (Suelo Saturado)
+23.5,70.5,99760,195,6600,23.6,Asfixia Radicular (Suelo Saturado)
+24.7,72.3,99790,180,6350,23.2,Asfixia Radicular (Suelo Saturado)
+25.3,71.8,99775,270,7350,22.8,Asfixia Radicular (Suelo Saturado)
+23.6,65.9,99780,225,6550,24.6,Asfixia Radicular (Suelo Saturado)
+24.0,61.5,99740,210,8800,24.3,Asfixia Radicular (Suelo Saturado)
+22.9,70.4,99780,270,6750,24.2,Asfixia Radicular (Suelo Saturado)
+24.5,66.4,99745,255,6550,23.9,Asfixia Radicular (Suelo Saturado)
+24.7,64.9,99765,225,7500,24.3,Asfixia Radicular (Suelo Saturado)
+24.4,66.2,99785,285,6100,24.7,Asfixia Radicular (Suelo Saturado)
+25.8,69.1,99745,345,8350,24.2,Asfixia Radicular (Suelo Saturado)
+23.1,66.6,99805,180,6650,23.4,Asfixia Radicular (Suelo Saturado)
+25.1,67.9,99765,225,4400,24.0,Asfixia Radicular (Suelo Saturado)
+24.3,65.7,99795,210,6750,23.7,Asfixia Radicular (Suelo Saturado)
+26.0,66.9,99785,345,6600,24.0,Asfixia Radicular (Suelo Saturado)
+23.6,59.8,99760,360,8950,23.9,Asfixia Radicular (Suelo Saturado)
+25.3,71.5,99735,225,7150,24.5,Asfixia Radicular (Suelo Saturado)
+25.5,59.9,99745,225,8650,24.2,Asfixia Radicular (Suelo Saturado)
+24.0,66.7,99780,360,8450,23.2,Asfixia Radicular (Suelo Saturado)
+24.4,60.5,99735,405,9450,23.0,Asfixia Radicular (Suelo Saturado)
+25.0,62.6,99760,315,8000,23.7,Asfixia Radicular (Suelo Saturado)
+25.2,67.7,99800,345,7200,22.8,Asfixia Radicular (Suelo Saturado)
+25.1,67.1,99750,270,7300,23.4,Asfixia Radicular (Suelo Saturado)
+24.2,64.7,99765,300,7850,23.5,Asfixia Radicular (Suelo Saturado)
+26.2,63.5,99780,255,7400,23.6,Asfixia Radicular (Suelo Saturado)
+22.7,70.1,99760,225,5850,24.8,Asfixia Radicular (Suelo Saturado)
+23.5,66.3,99740,195,9400,23.5,Asfixia Radicular (Suelo Saturado)
+25.3,63.6,99760,315,6600,23.3,Asfixia Radicular (Suelo Saturado)
+26.1,67.5,99775,390,6300,23.1,Asfixia Radicular (Suelo Saturado)
+24.1,63.4,99780,285,6750,23.8,Asfixia Radicular (Suelo Saturado)
+26.0,64.5,99755,255,6600,23.2,Asfixia Radicular (Suelo Saturado)
+26.7,62.5,99780,210,9200,24.1,Asfixia Radicular (Suelo Saturado)
+26.0,66.7,99760,240,5800,23.2,Asfixia Radicular (Suelo Saturado)
+25.2,65.1,99790,195,6750,24.0,Asfixia Radicular (Suelo Saturado)
+25.7,69.4,99760,300,8600,24.5,Asfixia Radicular (Suelo Saturado)
+23.1,66.0,99750,345,6750,22.9,Asfixia Radicular (Suelo Saturado)
+25.1,65.2,99750,150,6100,23.6,Asfixia Radicular (Suelo Saturado)
+23.2,65.6,99775,135,7750,23.7,Asfixia Radicular (Suelo Saturado)
+25.3,71.6,99780,270,6600,24.4,Asfixia Radicular (Suelo Saturado)
+24.1,69.1,99760,195,6550,23.7,Asfixia Radicular (Suelo Saturado)
+25.8,67.2,99755,375,9050,24.0,Asfixia Radicular (Suelo Saturado)
+25.3,69.2,99770,255,6800,24.5,Asfixia Radicular (Suelo Saturado)
+23.7,69.3,99755,225,7300,24.1,Asfixia Radicular (Suelo Saturado)
+23.5,70.0,99770,195,6350,23.5,Asfixia Radicular (Suelo Saturado)
+25.6,64.9,99780,165,6700,23.0,Asfixia Radicular (Suelo Saturado)
+25.5,71.1,99755,270,6350,24.3,Asfixia Radicular (Suelo Saturado)
+23.7,65.0,99795,180,6700,24.6,Asfixia Radicular (Suelo Saturado)
+26.8,67.3,99735,270,8450,24.8,Asfixia Radicular (Suelo Saturado)
+26.2,66.8,99760,270,8700,24.7,Asfixia Radicular (Suelo Saturado)
+25.5,66.7,99775,180,5600,24.5,Asfixia Radicular (Suelo Saturado)
+22.8,67.8,99780,135,6250,24.2,Asfixia Radicular (Suelo Saturado)
+26.3,66.6,99770,285,6850,24.4,Asfixia Radicular (Suelo Saturado)
+24.4,72.5,99755,300,7300,23.7,Asfixia Radicular (Suelo Saturado)
+26.0,61.2,99790,375,7350,24.1,Asfixia Radicular (Suelo Saturado)
+25.2,65.5,99790,180,5950,23.6,Asfixia Radicular (Suelo Saturado)
+26.3,66.7,99775,195,5900,23.5,Asfixia Radicular (Suelo Saturado)
+25.9,69.5,99795,180,7050,24.4,Asfixia Radicular (Suelo Saturado)
+23.5,63.7,99765,240,6850,23.7,Asfixia Radicular (Suelo Saturado)
+24.4,59.9,99770,300,9200,23.3,Asfixia Radicular (Suelo Saturado)
+24.6,59.4,99755,360,4950,23.3,Asfixia Radicular (Suelo Saturado)
+23.8,59.6,99760,330,6400,24.6,Asfixia Radicular (Suelo Saturado)
+25.4,69.1,99765,210,7550,24.3,Asfixia Radicular (Suelo Saturado)
+24.7,70.1,99770,240,6600,23.9,Asfixia Radicular (Suelo Saturado)
+26.3,66.9,99780,375,7300,23.7,Asfixia Radicular (Suelo Saturado)
+23.0,68.2,99765,195,6550,23.7,Asfixia Radicular (Suelo Saturado)
+25.4,67.8,99730,285,8900,23.0,Asfixia Radicular (Suelo Saturado)
+23.6,61.6,99765,375,7500,23.8,Asfixia Radicular (Suelo Saturado)
+24.0,63.9,99785,330,6850,24.5,Asfixia Radicular (Suelo Saturado)
+23.9,63.7,99780,345,5400,23.6,Asfixia Radicular (Suelo Saturado)
+25.6,60.8,99740,210,8400,23.7,Asfixia Radicular (Suelo Saturado)
+23.8,64.4,99745,255,6800,22.9,Asfixia Radicular (Suelo Saturado)
+25.9,63.1,99765,195,9100,23.8,Asfixia Radicular (Suelo Saturado)
+24.1,60.2,99735,300,9250,22.9,Asfixia Radicular (Suelo Saturado)
+25.2,64.5,99755,150,5900,24.0,Asfixia Radicular (Suelo Saturado)
+25.1,70.3,99745,330,6500,23.8,Asfixia Radicular (Suelo Saturado)
+26.5,60.4,99765,360,7600,24.6,Asfixia Radicular (Suelo Saturado)
+25.4,72.2,99770,255,7800,24.0,Asfixia Radicular (Suelo Saturado)
+25.4,63.8,99765,165,7600,23.5,Asfixia Radicular (Suelo Saturado)
+25.4,70.8,99755,135,7300,23.8,Asfixia Radicular (Suelo Saturado)
+25.7,69.2,99780,345,8250,24.3,Asfixia Radicular (Suelo Saturado)
+23.3,72.2,99750,270,7450,23.0,Asfixia Radicular (Suelo Saturado)
+24.4,68.9,99785,330,6900,24.1,Asfixia Radicular (Suelo Saturado)
+23.2,65.6,99775,195,7050,24.6,Asfixia Radicular (Suelo Saturado)
+25.4,63.5,99780,285,7950,23.5,Asfixia Radicular (Suelo Saturado)
+24.2,67.2,99745,300,7000,24.1,Asfixia Radicular (Suelo Saturado)
+26.0,61.6,99755,270,6450,24.6,Asfixia Radicular (Suelo Saturado)
+25.5,62.9,99770,270,6900,23.8,Asfixia Radicular (Suelo Saturado)
+23.9,71.4,99775,315,7200,24.2,Asfixia Radicular (Suelo Saturado)
+24.1,68.4,99745,180,7050,23.4,Asfixia Radicular (Suelo Saturado)
+26.3,66.0,99785,180,8400,23.6,Asfixia Radicular (Suelo Saturado)
+23.5,71.8,99810,255,6450,24.2,Asfixia Radicular (Suelo Saturado)
+25.9,66.5,99755,165,9400,24.4,Asfixia Radicular (Suelo Saturado)
+24.1,66.8,99780,345,8400,24.7,Asfixia Radicular (Suelo Saturado)
+24.6,70.8,99745,285,6450,23.3,Asfixia Radicular (Suelo Saturado)
+23.4,63.9,99745,330,8000,23.7,Asfixia Radicular (Suelo Saturado)
+26.1,63.7,99765,300,5050,23.4,Asfixia Radicular (Suelo Saturado)
+24.4,72.1,99785,150,6350,23.0,Asfixia Radicular (Suelo Saturado)
+24.2,69.3,99730,225,8850,23.7,Asfixia Radicular (Suelo Saturado)
+24.2,68.6,99775,345,8000,23.7,Asfixia Radicular (Suelo Saturado)
+24.2,67.0,99765,165,7100,23.4,Asfixia Radicular (Suelo Saturado)
+26.6,69.4,99775,330,5450,23.5,Asfixia Radicular (Suelo Saturado)
+26.1,60.5,99795,360,6750,23.6,Asfixia Radicular (Suelo Saturado)
+24.1,64.4,99745,210,5750,24.8,Asfixia Radicular (Suelo Saturado)
+24.8,64.0,99740,240,8800,24.4,Asfixia Radicular (Suelo Saturado)
+24.3,67.4,99775,270,7400,23.0,Asfixia Radicular (Suelo Saturado)
+24.8,65.2,99750,330,7050,24.6,Asfixia Radicular (Suelo Saturado)
+25.1,66.0,99765,180,7000,24.1,Asfixia Radicular (Suelo Saturado)
+24.4,61.3,99745,375,8600,24.7,Asfixia Radicular (Suelo Saturado)
+25.6,64.6,99760,300,9050,23.6,Asfixia Radicular (Suelo Saturado)
+24.7,70.3,99805,360,6350,23.8,Asfixia Radicular (Suelo Saturado)
+26.3,66.3,99775,180,9200,24.7,Asfixia Radicular (Suelo Saturado)
+26.4,61.3,99765,195,7550,23.4,Asfixia Radicular (Suelo Saturado)
+26.1,63.7,99765,360,5300,24.7,Asfixia Radicular (Suelo Saturado)
+24.8,69.8,99760,330,6950,24.5,Asfixia Radicular (Suelo Saturado)
+24.5,64.4,99800,270,5500,24.8,Asfixia Radicular (Suelo Saturado)
+25.9,63.6,99740,315,8900,23.6,Asfixia Radicular (Suelo Saturado)
+24.0,69.2,99760,330,7350,23.3,Asfixia Radicular (Suelo Saturado)
+23.4,72.5,99770,150,6850,23.5,Asfixia Radicular (Suelo Saturado)
+25.0,61.0,99800,300,5450,24.8,Asfixia Radicular (Suelo Saturado)
+26.1,63.9,99755,360,6750,23.5,Asfixia Radicular (Suelo Saturado)
+23.8,63.8,99745,255,9150,24.0,Asfixia Radicular (Suelo Saturado)
+24.0,68.6,99760,195,6250,23.7,Asfixia Radicular (Suelo Saturado)
+25.2,60.3,99750,360,5100,23.7,Asfixia Radicular (Suelo Saturado)
+22.8,64.6,99780,210,5850,23.2,Asfixia Radicular (Suelo Saturado)
+23.2,65.8,99770,135,7500,23.9,Asfixia Radicular (Suelo Saturado)
+25.9,70.2,99790,390,5050,24.6,Asfixia Radicular (Suelo Saturado)
+25.1,69.9,99750,270,6400,22.9,Asfixia Radicular (Suelo Saturado)
+23.5,69.6,99750,315,5550,24.6,Asfixia Radicular (Suelo Saturado)
+26.4,68.3,99760,360,6050,24.2,Asfixia Radicular (Suelo Saturado)
+25.9,61.3,99760,180,6750,24.1,Asfixia Radicular (Suelo Saturado)
+25.0,68.5,99765,210,7900,24.1,Asfixia Radicular (Suelo Saturado)
+24.9,68.5,99750,210,6850,23.4,Asfixia Radicular (Suelo Saturado)
+25.6,65.9,99760,210,6100,23.7,Asfixia Radicular (Suelo Saturado)
+24.8,68.3,99780,315,5250,24.5,Asfixia Radicular (Suelo Saturado)
+23.4,70.8,99770,270,5350,23.4,Asfixia Radicular (Suelo Saturado)
+26.6,69.1,99780,285,4850,23.8,Asfixia Radicular (Suelo Saturado)
+24.4,63.8,99785,180,7100,22.8,Asfixia Radicular (Suelo Saturado)
+24.1,70.2,99755,270,5550,24.3,Asfixia Radicular (Suelo Saturado)
+24.3,72.7,99785,255,6000,23.6,Asfixia Radicular (Suelo Saturado)
+25.2,63.6,99750,285,9500,24.0,Asfixia Radicular (Suelo Saturado)
+26.3,59.5,99765,195,5450,23.1,Asfixia Radicular (Suelo Saturado)
+25.0,61.6,99780,315,9050,24.9,Asfixia Radicular (Suelo Saturado)
+24.2,69.8,99745,180,8650,23.5,Asfixia Radicular (Suelo Saturado)
+24.6,68.2,99775,225,6550,24.1,Asfixia Radicular (Suelo Saturado)
+24.3,66.4,99750,285,6800,24.0,Asfixia Radicular (Suelo Saturado)
+23.4,65.6,99770,135,6200,24.4,Asfixia Radicular (Suelo Saturado)
+24.3,65.5,99780,255,6750,23.4,Asfixia Radicular (Suelo Saturado)
+25.9,66.2,99775,240,8450,24.4,Asfixia Radicular (Suelo Saturado)
+22.8,67.1,99780,135,6750,23.6,Asfixia Radicular (Suelo Saturado)
+25.3,69.4,99760,195,8150,23.8,Asfixia Radicular (Suelo Saturado)
+24.7,66.8,99765,390,6800,24.3,Asfixia Radicular (Suelo Saturado)
+23.6,70.8,99775,255,6350,24.4,Asfixia Radicular (Suelo Saturado)
+23.9,65.6,99785,360,5650,24.1,Asfixia Radicular (Suelo Saturado)
+24.6,61.0,99745,285,7250,24.7,Asfixia Radicular (Suelo Saturado)
+26.3,65.9,99775,300,5800,23.4,Asfixia Radicular (Suelo Saturado)
+24.2,63.0,99775,255,8100,24.7,Asfixia Radicular (Suelo Saturado)
+26.0,63.0,99775,240,6250,23.1,Asfixia Radicular (Suelo Saturado)
+23.1,72.3,99755,195,7450,24.1,Asfixia Radicular (Suelo Saturado)
+25.7,67.2,99785,210,7000,23.9,Asfixia Radicular (Suelo Saturado)
+25.6,61.6,99735,270,8950,23.9,Asfixia Radicular (Suelo Saturado)
+24.8,64.9,99745,180,6800,23.4,Asfixia Radicular (Suelo Saturado)
+23.5,65.4,99780,180,5750,23.8,Asfixia Radicular (Suelo Saturado)
+24.6,69.6,99750,225,9350,23.2,Asfixia Radicular (Suelo Saturado)
+23.3,65.6,99775,225,6450,23.5,Asfixia Radicular (Suelo Saturado)
+25.5,66.1,99755,285,6800,23.0,Asfixia Radicular (Suelo Saturado)
+25.1,66.7,99740,360,8750,24.0,Asfixia Radicular (Suelo Saturado)
+25.3,62.8,99745,225,8350,23.1,Asfixia Radicular (Suelo Saturado)
+26.0,62.2,99800,225,6900,23.2,Asfixia Radicular (Suelo Saturado)
+23.7,64.3,99770,225,7000,23.0,Asfixia Radicular (Suelo Saturado)
+24.9,65.5,99770,345,5550,23.6,Asfixia Radicular (Suelo Saturado)
+25.8,61.2,99750,180,5900,24.6,Asfixia Radicular (Suelo Saturado)
+24.8,63.1,99750,285,7450,24.6,Asfixia Radicular (Suelo Saturado)
+25.3,67.9,99755,285,9000,23.0,Asfixia Radicular (Suelo Saturado)
+23.7,64.3,99740,165,6700,24.1,Asfixia Radicular (Suelo Saturado)
+23.3,70.9,99775,210,5400,24.2,Asfixia Radicular (Suelo Saturado)
+26.1,68.0,99770,210,7950,23.9,Asfixia Radicular (Suelo Saturado)
+24.4,68.0,99780,345,7050,24.1,Asfixia Radicular (Suelo Saturado)
+24.0,65.8,99785,240,6500,23.3,Asfixia Radicular (Suelo Saturado)
+25.5,64.5,99765,270,7350,23.8,Asfixia Radicular (Suelo Saturado)
+22.7,70.2,99745,270,6950,23.6,Asfixia Radicular (Suelo Saturado)
+26.2,66.1,99780,315,7400,23.1,Asfixia Radicular (Suelo Saturado)
+26.6,66.9,99785,285,7850,24.1,Asfixia Radicular (Suelo Saturado)
+26.5,60.7,99765,180,5850,23.9,Asfixia Radicular (Suelo Saturado)
+25.8,69.0,99780,240,8300,23.4,Asfixia Radicular (Suelo Saturado)
+23.7,63.3,99740,180,6450,23.8,Asfixia Radicular (Suelo Saturado)
+24.5,63.8,99755,330,6450,24.4,Asfixia Radicular (Suelo Saturado)
+24.9,66.9,99750,150,6700,24.4,Asfixia Radicular (Suelo Saturado)
+23.5,62.8,99795,255,7150,24.2,Asfixia Radicular (Suelo Saturado)
+23.1,67.9,99770,180,5650,23.7,Asfixia Radicular (Suelo Saturado)
+25.1,70.4,99780,360,6800,24.0,Asfixia Radicular (Suelo Saturado)
+23.5,71.1,99755,210,5600,23.6,Asfixia Radicular (Suelo Saturado)
+26.1,68.7,99755,240,8950,23.1,Asfixia Radicular (Suelo Saturado)
+25.9,64.5,99750,375,9400,23.6,Asfixia Radicular (Suelo Saturado)
+25.2,69.0,99795,225,6700,23.9,Asfixia Radicular (Suelo Saturado)
+25.0,63.6,99740,345,7750,24.0,Asfixia Radicular (Suelo Saturado)
+25.2,67.8,99750,135,6450,24.7,Asfixia Radicular (Suelo Saturado)
+26.2,61.4,99735,240,8350,24.4,Asfixia Radicular (Suelo Saturado)
+25.2,63.5,99775,315,9200,23.2,Asfixia Radicular (Suelo Saturado)
+24.3,63.1,99755,375,9200,23.2,Asfixia Radicular (Suelo Saturado)
+26.5,64.6,99775,240,6750,23.1,Asfixia Radicular (Suelo Saturado)
+26.1,65.9,99770,375,7700,24.3,Asfixia Radicular (Suelo Saturado)
+24.8,68.8,99780,300,8450,24.3,Asfixia Radicular (Suelo Saturado)
+22.7,66.5,99790,315,6050,24.8,Asfixia Radicular (Suelo Saturado)
+25.5,69.9,99765,255,9350,23.9,Asfixia Radicular (Suelo Saturado)
+22.8,70.6,99760,180,5500,24.5,Asfixia Radicular (Suelo Saturado)
+25.5,67.9,99745,345,6900,24.0,Asfixia Radicular (Suelo Saturado)
+25.6,69.0,99790,345,7250,24.6,Asfixia Radicular (Suelo Saturado)
+23.2,63.9,99765,240,5900,24.3,Asfixia Radicular (Suelo Saturado)
+24.7,70.8,99770,135,6850,24.2,Asfixia Radicular (Suelo Saturado)
+23.8,65.6,99750,180,8100,24.1,Asfixia Radicular (Suelo Saturado)
+26.0,69.9,99800,300,7400,24.3,Asfixia Radicular (Suelo Saturado)
+24.4,66.5,99780,165,5250,23.7,Asfixia Radicular (Suelo Saturado)
+25.7,67.1,99775,255,5650,23.1,Asfixia Radicular (Suelo Saturado)
+24.5,68.1,99800,225,5000,22.9,Asfixia Radicular (Suelo Saturado)
+24.1,63.6,99770,330,7100,23.9,Asfixia Radicular (Suelo Saturado)
+23.8,65.3,99760,150,6950,24.0,Asfixia Radicular (Suelo Saturado)
+24.1,64.2,99785,285,8900,23.0,Asfixia Radicular (Suelo Saturado)
+25.5,65.7,99800,300,5750,23.4,Asfixia Radicular (Suelo Saturado)
+22.8,65.3,99785,285,6700,23.5,Asfixia Radicular (Suelo Saturado)
+24.2,71.8,99775,225,6400,23.9,Asfixia Radicular (Suelo Saturado)
+26.4,65.4,99765,240,6900,23.5,Asfixia Radicular (Suelo Saturado)
+26.3,69.8,99800,330,7250,23.1,Asfixia Radicular (Suelo Saturado)
+26.0,67.8,99745,345,7900,23.2,Asfixia Radicular (Suelo Saturado)
+25.4,68.2,99785,285,7050,23.2,Asfixia Radicular (Suelo Saturado)
+23.7,69.1,99780,375,9000,24.6,Asfixia Radicular (Suelo Saturado)
+23.0,67.9,99770,300,7500,23.4,Asfixia Radicular (Suelo Saturado)
+25.5,68.9,99795,345,7450,24.3,Asfixia Radicular (Suelo Saturado)
+25.3,66.3,99785,165,6700,23.9,Asfixia Radicular (Suelo Saturado)
+25.5,66.5,99755,225,7500,24.8,Asfixia Radicular (Suelo Saturado)
+22.9,67.0,99775,240,7000,23.4,Asfixia Radicular (Suelo Saturado)
+24.8,64.3,99755,225,6150,23.2,Asfixia Radicular (Suelo Saturado)
+24.4,66.1,99785,300,6300,23.0,Asfixia Radicular (Suelo Saturado)
+26.1,64.9,99740,240,8250,23.4,Asfixia Radicular (Suelo Saturado)
+25.5,63.2,99750,330,8450,24.2,Asfixia Radicular (Suelo Saturado)
+24.0,69.4,99785,285,7450,23.1,Asfixia Radicular (Suelo Saturado)
+25.2,65.9,99780,270,9200,23.4,Asfixia Radicular (Suelo Saturado)
+25.9,64.1,99735,390,8600,24.6,Asfixia Radicular (Suelo Saturado)
+26.1,66.4,99755,255,8600,24.0,Asfixia Radicular (Suelo Saturado)
+23.9,67.6,99780,255,6300,23.0,Asfixia Radicular (Suelo Saturado)
+26.3,69.7,99775,240,8650,23.0,Asfixia Radicular (Suelo Saturado)
+24.4,67.4,99780,345,7050,23.0,Asfixia Radicular (Suelo Saturado)
+25.0,64.0,99775,240,7450,24.7,Asfixia Radicular (Suelo Saturado)
+25.0,67.0,99790,270,6900,24.5,Asfixia Radicular (Suelo Saturado)
+24.0,64.4,99750,210,8050,24.6,Asfixia Radicular (Suelo Saturado)
+23.0,71.8,99795,255,5550,24.7,Asfixia Radicular (Suelo Saturado)
+26.0,63.9,99800,240,6850,23.9,Asfixia Radicular (Suelo Saturado)
+24.3,69.9,99800,345,6700,23.4,Asfixia Radicular (Suelo Saturado)
+26.2,65.0,99760,360,7250,23.7,Asfixia Radicular (Suelo Saturado)
+25.0,72.5,99760,300,7050,24.2,Asfixia Radicular (Suelo Saturado)
+25.1,63.0,99775,300,6900,24.6,Asfixia Radicular (Suelo Saturado)
+23.5,71.7,99760,240,7050,23.7,Asfixia Radicular (Suelo Saturado)
+23.5,72.4,99780,300,5200,23.9,Asfixia Radicular (Suelo Saturado)
+24.6,72.5,99750,225,5600,24.7,Asfixia Radicular (Suelo Saturado)
+23.5,59.8,99730,300,8450,23.2,Asfixia Radicular (Suelo Saturado)
+25.9,61.7,99750,225,9250,24.6,Asfixia Radicular (Suelo Saturado)
+25.2,69.2,99775,150,7600,23.1,Asfixia Radicular (Suelo Saturado)
+24.9,60.3,99770,270,6800,23.9,Asfixia Radicular (Suelo Saturado)
+24.9,63.2,99775,240,5750,23.2,Asfixia Radicular (Suelo Saturado)
+23.2,65.0,99775,195,6700,24.0,Asfixia Radicular (Suelo Saturado)
+24.7,64.2,99790,345,6250,24.0,Asfixia Radicular (Suelo Saturado)
+26.3,65.4,99765,180,9400,23.6,Asfixia Radicular (Suelo Saturado)
+26.7,59.1,99770,225,5350,24.6,Asfixia Radicular (Suelo Saturado)
+25.3,62.7,99775,345,5500,24.2,Asfixia Radicular (Suelo Saturado)
+25.4,67.7,99750,225,6750,24.3,Asfixia Radicular (Suelo Saturado)
+25.2,66.2,99775,330,6750,23.2,Asfixia Radicular (Suelo Saturado)
+24.6,62.3,99790,300,5800,24.6,Asfixia Radicular (Suelo Saturado)
+24.6,64.1,99775,390,5900,23.2,Asfixia Radicular (Suelo Saturado)
+25.5,71.6,99760,270,6250,23.3,Asfixia Radicular (Suelo Saturado)
+23.2,72.7,99785,135,6900,23.1,Asfixia Radicular (Suelo Saturado)
+25.1,69.6,99735,240,8200,23.8,Asfixia Radicular (Suelo Saturado)
+24.4,71.3,99805,165,6850,24.6,Asfixia Radicular (Suelo Saturado)
+24.9,66.6,99750,345,5900,23.3,Asfixia Radicular (Suelo Saturado)
+25.1,66.9,99795,180,7900,23.6,Asfixia Radicular (Suelo Saturado)
+23.4,67.1,99770,225,5700,24.5,Asfixia Radicular (Suelo Saturado)
+24.2,65.6,99775,225,6300,24.1,Asfixia Radicular (Suelo Saturado)
+24.6,66.0,99750,330,6350,24.3,Asfixia Radicular (Suelo Saturado)
+25.6,65.8,99735,240,8650,23.3,Asfixia Radicular (Suelo Saturado)
+25.4,65.2,99745,405,9350,24.4,Asfixia Radicular (Suelo Saturado)
+24.9,62.8,99750,150,6400,23.3,Asfixia Radicular (Suelo Saturado)
+24.1,66.7,99780,195,5150,24.8,Asfixia Radicular (Suelo Saturado)
+25.3,62.8,99760,195,6800,23.9,Asfixia Radicular (Suelo Saturado)
+24.3,65.5,99785,315,7100,24.2,Asfixia Radicular (Suelo Saturado)
+23.0,62.8,99750,330,5700,23.0,Asfixia Radicular (Suelo Saturado)
+25.2,63.8,99765,180,8450,23.4,Asfixia Radicular (Suelo Saturado)
+26.3,60.5,99760,180,8400,23.1,Asfixia Radicular (Suelo Saturado)
+25.3,72.0,99745,300,6800,23.6,Asfixia Radicular (Suelo Saturado)
+23.4,66.6,99775,165,7850,23.4,Asfixia Radicular (Suelo Saturado)
+25.9,65.0,99765,210,6300,24.3,Asfixia Radicular (Suelo Saturado)
+23.0,66.2,99755,135,6200,23.0,Asfixia Radicular (Suelo Saturado)
+22.8,69.0,99770,150,7200,24.4,Asfixia Radicular (Suelo Saturado)
+24.3,70.9,99780,195,5750,22.9,Asfixia Radicular (Suelo Saturado)
+25.8,66.4,99775,195,8950,23.3,Asfixia Radicular (Suelo Saturado)
+25.8,67.7,99780,240,6800,24.5,Asfixia Radicular (Suelo Saturado)
+24.8,69.0,99800,360,6300,24.4,Asfixia Radicular (Suelo Saturado)
+22.7,71.1,99805,210,6600,23.8,Asfixia Radicular (Suelo Saturado)
+25.1,66.7,99795,330,6800,23.0,Asfixia Radicular (Suelo Saturado)
+23.7,62.1,99775,195,7100,24.2,Asfixia Radicular (Suelo Saturado)
+24.0,66.5,99755,315,6950,23.8,Asfixia Radicular (Suelo Saturado)
+23.6,68.0,99750,195,6350,23.4,Asfixia Radicular (Suelo Saturado)
+23.9,69.9,99775,300,6450,24.1,Asfixia Radicular (Suelo Saturado)
+23.5,71.0,99770,165,6350,23.7,Asfixia Radicular (Suelo Saturado)
+25.3,67.6,99755,375,7000,23.1,Asfixia Radicular (Suelo Saturado)
+23.6,68.2,99755,210,8400,24.8,Asfixia Radicular (Suelo Saturado)
+23.1,63.4,99750,210,6350,24.4,Asfixia Radicular (Suelo Saturado)
+25.5,59.9,99770,375,8150,23.0,Asfixia Radicular (Suelo Saturado)
+23.1,65.0,99760,270,6350,23.9,Asfixia Radicular (Suelo Saturado)
+24.5,72.0,99780,210,6200,23.0,Asfixia Radicular (Suelo Saturado)
+22.8,71.1,99780,345,6500,24.5,Asfixia Radicular (Suelo Saturado)
+23.8,69.7,99745,210,7450,24.0,Asfixia Radicular (Suelo Saturado)
+23.1,69.9,99770,150,6750,23.2,Asfixia Radicular (Suelo Saturado)
+23.0,69.9,99790,360,5000,22.9,Asfixia Radicular (Suelo Saturado)
+24.3,72.4,99760,180,5000,22.9,Asfixia Radicular (Suelo Saturado)
+26.5,68.3,99740,360,9700,23.9,Asfixia Radicular (Suelo Saturado)
+23.9,66.1,99745,210,8200,24.4,Asfixia Radicular (Suelo Saturado)
+23.9,69.6,99770,300,6750,23.1,Asfixia Radicular (Suelo Saturado)
+24.7,65.0,99775,255,6400,23.3,Asfixia Radicular (Suelo Saturado)
+24.0,69.2,99745,360,6600,23.5,Asfixia Radicular (Suelo Saturado)
+25.1,66.9,99765,255,6300,23.2,Asfixia Radicular (Suelo Saturado)
+23.9,61.2,99745,165,8750,23.7,Asfixia Radicular (Suelo Saturado)
+26.5,68.4,99790,300,7200,24.0,Asfixia Radicular (Suelo Saturado)
+23.9,67.8,99760,165,7200,24.2,Asfixia Radicular (Suelo Saturado)
+23.7,72.8,99785,315,7250,24.7,Asfixia Radicular (Suelo Saturado)
+26.2,63.0,99770,360,7700,24.7,Asfixia Radicular (Suelo Saturado)
+24.3,67.6,99770,240,6850,24.0,Asfixia Radicular (Suelo Saturado)
+25.1,64.5,99775,345,8000,24.3,Asfixia Radicular (Suelo Saturado)
+25.9,61.1,99760,210,9200,24.8,Asfixia Radicular (Suelo Saturado)
+25.1,63.9,99755,270,9450,23.0,Asfixia Radicular (Suelo Saturado)
+24.1,63.1,99790,255,7150,22.9,Asfixia Radicular (Suelo Saturado)
+24.7,64.0,99775,270,6750,22.9,Asfixia Radicular (Suelo Saturado)
+23.1,65.5,99775,135,6600,23.9,Asfixia Radicular (Suelo Saturado)
+26.0,62.4,99770,345,7100,24.5,Asfixia Radicular (Suelo Saturado)
+25.6,69.9,99775,150,7350,23.5,Asfixia Radicular (Suelo Saturado)
+24.9,60.3,99750,315,8200,24.0,Asfixia Radicular (Suelo Saturado)
+24.0,69.1,99755,135,6450,23.8,Asfixia Radicular (Suelo Saturado)
+22.8,70.5,99770,330,7650,23.0,Asfixia Radicular (Suelo Saturado)
+23.7,64.8,99765,210,8250,23.6,Asfixia Radicular (Suelo Saturado)
+25.5,72.1,99795,255,6700,22.8,Asfixia Radicular (Suelo Saturado)
+24.0,67.2,99770,225,9000,23.1,Asfixia Radicular (Suelo Saturado)
+24.1,70.3,99770,300,6250,24.4,Asfixia Radicular (Suelo Saturado)
+25.8,61.9,99755,240,8550,24.6,Asfixia Radicular (Suelo Saturado)
+25.4,70.5,99790,285,6850,24.4,Asfixia Radicular (Suelo Saturado)
+24.4,71.1,99770,195,7100,24.3,Asfixia Radicular (Suelo Saturado)
+25.1,63.2,99785,330,9450,24.5,Asfixia Radicular (Suelo Saturado)
+25.4,61.8,99745,165,9300,24.2,Asfixia Radicular (Suelo Saturado)
+25.5,66.6,99750,195,7000,24.1,Asfixia Radicular (Suelo Saturado)
+24.5,70.1,99745,255,5550,24.1,Asfixia Radicular (Suelo Saturado)
+24.3,67.1,99765,150,7000,23.8,Asfixia Radicular (Suelo Saturado)
+22.7,70.1,99800,165,6500,23.5,Asfixia Radicular (Suelo Saturado)
+22.9,64.0,99735,345,6300,24.3,Asfixia Radicular (Suelo Saturado)
+24.3,70.8,99780,360,7800,23.4,Asfixia Radicular (Suelo Saturado)
+26.2,63.1,99795,330,5600,24.0,Asfixia Radicular (Suelo Saturado)
+26.2,62.6,99765,225,8900,23.7,Asfixia Radicular (Suelo Saturado)
+26.3,65.8,99750,225,8550,23.4,Asfixia Radicular (Suelo Saturado)
+24.2,63.4,99790,285,7250,24.8,Asfixia Radicular (Suelo Saturado)
+25.1,63.0,99750,165,6600,23.3,Asfixia Radicular (Suelo Saturado)
+25.1,65.5,99775,345,7900,23.4,Asfixia Radicular (Suelo Saturado)
+25.7,66.4,99765,225,6350,23.2,Asfixia Radicular (Suelo Saturado)
+24.8,69.1,99780,405,6950,24.5,Asfixia Radicular (Suelo Saturado)
+24.0,71.1,99775,240,7050,24.0,Asfixia Radicular (Suelo Saturado)
+25.3,67.6,99760,315,7650,24.0,Asfixia Radicular (Suelo Saturado)
+24.7,60.3,99740,165,8450,24.5,Asfixia Radicular (Suelo Saturado)
+26.2,65.6,99790,360,6300,23.6,Asfixia Radicular (Suelo Saturado)
+24.5,67.0,99755,240,9050,23.3,Asfixia Radicular (Suelo Saturado)
+24.8,66.0,99775,285,5500,23.2,Asfixia Radicular (Suelo Saturado)
+25.6,61.1,99740,360,8200,24.3,Asfixia Radicular (Suelo Saturado)
+25.6,62.7,99735,195,8100,24.2,Asfixia Radicular (Suelo Saturado)
+24.0,70.6,99755,240,6800,23.2,Asfixia Radicular (Suelo Saturado)
+25.5,66.2,99750,255,6450,23.1,Asfixia Radicular (Suelo Saturado)
+24.6,70.8,99795,195,6150,23.1,Asfixia Radicular (Suelo Saturado)
+23.5,66.0,99745,240,7050,24.1,Asfixia Radicular (Suelo Saturado)
+25.4,61.4,99750,225,9100,22.9,Asfixia Radicular (Suelo Saturado)
+24.6,64.3,99730,240,8950,22.9,Asfixia Radicular (Suelo Saturado)
+24.6,64.5,99755,315,6850,23.7,Asfixia Radicular (Suelo Saturado)
+25.0,60.1,99760,315,9400,24.3,Asfixia Radicular (Suelo Saturado)
+26.0,60.9,99765,210,9050,24.3,Asfixia Radicular (Suelo Saturado)
+24.1,64.6,99750,330,6750,23.7,Asfixia Radicular (Suelo Saturado)
+24.6,63.8,99745,330,6850,24.2,Asfixia Radicular (Suelo Saturado)
+24.6,63.0,99735,285,8650,23.9,Asfixia Radicular (Suelo Saturado)
+23.4,72.5,99775,225,7600,24.8,Asfixia Radicular (Suelo Saturado)
+25.6,67.5,99785,225,6600,23.2,Asfixia Radicular (Suelo Saturado)
+24.4,69.2,99740,285,7450,24.0,Asfixia Radicular (Suelo Saturado)
+26.2,63.3,99755,315,8900,23.9,Asfixia Radicular (Suelo Saturado)
+24.2,63.5,99785,210,7300,23.3,Asfixia Radicular (Suelo Saturado)
+23.0,62.8,99780,285,7400,24.3,Asfixia Radicular (Suelo Saturado)
+26.3,64.9,99775,240,8000,23.5,Asfixia Radicular (Suelo Saturado)
+24.7,67.5,99760,135,6500,23.6,Asfixia Radicular (Suelo Saturado)
+24.4,62.0,99760,345,7000,23.6,Asfixia Radicular (Suelo Saturado)
+24.5,68.4,99770,330,6150,23.4,Asfixia Radicular (Suelo Saturado)
+25.0,67.7,99780,225,5950,23.7,Asfixia Radicular (Suelo Saturado)
+25.1,63.4,99780,285,8600,23.8,Asfixia Radicular (Suelo Saturado)
+25.8,61.4,99750,390,9300,24.4,Asfixia Radicular (Suelo Saturado)
+24.8,65.6,99765,315,6750,24.4,Asfixia Radicular (Suelo Saturado)
+23.8,70.3,99760,285,7150,23.1,Asfixia Radicular (Suelo Saturado)
+26.7,62.9,99765,180,7500,24.1,Asfixia Radicular (Suelo Saturado)
+23.4,64.8,99755,180,6400,24.6,Asfixia Radicular (Suelo Saturado)
+24.9,65.1,99760,225,8950,23.1,Asfixia Radicular (Suelo Saturado)
+26.3,61.5,99755,300,6800,23.8,Asfixia Radicular (Suelo Saturado)
+24.4,66.7,99765,345,8250,24.4,Asfixia Radicular (Suelo Saturado)
+24.6,66.0,99770,240,8350,24.2,Asfixia Radicular (Suelo Saturado)
+24.4,63.8,99740,210,7700,23.0,Asfixia Radicular (Suelo Saturado)
+24.0,63.0,99740,195,6450,23.6,Asfixia Radicular (Suelo Saturado)
+24.1,68.9,99760,195,7000,23.8,Asfixia Radicular (Suelo Saturado)
+23.7,65.7,99780,360,7850,24.8,Asfixia Radicular (Suelo Saturado)
+25.6,61.3,99790,330,5750,23.2,Asfixia Radicular (Suelo Saturado)
+25.7,68.6,99755,210,5400,24.8,Asfixia Radicular (Suelo Saturado)
+25.6,63.1,99770,330,7750,23.6,Asfixia Radicular (Suelo Saturado)
+22.8,67.0,99765,300,7250,23.2,Asfixia Radicular (Suelo Saturado)
+25.3,63.0,99795,315,4350,23.7,Asfixia Radicular (Suelo Saturado)
+25.5,68.9,99770,165,6450,24.0,Asfixia Radicular (Suelo Saturado)
+24.2,65.4,99795,225,7250,23.2,Asfixia Radicular (Suelo Saturado)
+24.7,72.3,99770,150,7150,23.4,Asfixia Radicular (Suelo Saturado)
+24.3,69.8,99785,315,6850,24.5,Asfixia Radicular (Suelo Saturado)
+25.2,64.4,99795,270,6300,24.8,Asfixia Radicular (Suelo Saturado)
+26.6,64.1,99795,285,5900,23.5,Asfixia Radicular (Suelo Saturado)
+23.4,66.7,99770,210,6550,23.1,Asfixia Radicular (Suelo Saturado)
+24.0,68.1,99770,180,5700,24.4,Asfixia Radicular (Suelo Saturado)
+25.0,69.4,99770,195,6250,24.1,Asfixia Radicular (Suelo Saturado)
+23.9,68.4,99745,360,6450,23.0,Asfixia Radicular (Suelo Saturado)
+23.1,63.4,99760,180,6550,24.7,Asfixia Radicular (Suelo Saturado)
+25.2,69.4,99775,150,6900,23.0,Asfixia Radicular (Suelo Saturado)
+22.7,62.7,99775,345,7300,24.1,Asfixia Radicular (Suelo Saturado)
+25.2,68.0,99795,285,7750,23.7,Asfixia Radicular (Suelo Saturado)
+24.8,69.5,99740,315,7350,23.9,Asfixia Radicular (Suelo Saturado)
+24.0,63.2,99770,165,5650,23.3,Asfixia Radicular (Suelo Saturado)
+25.3,65.8,99775,255,7300,24.2,Asfixia Radicular (Suelo Saturado)
+26.2,67.9,99750,270,9250,24.9,Asfixia Radicular (Suelo Saturado)
+24.2,70.6,99745,315,6600,23.7,Asfixia Radicular (Suelo Saturado)
+24.0,66.3,99790,135,6350,23.9,Asfixia Radicular (Suelo Saturado)
+23.3,65.9,99775,225,7250,23.3,Asfixia Radicular (Suelo Saturado)
+25.8,65.7,99750,360,8550,24.7,Asfixia Radicular (Suelo Saturado)
+23.1,63.0,99780,255,6900,24.8,Asfixia Radicular (Suelo Saturado)
+25.8,60.8,99790,300,6950,24.4,Asfixia Radicular (Suelo Saturado)
+25.3,64.1,99780,150,6750,23.9,Asfixia Radicular (Suelo Saturado)
+23.3,64.8,99780,150,7250,24.7,Asfixia Radicular (Suelo Saturado)
+25.3,67.9,99755,285,5350,23.1,Asfixia Radicular (Suelo Saturado)
+23.9,69.8,99760,330,9750,23.8,Asfixia Radicular (Suelo Saturado)
+26.5,66.4,99735,405,9700,23.9,Asfixia Radicular (Suelo Saturado)
+23.8,60.2,99735,315,9400,23.9,Asfixia Radicular (Suelo Saturado)
+25.6,65.3,99775,285,8700,24.5,Asfixia Radicular (Suelo Saturado)
+24.4,65.2,99770,360,7550,24.2,Asfixia Radicular (Suelo Saturado)
+25.9,61.1,99765,180,9500,23.2,Asfixia Radicular (Suelo Saturado)
+24.2,72.0,99780,225,7700,23.5,Asfixia Radicular (Suelo Saturado)
+24.2,64.4,99765,240,9400,23.5,Asfixia Radicular (Suelo Saturado)
+24.4,72.7,99780,150,6900,23.9,Asfixia Radicular (Suelo Saturado)
+23.8,66.8,99760,300,6650,23.4,Asfixia Radicular (Suelo Saturado)
+25.7,66.1,99750,285,9450,23.2,Asfixia Radicular (Suelo Saturado)
+25.3,63.9,99745,270,6650,24.1,Asfixia Radicular (Suelo Saturado)
+23.9,67.0,99780,225,6650,24.6,Asfixia Radicular (Suelo Saturado)
+24.7,62.8,99770,285,6750,24.7,Asfixia Radicular (Suelo Saturado)
+23.7,69.2,99790,195,6050,24.8,Asfixia Radicular (Suelo Saturado)
+25.5,67.8,99760,330,8400,24.4,Asfixia Radicular (Suelo Saturado)
+24.9,68.2,99780,270,9100,23.2,Asfixia Radicular (Suelo Saturado)
+23.8,69.8,99790,315,6500,24.5,Asfixia Radicular (Suelo Saturado)
+23.1,71.2,99765,180,6450,23.6,Asfixia Radicular (Suelo Saturado)
+23.9,64.8,99765,165,6950,24.3,Asfixia Radicular (Suelo Saturado)
+25.6,67.1,99740,285,7350,23.9,Asfixia Radicular (Suelo Saturado)
+23.6,69.7,99750,330,7350,24.5,Asfixia Radicular (Suelo Saturado)
+24.4,69.2,99785,240,6850,23.7,Asfixia Radicular (Suelo Saturado)
+24.9,70.1,99755,300,6200,22.9,Asfixia Radicular (Suelo Saturado)
+25.6,61.8,99770,390,8650,24.0,Asfixia Radicular (Suelo Saturado)
+24.4,60.7,99760,390,8700,23.3,Asfixia Radicular (Suelo Saturado)
+24.4,72.1,99740,300,5550,24.7,Asfixia Radicular (Suelo Saturado)
+25.3,68.2,99760,300,6500,23.9,Asfixia Radicular (Suelo Saturado)
+23.8,61.4,99760,225,8450,24.0,Asfixia Radicular (Suelo Saturado)
+24.9,68.0,99765,360,8050,24.8,Asfixia Radicular (Suelo Saturado)
+23.4,71.7,99790,225,5350,24.1,Asfixia Radicular (Suelo Saturado)
+23.8,64.3,99785,345,5400,23.4,Asfixia Radicular (Suelo Saturado)
+23.9,71.0,99765,150,6450,23.4,Asfixia Radicular (Suelo Saturado)
+24.9,72.3,99785,240,6900,23.8,Asfixia Radicular (Suelo Saturado)
+24.1,69.3,99760,300,8200,24.6,Asfixia Radicular (Suelo Saturado)
+24.2,71.8,99790,225,6350,24.5,Asfixia Radicular (Suelo Saturado)
+24.3,68.1,99755,180,6400,24.7,Asfixia Radicular (Suelo Saturado)
+24.2,66.3,99780,270,6950,23.0,Asfixia Radicular (Suelo Saturado)
+24.8,62.9,99755,315,7950,23.3,Asfixia Radicular (Suelo Saturado)
+23.8,63.0,99765,285,7850,23.0,Asfixia Radicular (Suelo Saturado)
+25.5,67.0,99755,195,6800,24.3,Asfixia Radicular (Suelo Saturado)
+24.9,63.8,99755,330,9000,23.2,Asfixia Radicular (Suelo Saturado)
+24.4,64.6,99745,195,7200,23.0,Asfixia Radicular (Suelo Saturado)
+25.1,66.8,99745,180,7100,23.9,Asfixia Radicular (Suelo Saturado)
+23.4,64.4,99795,285,7200,23.6,Asfixia Radicular (Suelo Saturado)
+22.8,71.4,99780,315,6400,24.2,Asfixia Radicular (Suelo Saturado)
+24.8,65.9,99775,240,7500,23.8,Asfixia Radicular (Suelo Saturado)
+25.0,66.0,99785,285,6950,23.7,Asfixia Radicular (Suelo Saturado)
+26.4,65.0,99800,240,7400,23.8,Asfixia Radicular (Suelo Saturado)
+26.3,60.1,99760,270,8700,24.6,Asfixia Radicular (Suelo Saturado)
+23.9,72.1,99755,165,6300,23.6,Asfixia Radicular (Suelo Saturado)
+24.8,65.6,99790,390,7850,23.5,Asfixia Radicular (Suelo Saturado)
+23.9,66.0,99780,315,6700,23.5,Asfixia Radicular (Suelo Saturado)
+23.7,64.4,99770,285,6350,23.2,Asfixia Radicular (Suelo Saturado)
+24.9,66.3,99760,255,7150,24.5,Asfixia Radicular (Suelo Saturado)
+26.1,60.8,99780,360,5050,23.2,Asfixia Radicular (Suelo Saturado)
+24.0,66.5,99780,240,7100,24.6,Asfixia Radicular (Suelo Saturado)
+22.7,68.2,99755,195,7800,23.4,Asfixia Radicular (Suelo Saturado)
+24.7,69.1,99800,225,7000,24.7,Asfixia Radicular (Suelo Saturado)
+24.6,66.9,99775,315,9350,24.5,Asfixia Radicular (Suelo Saturado)
+25.0,63.7,99775,345,6050,24.0,Asfixia Radicular (Suelo Saturado)
+22.9,64.4,99770,165,6400,24.1,Asfixia Radicular (Suelo Saturado)
+26.2,64.2,99750,210,8850,23.5,Asfixia Radicular (Suelo Saturado)
+24.6,64.7,99750,240,7550,24.0,Asfixia Radicular (Suelo Saturado)
+25.8,60.3,99755,345,7750,23.5,Asfixia Radicular (Suelo Saturado)
+25.0,68.9,99800,240,6300,23.7,Asfixia Radicular (Suelo Saturado)
+24.6,62.9,99770,195,7450,24.3,Asfixia Radicular (Suelo Saturado)
+25.6,68.2,99735,315,8400,23.4,Asfixia Radicular (Suelo Saturado)
+25.7,61.2,99745,285,8050,24.5,Asfixia Radicular (Suelo Saturado)
+23.9,72.5,99790,150,5550,23.6,Asfixia Radicular (Suelo Saturado)
+25.2,66.0,99775,195,7050,23.9,Asfixia Radicular (Suelo Saturado)
+24.5,70.1,99795,270,6050,24.8,Asfixia Radicular (Suelo Saturado)
+22.9,63.8,99765,240,7350,24.2,Asfixia Radicular (Suelo Saturado)
+23.9,71.5,99765,345,7400,24.1,Asfixia Radicular (Suelo Saturado)
+26.5,68.4,99745,330,7050,24.3,Asfixia Radicular (Suelo Saturado)
+22.8,69.2,99770,135,6400,24.6,Asfixia Radicular (Suelo Saturado)
+24.7,65.6,99790,285,5050,23.4,Asfixia Radicular (Suelo Saturado)
+23.6,70.2,99755,225,6950,24.0,Asfixia Radicular (Suelo Saturado)
+24.5,63.0,99765,150,7050,23.6,Asfixia Radicular (Suelo Saturado)
+24.1,65.8,99765,390,8700,22.9,Asfixia Radicular (Suelo Saturado)
+24.6,71.1,99780,315,7500,23.1,Asfixia Radicular (Suelo Saturado)
+23.7,63.3,99770,210,8900,23.6,Asfixia Radicular (Suelo Saturado)
+24.0,61.1,99765,225,7500,24.1,Asfixia Radicular (Suelo Saturado)
+25.6,64.1,99760,165,9000,24.6,Asfixia Radicular (Suelo Saturado)
+24.7,68.1,99810,240,6200,24.5,Asfixia Radicular (Suelo Saturado)
+25.6,63.9,99795,270,6400,23.9,Asfixia Radicular (Suelo Saturado)
+22.8,64.8,99800,225,6350,23.0,Asfixia Radicular (Suelo Saturado)
+24.7,61.6,99780,375,4900,23.4,Asfixia Radicular (Suelo Saturado)
+23.9,68.2,99790,180,7650,23.6,Asfixia Radicular (Suelo Saturado)
+24.8,59.7,99785,315,5900,24.1,Asfixia Radicular (Suelo Saturado)
+26.6,67.0,99750,360,7750,23.1,Asfixia Radicular (Suelo Saturado)
+26.3,63.8,99785,285,8050,24.0,Asfixia Radicular (Suelo Saturado)
+23.8,67.6,99765,165,9650,24.7,Asfixia Radicular (Suelo Saturado)
+25.5,69.7,99760,225,5750,24.3,Asfixia Radicular (Suelo Saturado)
+25.7,61.1,99725,240,8450,24.5,Asfixia Radicular (Suelo Saturado)
+24.2,63.2,99770,390,8250,24.2,Asfixia Radicular (Suelo Saturado)
+24.0,68.1,99745,375,7700,23.3,Asfixia Radicular (Suelo Saturado)
+25.3,65.6,99745,345,6050,23.0,Asfixia Radicular (Suelo Saturado)
+25.5,64.8,99765,330,6500,24.5,Asfixia Radicular (Suelo Saturado)
+25.6,71.1,99740,210,6700,24.2,Asfixia Radicular (Suelo Saturado)
+25.8,70.1,99800,360,6800,24.1,Asfixia Radicular (Suelo Saturado)
+24.6,68.3,99770,360,6400,23.2,Asfixia Radicular (Suelo Saturado)
+24.7,62.7,99755,240,8050,24.1,Asfixia Radicular (Suelo Saturado)
+23.1,66.6,99785,195,7300,22.9,Asfixia Radicular (Suelo Saturado)
+22.8,64.6,99770,255,5500,23.0,Asfixia Radicular (Suelo Saturado)
+25.9,67.7,99770,210,5500,23.5,Asfixia Radicular (Suelo Saturado)
+26.2,67.7,99760,180,9500,23.8,Asfixia Radicular (Suelo Saturado)
+25.9,69.4,99785,375,5550,23.1,Asfixia Radicular (Suelo Saturado)
+25.3,63.2,99750,345,7000,23.0,Asfixia Radicular (Suelo Saturado)
+25.3,68.1,99795,165,5800,24.3,Asfixia Radicular (Suelo Saturado)
+25.6,64.5,99795,225,7450,23.9,Asfixia Radicular (Suelo Saturado)
+23.3,66.4,99785,315,5550,23.9,Asfixia Radicular (Suelo Saturado)
+25.7,67.4,99780,315,8000,23.8,Asfixia Radicular (Suelo Saturado)
+25.4,62.1,99785,255,6950,24.8,Asfixia Radicular (Suelo Saturado)
+24.2,66.2,99770,345,8050,23.0,Asfixia Radicular (Suelo Saturado)
+26.7,66.5,99795,375,7050,23.2,Asfixia Radicular (Suelo Saturado)
+26.4,69.5,99750,375,8100,24.2,Asfixia Radicular (Suelo Saturado)
+23.1,70.5,99765,225,7350,23.1,Asfixia Radicular (Suelo Saturado)
+23.9,68.0,99765,210,8550,24.0,Asfixia Radicular (Suelo Saturado)
+24.8,68.1,99765,345,6900,23.9,Asfixia Radicular (Suelo Saturado)
+25.5,61.8,99735,180,8800,24.8,Asfixia Radicular (Suelo Saturado)
+25.4,66.9,99755,300,6900,24.6,Asfixia Radicular (Suelo Saturado)
+24.3,65.8,99765,195,6950,24.8,Asfixia Radicular (Suelo Saturado)
+24.1,66.8,99755,270,8750,23.1,Asfixia Radicular (Suelo Saturado)
+24.5,66.2,99790,270,8050,24.7,Asfixia Radicular (Suelo Saturado)
+23.7,64.2,99795,210,7150,23.1,Asfixia Radicular (Suelo Saturado)
+23.9,62.6,99790,390,7000,24.1,Asfixia Radicular (Suelo Saturado)
+25.3,64.3,99785,135,6900,24.3,Asfixia Radicular (Suelo Saturado)
+23.8,69.7,99775,330,5950,23.1,Asfixia Radicular (Suelo Saturado)
+23.8,69.2,99760,330,5650,24.1,Asfixia Radicular (Suelo Saturado)
+22.8,69.7,99755,195,7350,22.9,Asfixia Radicular (Suelo Saturado)
+23.4,66.5,99780,285,6950,23.5,Asfixia Radicular (Suelo Saturado)
+26.2,62.5,99735,225,9250,24.7,Asfixia Radicular (Suelo Saturado)
+25.5,66.4,99775,345,4950,23.2,Asfixia Radicular (Suelo Saturado)
+25.9,68.0,99780,300,6750,23.0,Asfixia Radicular (Suelo Saturado)
+23.9,67.5,99755,195,6400,23.7,Asfixia Radicular (Suelo Saturado)
+23.6,68.8,99790,225,6050,24.5,Asfixia Radicular (Suelo Saturado)
+24.0,66.8,99780,285,5550,23.0,Asfixia Radicular (Suelo Saturado)
+24.8,67.6,99770,390,6450,23.6,Asfixia Radicular (Suelo Saturado)
+26.2,68.3,99755,210,9050,24.7,Asfixia Radicular (Suelo Saturado)
+24.5,67.0,99780,300,7250,23.2,Asfixia Radicular (Suelo Saturado)
+25.8,65.2,99765,225,5350,23.5,Asfixia Radicular (Suelo Saturado)
+23.0,67.3,99745,315,5650,24.4,Asfixia Radicular (Suelo Saturado)
+25.8,66.4,99760,195,9250,24.0,Asfixia Radicular (Suelo Saturado)
+26.1,66.4,99780,315,9250,24.5,Asfixia Radicular (Suelo Saturado)
+25.5,64.7,99780,210,6200,23.1,Asfixia Radicular (Suelo Saturado)
+25.5,66.1,99775,300,8850,24.7,Asfixia Radicular (Suelo Saturado)
+26.6,59.8,99790,360,4750,24.7,Asfixia Radicular (Suelo Saturado)
+24.5,72.4,99745,300,7800,23.1,Asfixia Radicular (Suelo Saturado)
+24.5,67.9,99765,345,9750,23.0,Asfixia Radicular (Suelo Saturado)
+23.5,66.3,99755,255,6650,24.8,Asfixia Radicular (Suelo Saturado)
+24.7,68.0,99765,345,6450,23.8,Asfixia Radicular (Suelo Saturado)
+26.0,60.4,99765,300,9100,24.0,Asfixia Radicular (Suelo Saturado)
+24.5,60.6,99785,375,8150,24.1,Asfixia Radicular (Suelo Saturado)
+23.6,65.4,99745,255,7550,24.4,Asfixia Radicular (Suelo Saturado)
+26.8,66.8,99780,285,9350,24.5,Asfixia Radicular (Suelo Saturado)
+23.0,71.2,99780,195,5550,23.2,Asfixia Radicular (Suelo Saturado)
+24.6,65.3,99780,285,8050,23.3,Asfixia Radicular (Suelo Saturado)
+23.9,64.4,99770,210,5300,24.6,Asfixia Radicular (Suelo Saturado)
+26.1,64.0,99790,375,7950,24.5,Asfixia Radicular (Suelo Saturado)
+23.0,64.3,99765,285,6300,24.0,Asfixia Radicular (Suelo Saturado)
+24.7,63.9,99745,360,6700,24.8,Asfixia Radicular (Suelo Saturado)
+23.8,67.7,99785,195,6800,24.4,Asfixia Radicular (Suelo Saturado)
+24.6,72.3,99785,180,6500,23.2,Asfixia Radicular (Suelo Saturado)
+26.3,64.5,99760,375,9500,24.6,Asfixia Radicular (Suelo Saturado)
+23.8,69.2,99760,225,6550,23.6,Asfixia Radicular (Suelo Saturado)
+24.2,71.8,99750,240,7600,22.9,Asfixia Radicular (Suelo Saturado)
+23.8,63.9,99780,330,5400,23.5,Asfixia Radicular (Suelo Saturado)
+23.5,70.3,99760,255,6500,24.3,Asfixia Radicular (Suelo Saturado)
+25.0,68.8,99770,180,6600,24.7,Asfixia Radicular (Suelo Saturado)
+24.2,65.7,99755,375,9400,23.4,Asfixia Radicular (Suelo Saturado)
+26.0,62.9,99770,180,9600,23.4,Asfixia Radicular (Suelo Saturado)
+23.3,69.7,99765,345,6750,23.9,Asfixia Radicular (Suelo Saturado)
+24.4,67.8,99770,195,9000,24.6,Asfixia Radicular (Suelo Saturado)
+24.6,61.3,99790,315,7800,24.4,Asfixia Radicular (Suelo Saturado)
+25.6,65.2,99780,180,6950,24.0,Asfixia Radicular (Suelo Saturado)
+24.0,63.9,99735,300,5950,24.1,Asfixia Radicular (Suelo Saturado)
+26.0,68.6,99735,180,9000,23.4,Asfixia Radicular (Suelo Saturado)
+24.4,65.1,99790,375,7200,23.7,Asfixia Radicular (Suelo Saturado)
+22.7,70.8,99765,225,5700,23.3,Asfixia Radicular (Suelo Saturado)
+25.9,63.7,99770,195,7100,24.6,Asfixia Radicular (Suelo Saturado)
+25.2,64.2,99755,300,7400,23.0,Asfixia Radicular (Suelo Saturado)
+22.9,63.2,99765,240,5700,24.2,Asfixia Radicular (Suelo Saturado)
+24.4,65.6,99760,180,8100,23.3,Asfixia Radicular (Suelo Saturado)
+24.7,62.5,99775,180,7900,23.8,Asfixia Radicular (Suelo Saturado)
+25.0,68.3,99780,225,7700,23.4,Asfixia Radicular (Suelo Saturado)
+26.3,60.2,99775,195,8500,23.5,Asfixia Radicular (Suelo Saturado)
+25.2,67.6,99800,150,6400,23.3,Asfixia Radicular (Suelo Saturado)
+26.1,63.9,99765,240,6600,24.4,Asfixia Radicular (Suelo Saturado)
+23.4,68.4,99755,285,7450,23.5,Asfixia Radicular (Suelo Saturado)
+25.0,69.6,99775,255,6950,24.3,Asfixia Radicular (Suelo Saturado)
+25.0,66.5,99795,165,6600,23.9,Asfixia Radicular (Suelo Saturado)
+22.8,72.7,99770,360,5850,23.9,Asfixia Radicular (Suelo Saturado)
+24.1,64.0,99795,345,7150,23.9,Asfixia Radicular (Suelo Saturado)
+25.4,67.2,99740,180,7200,24.8,Asfixia Radicular (Suelo Saturado)
+25.4,66.8,99765,165,6150,23.5,Asfixia Radicular (Suelo Saturado)
+22.9,66.6,99785,345,6350,23.2,Asfixia Radicular (Suelo Saturado)
+24.9,69.3,99770,240,6450,24.6,Asfixia Radicular (Suelo Saturado)
+25.0,67.6,99750,195,7650,23.2,Asfixia Radicular (Suelo Saturado)
+24.5,65.2,99770,285,8300,24.6,Asfixia Radicular (Suelo Saturado)
+24.8,63.9,99735,345,9050,23.2,Asfixia Radicular (Suelo Saturado)
+25.9,70.4,99785,210,5000,24.2,Asfixia Radicular (Suelo Saturado)
+23.9,72.2,99780,300,6450,23.1,Asfixia Radicular (Suelo Saturado)
+24.1,63.1,99800,345,7150,24.7,Asfixia Radicular (Suelo Saturado)
+25.9,61.1,99790,300,6950,24.0,Asfixia Radicular (Suelo Saturado)
+26.1,68.5,99785,360,5700,23.5,Asfixia Radicular (Suelo Saturado)
+25.6,70.1,99755,195,9000,23.2,Asfixia Radicular (Suelo Saturado)
+25.7,62.6,99735,300,8800,23.7,Asfixia Radicular (Suelo Saturado)
+24.5,63.5,99750,270,8450,24.3,Asfixia Radicular (Suelo Saturado)
+23.1,72.2,99755,225,6100,23.6,Asfixia Radicular (Suelo Saturado)
+24.6,69.6,99800,195,6000,23.4,Asfixia Radicular (Suelo Saturado)
+23.6,65.8,99780,225,6600,24.0,Asfixia Radicular (Suelo Saturado)
+25.2,68.6,99760,165,7350,23.6,Asfixia Radicular (Suelo Saturado)
+23.1,72.0,99780,195,6450,23.1,Asfixia Radicular (Suelo Saturado)
+23.9,71.1,99755,195,5300,23.1,Asfixia Radicular (Suelo Saturado)
+25.0,67.5,99780,330,5500,24.3,Asfixia Radicular (Suelo Saturado)
+26.4,67.5,99780,180,6900,24.9,Asfixia Radicular (Suelo Saturado)
+23.1,64.4,99760,285,6250,23.3,Asfixia Radicular (Suelo Saturado)
+22.6,71.1,99750,180,7350,24.4,Asfixia Radicular (Suelo Saturado)
+24.1,63.4,99805,180,4850,23.0,Asfixia Radicular (Suelo Saturado)
+25.1,71.7,99790,210,7200,23.6,Asfixia Radicular (Suelo Saturado)
+24.2,63.8,99790,225,7700,23.9,Asfixia Radicular (Suelo Saturado)
+23.3,71.5,99785,255,7000,23.3,Asfixia Radicular (Suelo Saturado)
+23.0,65.6,99785,210,6350,23.9,Asfixia Radicular (Suelo Saturado)
+25.5,64.7,99740,375,8600,24.6,Asfixia Radicular (Suelo Saturado)
+23.9,61.1,99735,390,8550,24.8,Asfixia Radicular (Suelo Saturado)
+24.6,66.6,99765,270,7350,23.1,Asfixia Radicular (Suelo Saturado)
+23.4,71.3,99745,315,7800,23.4,Asfixia Radicular (Suelo Saturado)
+24.4,70.0,99765,135,7400,24.8,Asfixia Radicular (Suelo Saturado)
+24.9,68.2,99775,255,6850,23.4,Asfixia Radicular (Suelo Saturado)
+24.3,63.2,99770,300,6100,24.2,Asfixia Radicular (Suelo Saturado)
+25.4,72.2,99760,180,6600,23.3,Asfixia Radicular (Suelo Saturado)
+26.3,66.8,99775,165,8000,23.7,Asfixia Radicular (Suelo Saturado)
+24.7,67.6,99745,210,7550,23.3,Asfixia Radicular (Suelo Saturado)
+25.7,67.6,99750,270,8800,24.6,Asfixia Radicular (Suelo Saturado)
+24.8,70.4,99775,240,6850,24.6,Asfixia Radicular (Suelo Saturado)
+26.5,64.5,99790,255,5650,23.5,Asfixia Radicular (Suelo Saturado)
+24.7,66.9,99755,270,9250,24.5,Asfixia Radicular (Suelo Saturado)
+24.3,69.3,99745,240,5850,23.5,Asfixia Radicular (Suelo Saturado)
+25.0,68.6,99780,345,5400,23.1,Asfixia Radicular (Suelo Saturado)
+26.4,68.0,99725,195,8850,24.4,Asfixia Radicular (Suelo Saturado)
+23.3,63.3,99745,300,6650,24.0,Asfixia Radicular (Suelo Saturado)
+24.4,64.6,99795,330,6100,23.4,Asfixia Radicular (Suelo Saturado)
+24.5,60.2,99750,330,8900,23.4,Asfixia Radicular (Suelo Saturado)
+24.4,61.1,99765,345,7900,24.9,Asfixia Radicular (Suelo Saturado)
+24.3,68.6,99765,240,6700,24.5,Asfixia Radicular (Suelo Saturado)
+23.0,71.5,99785,180,7750,24.4,Asfixia Radicular (Suelo Saturado)
+24.4,60.9,99780,285,9250,23.1,Asfixia Radicular (Suelo Saturado)
+26.1,64.4,99755,390,8400,24.5,Asfixia Radicular (Suelo Saturado)
+25.0,69.0,99745,315,8750,23.3,Asfixia Radicular (Suelo Saturado)
+26.0,68.7,99775,180,6100,24.8,Asfixia Radicular (Suelo Saturado)
+23.7,64.9,99745,180,8000,23.0,Asfixia Radicular (Suelo Saturado)
+23.3,70.5,99760,360,7100,23.5,Asfixia Radicular (Suelo Saturado)
+26.0,65.3,99760,180,8050,23.7,Asfixia Radicular (Suelo Saturado)
+24.9,64.2,99765,150,6250,24.5,Asfixia Radicular (Suelo Saturado)
+23.9,63.8,99775,210,5100,24.3,Asfixia Radicular (Suelo Saturado)
+26.6,61.8,99740,405,8550,23.7,Asfixia Radicular (Suelo Saturado)
+26.5,63.4,99760,240,9300,24.0,Asfixia Radicular (Suelo Saturado)
+26.7,69.9,99775,270,5100,24.5,Asfixia Radicular (Suelo Saturado)
+24.0,70.8,99775,270,6650,22.8,Asfixia Radicular (Suelo Saturado)
+24.0,64.5,99785,165,7000,24.5,Asfixia Radicular (Suelo Saturado)
+25.5,65.1,99780,375,7950,24.8,Asfixia Radicular (Suelo Saturado)
+24.7,65.6,99765,255,6950,22.9,Asfixia Radicular (Suelo Saturado)
+23.1,69.8,99775,240,6550,22.9,Asfixia Radicular (Suelo Saturado)
+25.0,70.9,99755,330,8000,23.5,Asfixia Radicular (Suelo Saturado)
+22.7,65.2,99735,360,7550,23.0,Asfixia Radicular (Suelo Saturado)
+24.0,63.3,99765,225,6900,23.8,Asfixia Radicular (Suelo Saturado)
+23.6,69.1,99760,165,5900,24.3,Asfixia Radicular (Suelo Saturado)
+24.9,68.2,99785,315,5450,23.9,Asfixia Radicular (Suelo Saturado)
+23.5,66.9,99775,225,7450,23.2,Asfixia Radicular (Suelo Saturado)
+26.3,66.4,99765,390,8850,24.2,Asfixia Radicular (Suelo Saturado)
+24.5,68.0,99805,345,6950,24.2,Asfixia Radicular (Suelo Saturado)
+25.1,65.1,99745,165,7550,24.7,Asfixia Radicular (Suelo Saturado)
+25.6,66.9,99790,360,5950,23.1,Asfixia Radicular (Suelo Saturado)
+25.7,64.2,99765,255,9200,24.3,Asfixia Radicular (Suelo Saturado)
+26.7,68.9,99780,315,6900,24.8,Asfixia Radicular (Suelo Saturado)
+23.7,69.8,99745,180,7250,23.9,Asfixia Radicular (Suelo Saturado)
+24.6,69.1,99795,375,7250,23.6,Asfixia Radicular (Suelo Saturado)
+22.9,69.8,99755,285,5550,23.2,Asfixia Radicular (Suelo Saturado)
+24.4,65.9,99770,315,8800,24.6,Asfixia Radicular (Suelo Saturado)
+26.0,66.7,99730,360,8900,23.7,Asfixia Radicular (Suelo Saturado)
+23.8,69.4,99760,285,8450,24.7,Asfixia Radicular (Suelo Saturado)
+24.2,65.5,99770,225,6250,24.5,Asfixia Radicular (Suelo Saturado)
+24.3,67.8,99765,330,7350,23.6,Asfixia Radicular (Suelo Saturado)
+24.3,69.8,99745,300,6750,24.0,Asfixia Radicular (Suelo Saturado)
+24.0,69.8,99770,345,5350,22.9,Asfixia Radicular (Suelo Saturado)
+25.1,65.2,99755,345,6900,23.3,Asfixia Radicular (Suelo Saturado)
+24.0,66.2,99775,255,7900,24.3,Asfixia Radicular (Suelo Saturado)
+23.5,70.8,99775,240,5850,24.2,Asfixia Radicular (Suelo Saturado)
+25.5,63.9,99795,225,5150,23.6,Asfixia Radicular (Suelo Saturado)
+24.7,70.7,99780,270,6950,24.5,Asfixia Radicular (Suelo Saturado)
+23.8,66.5,99750,210,6500,23.3,Asfixia Radicular (Suelo Saturado)
+26.2,69.6,99765,345,6550,23.8,Asfixia Radicular (Suelo Saturado)
+23.9,68.0,99755,165,6350,23.8,Asfixia Radicular (Suelo Saturado)
+24.8,66.0,99790,195,7250,23.6,Asfixia Radicular (Suelo Saturado)
+23.8,60.2,99770,210,9050,24.8,Asfixia Radicular (Suelo Saturado)
+24.3,64.4,99765,150,6800,24.2,Asfixia Radicular (Suelo Saturado)
+25.8,65.1,99750,315,5450,23.9,Asfixia Radicular (Suelo Saturado)
+22.9,67.1,99785,165,6500,23.8,Asfixia Radicular (Suelo Saturado)
+24.6,65.9,99805,210,6450,23.2,Asfixia Radicular (Suelo Saturado)
+24.9,63.6,99790,135,6250,23.6,Asfixia Radicular (Suelo Saturado)
+23.8,71.0,99795,300,6850,24.2,Asfixia Radicular (Suelo Saturado)
+24.1,67.7,99755,345,8900,24.7,Asfixia Radicular (Suelo Saturado)
+24.6,64.8,99750,165,6150,24.4,Asfixia Radicular (Suelo Saturado)
+24.4,66.2,99755,345,9700,23.5,Asfixia Radicular (Suelo Saturado)
+26.5,68.6,99775,285,5550,23.7,Asfixia Radicular (Suelo Saturado)
+23.7,66.6,99780,210,7550,23.1,Asfixia Radicular (Suelo Saturado)
+24.7,65.9,99760,285,6800,23.0,Asfixia Radicular (Suelo Saturado)
+24.1,69.2,99750,165,6250,23.8,Asfixia Radicular (Suelo Saturado)
+26.4,62.1,99775,345,6950,23.9,Asfixia Radicular (Suelo Saturado)
+23.1,65.8,99775,150,6150,23.3,Asfixia Radicular (Suelo Saturado)
+24.6,65.2,99755,345,7000,24.2,Asfixia Radicular (Suelo Saturado)
+24.4,68.3,99775,135,6600,24.2,Asfixia Radicular (Suelo Saturado)
+24.8,60.8,99770,285,8600,23.5,Asfixia Radicular (Suelo Saturado)
+25.3,69.9,99800,390,6400,24.4,Asfixia Radicular (Suelo Saturado)
+24.9,66.3,99765,135,6200,23.2,Asfixia Radicular (Suelo Saturado)
+26.2,61.8,99760,270,9250,24.0,Asfixia Radicular (Suelo Saturado)
+22.9,67.8,99735,210,7550,24.4,Asfixia Radicular (Suelo Saturado)
+23.7,62.9,99780,300,7200,24.0,Asfixia Radicular (Suelo Saturado)
+25.0,67.9,99765,180,5700,24.6,Asfixia Radicular (Suelo Saturado)
+23.7,64.1,99785,180,4900,23.0,Asfixia Radicular (Suelo Saturado)
+26.8,61.9,99800,315,5100,24.0,Asfixia Radicular (Suelo Saturado)
+25.3,62.9,99775,255,6450,24.1,Asfixia Radicular (Suelo Saturado)
+24.7,67.1,99755,270,5800,24.1,Asfixia Radicular (Suelo Saturado)
+24.2,60.3,99755,210,7050,24.5,Asfixia Radicular (Suelo Saturado)
+23.4,70.4,99770,210,7100,24.3,Asfixia Radicular (Suelo Saturado)
+24.6,69.3,99770,255,6200,24.4,Asfixia Radicular (Suelo Saturado)
+25.3,68.9,99780,270,6600,23.4,Asfixia Radicular (Suelo Saturado)
+26.6,65.5,99755,255,8800,23.6,Asfixia Radicular (Suelo Saturado)
+23.3,68.9,99780,195,6400,24.1,Asfixia Radicular (Suelo Saturado)
+23.0,71.9,99760,195,6550,23.9,Asfixia Radicular (Suelo Saturado)
+24.0,60.1,99740,210,9450,24.8,Asfixia Radicular (Suelo Saturado)
+26.4,60.4,99775,240,6550,23.2,Asfixia Radicular (Suelo Saturado)
+24.5,62.1,99765,210,8050,23.6,Asfixia Radicular (Suelo Saturado)
+22.7,64.5,99775,270,6150,24.0,Asfixia Radicular (Suelo Saturado)
+24.5,62.8,99765,300,5800,24.6,Asfixia Radicular (Suelo Saturado)
+23.7,69.4,99790,225,6300,24.7,Asfixia Radicular (Suelo Saturado)
+26.7,64.5,99745,240,9100,23.5,Asfixia Radicular (Suelo Saturado)
+24.3,72.4,99765,180,7100,23.0,Asfixia Radicular (Suelo Saturado)
+24.0,61.9,99735,285,8950,23.7,Asfixia Radicular (Suelo Saturado)
+24.8,63.1,99755,390,7450,23.7,Asfixia Radicular (Suelo Saturado)
+23.7,72.6,99770,285,5400,24.8,Asfixia Radicular (Suelo Saturado)
+22.7,71.2,99740,300,6950,23.7,Asfixia Radicular (Suelo Saturado)
+23.8,64.3,99735,360,8250,23.5,Asfixia Radicular (Suelo Saturado)
+25.7,65.6,99755,255,8250,23.6,Asfixia Radicular (Suelo Saturado)
+23.1,71.3,99775,150,6350,23.6,Asfixia Radicular (Suelo Saturado)
+24.4,65.6,99765,315,6450,24.5,Asfixia Radicular (Suelo Saturado)
+23.7,65.0,99760,165,7850,23.0,Asfixia Radicular (Suelo Saturado)
+26.1,68.2,99765,300,9650,23.5,Asfixia Radicular (Suelo Saturado)
+24.3,68.3,99785,300,7600,24.7,Asfixia Radicular (Suelo Saturado)
+25.9,61.4,99765,360,8950,23.2,Asfixia Radicular (Suelo Saturado)
+25.4,64.2,99765,240,6550,24.4,Asfixia Radicular (Suelo Saturado)
+25.7,64.3,99780,285,8250,23.6,Asfixia Radicular (Suelo Saturado)
+22.7,71.4,99780,270,5700,24.0,Asfixia Radicular (Suelo Saturado)
+25.4,63.9,99755,330,6500,23.0,Asfixia Radicular (Suelo Saturado)
+23.0,71.8,99785,315,6850,23.4,Asfixia Radicular (Suelo Saturado)
+24.8,65.3,99765,390,8250,23.9,Asfixia Radicular (Suelo Saturado)
+25.9,64.0,99790,165,7900,23.3,Asfixia Radicular (Suelo Saturado)
+24.7,61.5,99770,270,9200,24.0,Asfixia Radicular (Suelo Saturado)
+26.2,67.1,99795,210,5750,23.3,Asfixia Radicular (Suelo Saturado)
+24.0,71.9,99775,165,7600,24.1,Asfixia Radicular (Suelo Saturado)
+26.2,64.0,99775,375,7650,24.7,Asfixia Radicular (Suelo Saturado)
+25.0,65.1,99775,360,7350,23.0,Asfixia Radicular (Suelo Saturado)
+26.7,66.5,99795,210,5250,23.3,Asfixia Radicular (Suelo Saturado)
+26.3,67.8,99760,165,9000,24.6,Asfixia Radicular (Suelo Saturado)
+26.4,58.8,99795,240,5550,24.1,Asfixia Radicular (Suelo Saturado)
+24.8,69.0,99785,315,7000,23.0,Asfixia Radicular (Suelo Saturado)
+24.9,65.9,99800,240,6450,23.8,Asfixia Radicular (Suelo Saturado)
+23.0,65.9,99785,150,5650,23.2,Asfixia Radicular (Suelo Saturado)
+24.7,67.4,99760,150,5500,23.2,Asfixia Radicular (Suelo Saturado)
+25.6,65.3,99745,225,7300,24.7,Asfixia Radicular (Suelo Saturado)
+25.6,67.7,99765,375,8750,24.4,Asfixia Radicular (Suelo Saturado)
+25.4,69.1,99750,195,6950,24.2,Asfixia Radicular (Suelo Saturado)
+26.1,65.4,99760,270,6900,23.4,Asfixia Radicular (Suelo Saturado)
+24.3,63.9,99730,195,8900,23.1,Asfixia Radicular (Suelo Saturado)
+24.5,63.0,99795,285,5450,24.6,Asfixia Radicular (Suelo Saturado)
+24.8,68.1,99795,330,6200,22.9,Asfixia Radicular (Suelo Saturado)
+23.2,67.2,99775,195,6700,23.6,Asfixia Radicular (Suelo Saturado)
+24.3,67.9,99770,195,6250,23.4,Asfixia Radicular (Suelo Saturado)
+26.6,64.0,99780,360,5450,24.0,Asfixia Radicular (Suelo Saturado)
+24.9,67.4,99775,135,5950,23.3,Asfixia Radicular (Suelo Saturado)
+24.1,65.4,99760,285,7550,23.4,Asfixia Radicular (Suelo Saturado)
+22.6,64.0,99755,225,7000,24.5,Asfixia Radicular (Suelo Saturado)
+24.3,60.6,99755,225,8300,24.1,Asfixia Radicular (Suelo Saturado)
+25.0,67.5,99760,315,8100,23.2,Asfixia Radicular (Suelo Saturado)
+23.6,64.8,99770,315,6250,24.3,Asfixia Radicular (Suelo Saturado)
+23.0,63.2,99775,255,5000,23.2,Asfixia Radicular (Suelo Saturado)
+23.9,70.6,99785,135,5800,23.7,Asfixia Radicular (Suelo Saturado)
+23.4,64.6,99755,240,5800,24.1,Asfixia Radicular (Suelo Saturado)
+25.3,69.2,99755,225,7250,23.4,Asfixia Radicular (Suelo Saturado)
+23.7,63.2,99750,285,8700,23.6,Asfixia Radicular (Suelo Saturado)
+23.5,61.0,99735,315,9150,24.3,Asfixia Radicular (Suelo Saturado)
+22.6,66.7,99760,135,6250,24.7,Asfixia Radicular (Suelo Saturado)
+23.7,63.1,99760,255,7300,23.9,Asfixia Radicular (Suelo Saturado)
+24.7,70.8,99780,270,5650,22.9,Asfixia Radicular (Suelo Saturado)
+24.8,67.7,99760,210,6800,23.5,Asfixia Radicular (Suelo Saturado)
+24.1,64.1,99785,285,5700,23.6,Asfixia Radicular (Suelo Saturado)
+25.5,62.1,99755,210,9400,23.6,Asfixia Radicular (Suelo Saturado)
+24.8,64.6,99755,240,7450,23.8,Asfixia Radicular (Suelo Saturado)
+24.7,64.8,99780,360,6400,24.1,Asfixia Radicular (Suelo Saturado)
+23.9,62.7,99725,255,9150,23.1,Asfixia Radicular (Suelo Saturado)
+24.9,64.1,99790,255,4750,23.4,Asfixia Radicular (Suelo Saturado)
+25.0,71.0,99795,270,7450,23.8,Asfixia Radicular (Suelo Saturado)
+25.8,63.6,99750,375,8950,23.5,Asfixia Radicular (Suelo Saturado)
+25.5,67.4,99800,390,6600,24.9,Asfixia Radicular (Suelo Saturado)
+24.2,69.1,99790,300,7150,23.7,Asfixia Radicular (Suelo Saturado)
+24.3,62.4,99795,165,6400,24.6,Asfixia Radicular (Suelo Saturado)
+25.8,70.9,99775,345,7300,24.6,Asfixia Radicular (Suelo Saturado)
+22.9,70.5,99745,270,6000,24.5,Asfixia Radicular (Suelo Saturado)
+23.9,63.2,99775,240,8800,23.0,Asfixia Radicular (Suelo Saturado)
+23.1,72.6,99760,315,7200,24.7,Asfixia Radicular (Suelo Saturado)
+24.4,62.3,99740,255,8450,23.2,Asfixia Radicular (Suelo Saturado)
+23.2,65.4,99750,135,7900,22.9,Asfixia Radicular (Suelo Saturado)
+24.1,70.5,99765,315,6700,23.7,Asfixia Radicular (Suelo Saturado)
+24.0,66.9,99770,255,6100,23.2,Asfixia Radicular (Suelo Saturado)
+25.4,66.0,99780,210,6100,23.2,Asfixia Radicular (Suelo Saturado)
+22.7,64.6,99795,180,6850,23.4,Asfixia Radicular (Suelo Saturado)
+23.6,70.3,99740,270,6450,23.3,Asfixia Radicular (Suelo Saturado)
+24.4,70.7,99785,180,6550,24.2,Asfixia Radicular (Suelo Saturado)
+24.4,68.4,99795,210,6450,23.2,Asfixia Radicular (Suelo Saturado)
+25.2,69.6,99730,315,8900,24.0,Asfixia Radicular (Suelo Saturado)
+25.0,66.3,99765,330,5900,24.8,Asfixia Radicular (Suelo Saturado)
+24.0,62.8,99800,300,5550,23.7,Asfixia Radicular (Suelo Saturado)
+25.0,69.5,99780,315,6450,24.1,Asfixia Radicular (Suelo Saturado)
+25.1,67.9,99785,345,7900,24.8,Asfixia Radicular (Suelo Saturado)
+24.1,61.0,99785,315,6250,23.1,Asfixia Radicular (Suelo Saturado)
+26.1,60.5,99760,225,8000,23.7,Asfixia Radicular (Suelo Saturado)
+25.6,68.9,99765,375,5000,24.6,Asfixia Radicular (Suelo Saturado)
+23.1,72.6,99780,225,7100,24.7,Asfixia Radicular (Suelo Saturado)
+23.8,66.3,99735,180,9200,24.1,Asfixia Radicular (Suelo Saturado)
+23.1,65.7,99775,195,7250,23.1,Asfixia Radicular (Suelo Saturado)
+25.3,69.8,99770,330,9500,24.7,Asfixia Radicular (Suelo Saturado)
+23.1,71.6,99770,150,6650,23.2,Asfixia Radicular (Suelo Saturado)
+24.4,64.2,99805,210,5400,23.6,Asfixia Radicular (Suelo Saturado)
+22.8,71.1,99770,285,6450,23.6,Asfixia Radicular (Suelo Saturado)
+24.8,71.0,99775,345,7450,23.7,Asfixia Radicular (Suelo Saturado)
+26.1,69.3,99765,315,9700,24.5,Asfixia Radicular (Suelo Saturado)
+25.1,71.3,99790,195,6600,24.4,Asfixia Radicular (Suelo Saturado)
+23.8,66.2,99765,180,8800,24.3,Asfixia Radicular (Suelo Saturado)
+25.3,69.0,99750,270,7500,22.9,Asfixia Radicular (Suelo Saturado)
+25.7,64.7,99775,180,8700,24.0,Asfixia Radicular (Suelo Saturado)
+25.3,69.1,99780,270,6300,24.4,Asfixia Radicular (Suelo Saturado)
+24.0,70.6,99745,180,7550,23.7,Asfixia Radicular (Suelo Saturado)
+24.0,72.6,99775,345,6900,24.7,Asfixia Radicular (Suelo Saturado)
+26.1,64.7,99795,270,7700,24.6,Asfixia Radicular (Suelo Saturado)
+22.9,68.4,99770,180,7050,24.1,Asfixia Radicular (Suelo Saturado)
+25.3,65.2,99780,375,5250,23.0,Asfixia Radicular (Suelo Saturado)
+25.2,69.2,99800,195,7200,24.2,Asfixia Radicular (Suelo Saturado)
+25.1,69.2,99775,195,7450,24.6,Asfixia Radicular (Suelo Saturado)
+25.5,62.9,99770,315,6400,23.6,Asfixia Radicular (Suelo Saturado)
+24.7,68.4,99755,195,5700,24.5,Asfixia Radicular (Suelo Saturado)
+23.2,63.6,99755,225,7150,23.4,Asfixia Radicular (Suelo Saturado)
+23.5,60.2,99770,240,8150,24.0,Asfixia Radicular (Suelo Saturado)
+24.1,70.6,99785,165,6100,24.2,Asfixia Radicular (Suelo Saturado)
+24.2,65.0,99770,150,6000,24.2,Asfixia Radicular (Suelo Saturado)
+24.5,63.3,99750,345,8650,24.6,Asfixia Radicular (Suelo Saturado)
+23.8,60.2,99735,300,8650,23.3,Asfixia Radicular (Suelo Saturado)
+25.6,61.7,99790,240,7250,23.4,Asfixia Radicular (Suelo Saturado)
+26.0,67.7,99750,240,8100,24.3,Asfixia Radicular (Suelo Saturado)
+26.6,65.1,99750,390,7250,23.2,Asfixia Radicular (Suelo Saturado)
+24.9,71.4,99745,360,6900,23.7,Asfixia Radicular (Suelo Saturado)
+25.0,66.7,99780,240,7250,22.9,Asfixia Radicular (Suelo Saturado)
+24.5,65.5,99770,315,5350,23.1,Asfixia Radicular (Suelo Saturado)
+25.7,66.1,99760,300,7450,24.2,Asfixia Radicular (Suelo Saturado)
+25.6,67.1,99775,240,9550,24.4,Asfixia Radicular (Suelo Saturado)
+25.2,68.5,99750,135,7650,23.0,Asfixia Radicular (Suelo Saturado)
+26.6,68.9,99755,210,8800,23.3,Asfixia Radicular (Suelo Saturado)
+25.4,68.9,99790,330,6200,23.0,Asfixia Radicular (Suelo Saturado)
+24.7,64.9,99765,330,6550,23.7,Asfixia Radicular (Suelo Saturado)
+22.9,70.6,99775,285,6100,23.1,Asfixia Radicular (Suelo Saturado)
+23.1,72.4,99745,165,7000,23.7,Asfixia Radicular (Suelo Saturado)
+22.8,66.5,99775,270,7700,24.3,Asfixia Radicular (Suelo Saturado)
+23.7,62.1,99755,345,9400,24.2,Asfixia Radicular (Suelo Saturado)
+24.4,66.2,99770,375,9200,23.4,Asfixia Radicular (Suelo Saturado)
+23.7,67.7,99755,135,7000,24.2,Asfixia Radicular (Suelo Saturado)
+25.0,69.5,99755,315,7950,24.7,Asfixia Radicular (Suelo Saturado)
+25.5,64.3,99775,165,8950,23.6,Asfixia Radicular (Suelo Saturado)
+24.0,60.4,99780,330,8050,23.5,Asfixia Radicular (Suelo Saturado)
+24.6,72.7,99740,270,6900,24.0,Asfixia Radicular (Suelo Saturado)
+24.7,71.3,99780,165,7200,23.3,Asfixia Radicular (Suelo Saturado)
+24.4,64.5,99760,315,6700,24.2,Asfixia Radicular (Suelo Saturado)
+25.4,71.7,99775,150,6500,24.5,Asfixia Radicular (Suelo Saturado)
+24.1,63.9,99765,375,4700,23.8,Asfixia Radicular (Suelo Saturado)
+24.3,64.8,99780,225,5000,24.2,Asfixia Radicular (Suelo Saturado)
+23.9,71.9,99750,300,6750,24.1,Asfixia Radicular (Suelo Saturado)
+23.8,64.9,99750,375,8100,22.9,Asfixia Radicular (Suelo Saturado)
+24.4,64.1,99745,210,6400,23.2,Asfixia Radicular (Suelo Saturado)
+24.6,63.5,99740,285,8950,24.7,Asfixia Radicular (Suelo Saturado)
+23.5,69.9,99790,240,7800,24.7,Asfixia Radicular (Suelo Saturado)
+23.1,64.4,99795,165,7150,24.4,Asfixia Radicular (Suelo Saturado)
+24.7,65.9,99770,300,9250,24.7,Asfixia Radicular (Suelo Saturado)
+24.5,69.7,99760,300,6400,23.4,Asfixia Radicular (Suelo Saturado)
+25.1,63.1,99750,360,9550,23.4,Asfixia Radicular (Suelo Saturado)
+24.1,66.9,99785,360,7150,23.6,Asfixia Radicular (Suelo Saturado)
+23.1,71.3,99810,255,7000,23.0,Asfixia Radicular (Suelo Saturado)
+23.7,64.7,99765,330,8050,24.5,Asfixia Radicular (Suelo Saturado)
+23.4,63.7,99775,345,9200,24.8,Asfixia Radicular (Suelo Saturado)
+25.3,65.2,99790,240,5700,24.5,Asfixia Radicular (Suelo Saturado)
+23.5,65.9,99780,195,8900,24.0,Asfixia Radicular (Suelo Saturado)
+26.0,69.8,99765,270,5050,23.5,Asfixia Radicular (Suelo Saturado)
+26.2,63.4,99750,360,6400,23.3,Asfixia Radicular (Suelo Saturado)
+24.0,63.9,99755,315,7950,23.7,Asfixia Radicular (Suelo Saturado)
+23.9,66.7,99775,300,6650,24.1,Asfixia Radicular (Suelo Saturado)
+26.5,65.8,99760,210,7850,23.8,Asfixia Radicular (Suelo Saturado)
+26.1,62.3,99760,390,6950,24.7,Asfixia Radicular (Suelo Saturado)
+24.1,71.1,99775,225,7150,24.5,Asfixia Radicular (Suelo Saturado)
+24.9,65.6,99760,285,7700,23.0,Asfixia Radicular (Suelo Saturado)
+26.1,67.2,99745,180,8650,23.1,Asfixia Radicular (Suelo Saturado)
+23.6,67.8,99780,165,6800,24.2,Asfixia Radicular (Suelo Saturado)
+25.3,68.3,99785,315,7100,23.3,Asfixia Radicular (Suelo Saturado)
+24.1,64.3,99800,360,6900,24.5,Asfixia Radicular (Suelo Saturado)
+25.0,67.3,99740,240,8600,24.1,Asfixia Radicular (Suelo Saturado)
+25.7,64.8,99775,150,7450,23.3,Asfixia Radicular (Suelo Saturado)
+26.2,61.1,99760,255,8800,23.8,Asfixia Radicular (Suelo Saturado)
+24.5,66.1,99765,165,4600,23.7,Asfixia Radicular (Suelo Saturado)
+23.4,67.3,99790,195,6800,24.7,Asfixia Radicular (Suelo Saturado)
+24.5,63.4,99760,300,6400,22.9,Asfixia Radicular (Suelo Saturado)
+25.9,60.8,99765,390,6100,24.7,Asfixia Radicular (Suelo Saturado)
+24.8,70.8,99760,150,6400,24.1,Asfixia Radicular (Suelo Saturado)
+25.6,70.8,99760,270,7400,24.3,Asfixia Radicular (Suelo Saturado)
+25.2,65.4,99755,180,6950,22.8,Asfixia Radicular (Suelo Saturado)
+25.0,66.2,99770,210,9400,24.2,Asfixia Radicular (Suelo Saturado)
+23.4,72.9,99775,315,5650,24.7,Óptimo
+24.9,67.3,99750,330,6600,24.1,Óptimo
+23.3,62.4,99775,360,6650,25.1,Óptimo
+23.6,71.3,99745,360,7350,24.3,Óptimo
+24.5,65.4,99785,450,6050,23.9,Óptimo
+22.9,67.8,99765,405,6500,25.2,Óptimo
+23.2,64.3,99785,315,6150,24.0,Óptimo
+24.6,67.2,99780,300,7200,23.7,Óptimo
+23.2,68.2,99775,330,6250,23.6,Óptimo
+23.5,67.7,99775,390,5850,25.2,Óptimo
+23.8,64.2,99780,315,6150,24.6,Óptimo
+23.5,68.4,99755,420,5350,23.9,Óptimo
+22.7,67.7,99780,390,6300,24.9,Óptimo
+25.2,65.9,99770,435,6950,24.3,Óptimo
+22.4,72.3,99775,480,5450,23.8,Óptimo
+24.5,67.5,99765,360,6100,24.7,Óptimo
+22.6,71.8,99795,345,6100,24.7,Óptimo
+24.0,64.3,99750,375,7300,24.3,Óptimo
+22.8,66.5,99760,300,6100,23.3,Óptimo
+22.6,65.6,99795,330,5150,23.3,Óptimo
+22.7,67.1,99790,480,6250,24.8,Óptimo
+24.0,63.7,99740,360,7000,24.9,Óptimo
+23.8,67.5,99790,540,5300,24.5,Óptimo
+23.2,65.8,99745,345,7500,24.9,Óptimo
+25.3,65.5,99780,495,6100,24.6,Óptimo
+23.1,69.5,99775,465,5700,25.0,Óptimo
+23.8,72.6,99770,375,5600,23.5,Óptimo
+22.9,65.4,99780,375,5750,24.0,Óptimo
+23.8,70.6,99760,435,6050,24.0,Óptimo
+24.7,70.6,99755,510,6450,23.8,Óptimo
+23.8,69.3,99780,405,5800,24.6,Óptimo
+23.1,72.7,99765,315,6350,24.9,Óptimo
+23.0,73.0,99795,390,5150,24.0,Óptimo
+24.7,66.7,99765,360,6250,25.1,Óptimo
+23.2,68.7,99735,525,6300,24.3,Óptimo
+23.3,70.4,99785,465,5200,24.2,Óptimo
+23.1,67.1,99755,315,6000,24.5,Óptimo
+23.6,65.5,99755,375,7650,23.8,Óptimo
+22.7,73.1,99770,315,6600,23.9,Óptimo
+25.3,70.5,99790,495,6100,24.4,Óptimo
+24.5,64.3,99775,510,5400,25.1,Óptimo
+24.1,64.5,99765,330,5600,24.5,Óptimo
+23.1,72.3,99770,405,6700,23.9,Óptimo
+24.4,63.2,99735,525,6900,23.3,Óptimo
+24.4,69.1,99735,330,7050,25.2,Óptimo
+24.0,66.2,99790,375,6000,24.1,Óptimo
+22.9,62.9,99790,375,7150,25.1,Óptimo
+25.3,63.8,99760,315,5350,24.3,Óptimo
+24.2,66.1,99770,315,5950,24.5,Óptimo
+25.2,64.1,99790,510,5500,24.6,Óptimo
+22.3,69.4,99755,435,5500,23.8,Óptimo
+23.0,69.6,99755,375,6350,24.6,Óptimo
+22.5,67.8,99795,390,4900,24.2,Óptimo
+24.7,70.7,99780,465,5750,24.5,Óptimo
+23.4,68.3,99755,390,6950,24.9,Óptimo
+24.8,67.3,99770,360,5500,23.6,Óptimo
+24.8,67.4,99745,330,4850,24.4,Óptimo
+24.2,68.5,99770,465,6600,23.2,Óptimo
+24.5,72.8,99775,360,6850,23.5,Óptimo
+24.5,70.1,99770,315,6150,24.5,Óptimo
+24.2,66.7,99785,405,6300,23.3,Óptimo
+24.0,68.0,99760,300,6950,24.4,Óptimo
+24.5,66.7,99750,525,5500,23.6,Óptimo
+25.5,63.5,99745,450,7150,23.9,Óptimo
+23.4,68.1,99790,345,6500,23.4,Óptimo
+25.6,68.3,99780,345,7300,23.7,Óptimo
+22.2,67.3,99765,435,6650,24.8,Óptimo
+23.4,71.8,99770,390,5950,24.5,Óptimo
+22.7,67.2,99785,480,5750,25.1,Óptimo
+22.7,66.6,99775,435,5100,23.3,Óptimo
+25.2,72.3,99750,405,6050,24.8,Óptimo
+25.0,68.6,99765,525,5850,24.5,Óptimo
+24.5,71.6,99765,405,6200,23.6,Óptimo
+25.2,71.5,99790,405,5700,24.6,Óptimo
+22.9,72.4,99775,465,6000,24.6,Óptimo
+22.6,64.2,99785,495,6450,24.0,Óptimo
+23.9,65.8,99790,450,6550,24.5,Óptimo
+25.4,70.1,99785,465,7300,24.1,Óptimo
+22.9,67.9,99745,390,6050,23.9,Óptimo
+25.8,66.4,99755,405,7050,24.2,Óptimo
+24.5,64.2,99765,345,7500,25.0,Óptimo
+25.2,65.9,99745,465,5400,23.9,Óptimo
+23.4,68.2,99790,360,6000,24.0,Óptimo
+24.3,65.2,99780,300,7700,24.5,Óptimo
+24.8,65.3,99770,525,6800,24.8,Óptimo
+24.6,64.8,99760,375,6000,24.6,Óptimo
+22.9,65.6,99750,345,5450,23.2,Óptimo
+25.7,70.2,99765,360,6900,24.6,Óptimo
+25.2,70.4,99785,375,6550,24.2,Óptimo
+22.3,64.7,99765,420,5400,24.2,Óptimo
+22.9,65.2,99740,330,6600,24.4,Óptimo
+23.8,68.6,99760,315,5600,24.7,Óptimo
+23.9,66.6,99790,375,6600,24.9,Óptimo
+24.6,71.4,99770,375,7400,24.5,Óptimo
+22.7,71.0,99800,330,5350,24.3,Óptimo
+24.2,72.0,99790,405,5750,23.9,Óptimo
+24.0,69.4,99780,375,5850,23.4,Óptimo
+23.0,66.5,99750,315,5550,25.1,Óptimo
+24.0,69.3,99765,510,7050,24.1,Óptimo
+22.9,65.0,99775,510,5350,24.3,Óptimo
+22.8,63.2,99790,360,5450,24.7,Óptimo
+24.6,62.6,99760,330,6400,23.4,Óptimo
+25.3,67.1,99755,435,5900,25.0,Óptimo
+22.9,65.9,99775,450,5700,24.7,Óptimo
+23.4,64.7,99760,525,5050,24.7,Óptimo
+23.2,69.4,99780,390,6850,23.2,Óptimo
+23.7,72.5,99760,450,6600,24.3,Óptimo
+23.4,66.0,99760,510,5500,23.2,Óptimo
+24.7,68.7,99755,405,6500,24.4,Óptimo
+22.3,65.1,99775,330,5500,24.6,Óptimo
+25.6,71.8,99765,390,6850,23.5,Óptimo
+22.6,66.0,99750,345,6800,24.6,Óptimo
+25.1,72.2,99785,315,6700,24.1,Óptimo
+25.0,65.8,99755,480,5700,24.8,Óptimo
+24.0,71.3,99750,360,5800,24.3,Óptimo
+22.8,65.3,99785,300,4850,23.9,Óptimo
+24.1,66.2,99755,510,5800,23.9,Óptimo
+24.3,65.1,99775,405,5600,25.0,Óptimo
+24.8,66.6,99795,360,5700,24.0,Óptimo
+23.9,72.2,99785,360,5400,23.9,Óptimo
+23.8,69.6,99770,360,6850,23.3,Óptimo
+24.7,67.7,99780,345,5750,23.8,Óptimo
+25.7,71.9,99745,495,6250,24.9,Óptimo
+24.3,67.8,99770,345,6200,24.7,Óptimo
+25.1,72.8,99760,435,6200,23.7,Óptimo
+24.3,65.4,99790,330,6500,24.0,Óptimo
+25.0,71.5,99760,525,6600,23.6,Óptimo
+24.5,63.3,99770,450,5750,25.1,Óptimo
+24.3,69.0,99800,510,5650,24.3,Óptimo
+23.2,68.1,99785,390,5500,24.6,Óptimo
+24.3,68.5,99790,495,7150,24.7,Óptimo
+24.3,68.6,99775,495,7350,25.0,Óptimo
+23.5,66.5,99755,465,6000,25.1,Óptimo
+23.6,73.2,99780,330,7050,23.3,Óptimo
+25.1,72.0,99745,300,6500,25.2,Óptimo
+24.3,72.2,99750,345,6100,25.0,Óptimo
+23.2,72.2,99780,330,5750,24.0,Óptimo
+24.9,71.1,99780,480,6950,24.9,Óptimo
+24.9,73.0,99790,435,5850,24.6,Óptimo
+23.6,72.9,99805,420,6750,24.7,Óptimo
+22.8,68.2,99790,360,5850,23.6,Óptimo
+25.2,71.1,99755,345,4400,24.5,Óptimo
+25.1,72.1,99775,360,7000,23.3,Óptimo
+22.9,70.9,99785,390,6500,24.8,Óptimo
+22.8,67.3,99795,480,7100,25.2,Óptimo
+23.6,64.1,99770,360,5950,24.5,Óptimo
+24.5,71.1,99750,465,6300,24.3,Óptimo
+22.9,72.7,99795,420,4950,24.7,Óptimo
+23.9,66.9,99760,495,5800,23.8,Óptimo
+23.5,65.6,99775,360,5850,24.4,Óptimo
+25.5,65.5,99760,405,7600,24.7,Óptimo
+23.6,69.3,99770,330,5950,23.4,Óptimo
+23.9,66.7,99790,390,6050,23.4,Óptimo
+25.1,69.8,99765,420,5600,24.6,Óptimo
+23.2,72.9,99790,480,5250,24.1,Óptimo
+23.1,70.9,99745,345,6550,24.9,Óptimo
+24.6,67.2,99765,360,5900,23.7,Óptimo
+23.0,73.3,99760,450,5850,23.2,Óptimo
+24.8,69.2,99790,390,5850,24.4,Óptimo
+22.6,64.5,99770,420,5050,24.6,Óptimo
+22.6,68.4,99780,495,6350,24.3,Óptimo
+25.0,69.5,99785,420,6000,24.6,Óptimo
+23.9,71.6,99785,450,5150,24.2,Óptimo
+24.5,72.5,99775,465,6050,24.5,Óptimo
+23.3,66.3,99760,495,6250,23.3,Óptimo
+22.8,64.9,99765,450,5700,23.9,Óptimo
+24.7,64.9,99770,315,5400,23.5,Óptimo
+23.3,71.2,99755,390,6700,23.3,Óptimo
+23.6,71.7,99795,525,6550,23.6,Óptimo
+22.4,67.3,99795,345,5100,23.6,Óptimo
+23.5,67.2,99770,435,5150,25.1,Óptimo
+24.7,72.6,99775,495,6200,23.8,Óptimo
+25.3,71.5,99790,435,7400,23.7,Óptimo
+24.9,64.6,99760,390,6500,24.9,Óptimo
+24.9,70.2,99780,315,5850,24.1,Óptimo
+23.8,69.3,99755,390,5600,24.0,Óptimo
+23.8,65.3,99775,345,6250,24.0,Óptimo
+25.0,65.8,99785,525,6450,24.1,Óptimo
+22.9,65.9,99775,480,6350,23.8,Óptimo
+23.3,66.2,99775,480,7400,23.8,Óptimo
+25.5,68.7,99785,405,6200,25.0,Óptimo
+22.4,67.3,99785,330,5500,23.4,Óptimo
+22.7,67.4,99785,375,4850,23.5,Óptimo
+24.1,68.5,99775,360,5700,24.3,Óptimo
+24.4,64.3,99780,420,5300,23.8,Óptimo
+24.0,70.6,99790,405,6200,24.0,Óptimo
+23.4,67.5,99800,405,6100,24.7,Óptimo
+25.3,68.0,99790,420,5700,25.0,Óptimo
+24.4,73.2,99785,540,5150,24.7,Óptimo
+24.9,66.6,99755,375,5600,23.7,Óptimo
+22.5,69.5,99790,450,5750,25.2,Óptimo
+23.0,67.0,99785,360,5100,23.9,Óptimo
+23.5,72.2,99785,420,6000,23.5,Óptimo
+22.8,71.5,99760,345,6150,24.2,Óptimo
+22.4,66.5,99790,435,6600,24.6,Óptimo
+23.1,70.2,99750,360,5600,23.4,Óptimo
+24.2,63.8,99755,315,6950,24.5,Óptimo
+24.4,72.6,99780,495,5350,24.9,Óptimo
+24.4,67.6,99780,345,6050,23.6,Óptimo
+22.7,71.5,99760,390,6750,24.6,Óptimo
+23.9,66.4,99775,420,7100,24.0,Óptimo
+22.8,69.3,99770,405,5700,24.1,Óptimo
+23.5,73.5,99745,465,5750,23.7,Óptimo
+23.9,71.9,99750,450,6250,24.5,Óptimo
+23.9,64.7,99790,375,5500,23.9,Óptimo
+25.2,68.6,99750,330,6600,24.9,Óptimo
+24.8,66.7,99760,480,6250,25.2,Óptimo
+24.2,67.6,99780,390,5600,25.1,Óptimo
+24.9,66.8,99770,510,6350,23.4,Óptimo
+24.2,67.3,99795,390,5600,23.1,Óptimo
+24.8,68.7,99790,465,5500,24.1,Óptimo
+23.9,65.7,99790,525,5550,24.6,Óptimo
+23.9,68.6,99770,450,4300,25.1,Óptimo
+25.1,65.2,99760,405,6800,24.8,Óptimo
+22.3,66.7,99785,435,6400,24.3,Óptimo
+24.5,70.7,99765,435,6050,23.2,Óptimo
+25.4,63.4,99745,450,6900,24.9,Óptimo
+24.4,67.1,99770,345,6000,23.5,Óptimo
+22.7,67.2,99740,465,6400,23.4,Óptimo
+23.3,68.7,99800,330,6450,24.8,Óptimo
+24.7,69.8,99790,315,5300,24.3,Óptimo
+25.7,66.0,99745,450,6350,23.5,Óptimo
+23.6,65.1,99755,330,6100,24.0,Óptimo
+24.9,71.9,99795,480,5600,23.4,Óptimo
+25.0,73.1,99765,510,6600,24.5,Óptimo
+22.8,63.4,99790,525,6050,23.8,Óptimo
+25.4,67.9,99770,450,6000,25.0,Óptimo
+23.2,67.5,99790,420,4500,23.8,Óptimo
+24.4,66.0,99775,390,6450,24.2,Óptimo
+24.2,66.6,99745,420,6900,23.4,Óptimo
+24.2,69.1,99760,360,5250,23.7,Óptimo
+24.5,65.1,99780,390,5750,24.5,Óptimo
+24.1,71.3,99790,465,7250,24.7,Óptimo
+25.0,67.9,99760,360,5500,23.7,Óptimo
+24.6,67.2,99785,360,6700,24.1,Óptimo
+24.7,71.2,99765,480,5250,24.8,Óptimo
+24.2,60.9,99785,330,7350,24.0,Óptimo
+22.4,67.3,99785,360,5650,23.5,Óptimo
+23.9,66.8,99770,315,4800,24.1,Óptimo
+25.0,66.4,99755,465,6500,24.4,Óptimo
+23.0,66.7,99745,450,6550,23.2,Óptimo
+25.3,63.6,99780,465,6750,23.9,Óptimo
+24.7,64.7,99775,360,4700,24.4,Óptimo
+24.3,65.7,99765,465,6050,25.0,Óptimo
+24.8,70.6,99790,435,5950,24.1,Óptimo
+24.4,63.3,99765,390,5950,23.6,Óptimo
+24.5,64.8,99780,405,5800,24.2,Óptimo
+23.6,73.2,99760,435,6000,23.7,Óptimo
+25.3,67.1,99745,420,6850,23.7,Óptimo
+24.5,67.6,99765,450,6050,24.4,Óptimo
+24.9,63.4,99775,345,6350,25.1,Óptimo
+24.6,70.8,99770,435,5250,24.8,Óptimo
+22.5,65.3,99795,405,5700,23.5,Óptimo
+22.7,69.9,99760,420,6550,24.8,Óptimo
+24.8,72.8,99765,405,5950,23.7,Óptimo
+23.2,68.4,99790,510,6350,23.8,Óptimo
+24.1,65.3,99770,495,7050,25.0,Óptimo
+23.6,69.4,99760,450,5050,25.0,Óptimo
+22.3,69.3,99745,465,5700,23.5,Óptimo
+22.5,68.5,99795,315,5600,23.4,Óptimo
+24.9,68.0,99795,480,5900,23.8,Óptimo
+24.0,70.5,99750,420,5800,24.3,Óptimo
+23.7,69.8,99765,375,6500,24.9,Óptimo
+25.3,72.9,99780,345,6750,23.5,Óptimo
+22.7,72.5,99795,315,5250,23.9,Óptimo
+23.0,66.5,99765,315,5350,23.7,Óptimo
+24.5,70.0,99790,345,5850,23.1,Óptimo
+24.8,65.2,99755,315,6900,24.8,Óptimo
+23.4,71.8,99765,465,5400,24.7,Óptimo
+25.1,65.2,99750,360,5250,23.6,Óptimo
+25.4,67.3,99755,390,6900,23.6,Óptimo
+22.2,72.0,99765,495,6150,23.4,Óptimo
+23.3,65.1,99790,330,6400,24.2,Óptimo
+24.9,71.5,99755,495,6100,23.7,Óptimo
+23.3,69.7,99765,450,5300,24.2,Óptimo
+22.8,67.1,99745,375,7350,24.0,Óptimo
+24.8,67.6,99785,345,5800,23.6,Óptimo
+23.6,73.3,99800,315,6350,24.6,Óptimo
+23.8,65.2,99755,375,6150,23.5,Óptimo
+23.2,69.5,99765,330,6000,24.8,Óptimo
+24.3,70.4,99750,360,5600,24.3,Óptimo
+24.1,72.2,99770,315,5000,24.9,Óptimo
+22.9,70.4,99750,435,5850,23.2,Óptimo
+23.2,69.8,99780,330,6050,24.6,Óptimo
+24.4,71.6,99780,480,6000,23.4,Óptimo
+25.0,72.6,99775,360,4900,25.0,Óptimo
+25.1,70.3,99760,495,6150,24.6,Óptimo
+23.1,64.1,99770,345,5600,23.8,Óptimo
+24.7,67.1,99775,480,6200,23.8,Óptimo
+24.6,69.8,99780,390,5200,24.8,Óptimo
+25.2,66.0,99755,435,7250,25.1,Óptimo
+24.0,66.4,99795,315,5000,25.0,Óptimo
+22.4,64.7,99770,420,6550,24.8,Óptimo
+24.8,68.6,99755,345,5900,24.9,Óptimo
+22.4,67.0,99755,420,5100,24.3,Óptimo
+22.6,66.4,99795,345,5550,23.2,Óptimo
+24.0,67.9,99760,405,5650,23.3,Óptimo
+25.2,72.0,99790,330,6250,24.4,Óptimo
+23.5,65.7,99765,345,6700,24.1,Óptimo
+24.2,65.6,99770,435,5400,24.3,Óptimo
+23.4,64.3,99780,525,6900,23.7,Óptimo
+25.1,68.2,99745,420,5800,24.5,Óptimo
+24.2,71.0,99765,465,5450,23.7,Óptimo
+23.0,69.6,99765,435,6750,24.1,Óptimo
+23.0,66.3,99800,420,6050,24.1,Óptimo
+23.9,67.6,99765,330,6850,23.6,Óptimo
+22.8,72.0,99765,345,5950,24.9,Óptimo
+22.5,64.8,99760,510,5950,24.2,Óptimo
+24.3,68.8,99780,405,4850,24.9,Óptimo
+23.5,66.7,99760,450,6100,23.7,Óptimo
+25.0,63.4,99745,420,7000,23.6,Óptimo
+22.7,63.7,99765,390,4750,23.2,Óptimo
+24.0,69.9,99780,405,5850,23.3,Óptimo
+23.6,63.6,99770,435,5500,23.5,Óptimo
+22.6,64.1,99775,345,6600,23.3,Óptimo
+24.1,66.6,99775,390,5900,25.0,Óptimo
+23.0,62.6,99790,405,6100,25.1,Óptimo
+24.7,68.0,99795,525,5450,25.0,Óptimo
+24.7,63.7,99765,390,6100,25.2,Óptimo
+24.6,65.9,99775,450,7350,24.2,Óptimo
+22.7,71.2,99790,330,5900,24.3,Óptimo
+23.3,69.7,99770,330,6450,23.5,Óptimo
+24.3,65.2,99765,495,7200,23.5,Óptimo
+24.8,63.4,99750,480,6400,24.8,Óptimo
+22.7,70.3,99795,375,5850,24.8,Óptimo
+22.2,65.8,99755,420,6650,24.7,Óptimo
+23.3,64.0,99760,345,5550,24.9,Óptimo
+23.8,69.7,99770,465,5700,23.7,Óptimo
+23.3,71.6,99780,315,7150,24.2,Óptimo
+23.9,67.9,99770,480,4650,24.1,Óptimo
+23.6,63.6,99785,435,7150,25.2,Óptimo
+24.2,71.2,99790,360,6050,25.1,Óptimo
+23.3,64.2,99775,510,5650,24.3,Óptimo
+24.3,71.9,99775,525,6300,23.5,Óptimo
+22.5,67.0,99775,360,5550,23.7,Óptimo
+22.8,66.8,99790,495,5900,23.8,Óptimo
+23.9,68.0,99780,480,6100,25.0,Óptimo
+23.5,72.7,99790,480,6100,23.5,Óptimo
+23.5,72.0,99755,525,6650,23.6,Óptimo
+24.7,67.8,99760,420,5750,23.8,Óptimo
+25.0,70.2,99760,465,6100,25.0,Óptimo
+22.9,70.0,99775,495,5500,24.1,Óptimo
+25.3,69.1,99775,405,7150,24.5,Óptimo
+24.2,70.5,99745,405,7550,24.0,Óptimo
+23.2,63.4,99750,375,6100,23.6,Óptimo
+25.1,67.4,99750,495,6500,23.6,Óptimo
+24.8,72.7,99775,465,5550,24.8,Óptimo
+25.6,72.7,99750,405,6350,25.0,Óptimo
+22.8,63.2,99765,405,6350,24.2,Óptimo
+22.8,65.3,99785,330,5500,23.9,Óptimo
+23.9,73.0,99765,315,5400,24.8,Óptimo
+24.3,68.2,99775,435,6400,24.5,Óptimo
+22.8,68.8,99780,405,6000,23.3,Óptimo
+24.9,65.0,99780,495,6000,23.9,Óptimo
+23.8,71.6,99750,435,4800,24.5,Óptimo
+23.7,65.4,99785,525,7250,24.4,Óptimo
+24.0,65.6,99785,345,6300,25.1,Óptimo
+24.7,64.6,99755,540,7700,25.0,Óptimo
+22.3,72.9,99755,375,5700,23.2,Óptimo
+25.3,70.1,99760,450,5850,24.6,Óptimo
+23.6,70.8,99785,420,7150,23.9,Óptimo
+22.7,67.2,99770,390,6000,24.6,Óptimo
+24.8,72.9,99770,330,6700,24.4,Óptimo
+25.3,71.0,99765,330,5300,24.2,Óptimo
+25.3,70.0,99790,465,6500,25.0,Óptimo
+25.0,72.8,99790,390,6850,24.6,Óptimo
+24.7,66.0,99775,525,7700,25.0,Óptimo
+25.6,68.5,99775,360,6200,23.8,Óptimo
+22.5,72.2,99790,540,5600,23.9,Óptimo
+24.9,71.1,99780,360,7050,24.5,Óptimo
+24.3,68.8,99775,330,5600,25.1,Óptimo
+22.4,63.9,99750,375,5850,23.9,Óptimo
+23.8,69.9,99785,510,6150,23.2,Óptimo
+23.6,69.4,99755,435,6250,24.0,Óptimo
+24.4,65.0,99755,345,5100,24.3,Óptimo
+22.8,71.4,99785,345,7550,24.9,Óptimo
+24.6,67.2,99775,375,5600,24.6,Óptimo
+23.3,66.3,99790,435,6650,25.2,Óptimo
+24.1,68.9,99760,390,6850,24.8,Óptimo
+25.0,68.1,99800,480,5500,23.8,Óptimo
+23.9,64.8,99765,450,6300,24.4,Óptimo
+23.3,67.5,99785,510,6750,24.5,Óptimo
+22.4,64.1,99770,420,5200,25.2,Óptimo
+24.7,64.4,99740,375,7250,23.5,Óptimo
+25.1,64.2,99765,540,5100,23.5,Óptimo
+25.1,65.0,99785,390,6850,23.5,Óptimo
+24.5,66.4,99755,405,5400,24.4,Óptimo
+22.6,68.5,99780,495,4950,23.5,Óptimo
+23.5,70.0,99755,315,5950,24.6,Óptimo
+22.8,69.3,99755,390,6200,24.7,Óptimo
+23.7,70.2,99770,330,7500,24.1,Óptimo
+23.0,66.7,99800,345,5800,24.3,Óptimo
+22.9,71.4,99760,300,5600,24.9,Óptimo
+24.3,69.4,99785,315,5150,24.4,Óptimo
+23.3,67.8,99800,390,4950,23.6,Óptimo
+24.4,65.2,99780,495,5550,23.9,Óptimo
+25.0,66.8,99780,435,5650,24.2,Óptimo
+24.2,69.3,99760,450,5800,23.5,Óptimo
+24.6,67.5,99780,420,5700,24.4,Óptimo
+24.5,72.7,99770,495,5850,25.1,Óptimo
+23.4,65.5,99775,510,5100,24.5,Óptimo
+22.3,63.8,99785,495,6200,23.9,Óptimo
+22.6,69.1,99775,495,5950,23.9,Óptimo
+23.1,71.9,99750,345,6700,25.1,Óptimo
+24.4,66.8,99800,435,4500,24.9,Óptimo
+25.3,69.7,99770,435,6450,24.2,Óptimo
+25.3,65.3,99795,420,6450,24.0,Óptimo
+22.9,67.9,99770,420,6450,24.7,Óptimo
+25.3,71.0,99755,330,5800,23.8,Óptimo
+23.4,71.8,99775,330,5750,23.4,Óptimo
+24.7,64.5,99775,510,5950,23.7,Óptimo
+22.7,67.5,99755,450,6450,24.0,Óptimo
+22.6,69.5,99770,360,6100,23.7,Óptimo
+23.3,64.1,99770,360,6300,23.6,Óptimo
+24.9,70.0,99775,450,6000,23.1,Óptimo
+23.0,68.3,99760,390,6950,24.5,Óptimo
+23.0,66.0,99765,420,6450,24.5,Óptimo
+25.3,71.3,99755,315,6050,23.6,Óptimo
+25.0,66.7,99775,345,5800,25.0,Óptimo
+22.9,72.4,99750,390,7200,24.1,Óptimo
+24.7,71.6,99745,465,6750,23.2,Óptimo
+23.6,69.5,99760,315,6650,23.7,Óptimo
+23.3,64.3,99765,375,6100,24.5,Óptimo
+24.2,71.3,99765,465,7550,23.7,Óptimo
+24.1,70.2,99795,495,7450,23.4,Óptimo
+24.3,64.7,99775,330,6800,24.5,Óptimo
+23.9,67.8,99770,465,6450,24.2,Óptimo
+24.0,65.3,99790,525,6900,24.8,Óptimo
+24.4,72.8,99795,510,5350,24.7,Óptimo
+24.4,71.2,99790,495,4750,25.0,Óptimo
+23.6,72.4,99750,465,6850,23.2,Óptimo
+22.7,70.9,99775,360,5550,23.3,Óptimo
+24.3,67.8,99795,450,5500,25.2,Óptimo
+25.0,64.5,99785,450,7400,24.5,Óptimo
+24.7,64.4,99775,405,6450,24.7,Óptimo
+24.3,64.6,99735,420,7100,23.4,Óptimo
+23.5,66.3,99795,465,7100,23.4,Óptimo
+24.1,73.2,99780,510,6750,23.4,Óptimo
+23.2,74.0,99770,375,4850,24.0,Óptimo
+25.2,66.1,99765,360,6050,23.4,Óptimo
+24.6,70.1,99760,450,7350,24.1,Óptimo
+23.2,69.3,99760,345,5800,24.3,Óptimo
+23.6,69.0,99765,450,6000,23.1,Óptimo
+25.3,69.0,99785,315,7050,23.5,Óptimo
+23.9,66.1,99765,405,6100,24.0,Óptimo
+23.9,72.6,99780,450,6350,23.3,Óptimo
+24.6,70.3,99785,330,6850,23.5,Óptimo
+24.7,70.7,99780,360,4850,23.7,Óptimo
+22.7,66.1,99765,375,5400,24.0,Óptimo
+24.2,64.8,99765,390,6050,24.7,Óptimo
+24.9,67.8,99755,465,5550,23.4,Óptimo
+25.2,70.7,99755,420,6500,24.7,Óptimo
+24.8,70.1,99775,375,5900,25.0,Óptimo
+25.4,67.5,99800,405,5400,24.6,Óptimo
+24.0,70.8,99790,315,6200,23.3,Óptimo
+23.6,67.8,99750,480,5800,24.1,Óptimo
+23.9,66.9,99765,315,5600,24.4,Óptimo
+22.6,70.5,99745,495,6850,25.1,Óptimo
+23.6,71.3,99775,435,4500,25.1,Óptimo
+23.6,65.6,99760,420,6600,23.9,Óptimo
+24.8,66.2,99795,465,5900,24.4,Óptimo
+25.2,67.3,99750,495,6850,25.0,Óptimo
+24.2,65.2,99750,525,5300,24.9,Óptimo
+23.4,72.6,99770,435,6300,24.1,Óptimo
+22.8,69.8,99755,345,6450,23.6,Óptimo
+23.7,63.7,99775,495,7350,23.5,Óptimo
+24.4,65.1,99790,315,6000,24.2,Óptimo
+23.0,73.0,99755,495,5750,24.6,Óptimo
+24.1,69.6,99755,465,7500,25.2,Óptimo
+23.6,70.4,99795,510,6200,24.9,Óptimo
+24.5,64.3,99785,510,6550,23.5,Óptimo
+25.3,72.2,99790,315,6800,24.7,Óptimo
+24.6,67.8,99750,450,6350,23.8,Óptimo
+23.3,69.8,99765,330,4900,24.6,Óptimo
+24.1,70.4,99755,315,6200,24.6,Óptimo
+22.6,64.9,99765,405,5950,23.7,Óptimo
+22.7,69.1,99785,330,5500,23.6,Óptimo
+22.7,63.2,99755,480,5650,23.3,Óptimo
+22.6,68.8,99780,525,6300,23.2,Óptimo
+22.8,65.6,99760,435,5950,24.9,Óptimo
+23.0,72.3,99795,360,5950,23.3,Óptimo
+22.9,66.6,99740,495,6450,23.4,Óptimo
+24.2,69.4,99755,510,6350,23.6,Óptimo
+25.3,71.7,99775,480,5000,25.0,Óptimo
+25.0,73.0,99755,450,5400,23.9,Óptimo
+22.9,67.3,99770,510,6600,23.6,Óptimo
+23.6,68.0,99770,345,5400,24.6,Óptimo
+24.9,63.9,99785,525,5850,23.8,Óptimo
+22.7,63.4,99775,525,4900,23.9,Óptimo
+25.4,68.6,99775,510,6750,24.7,Óptimo
+24.2,64.0,99795,360,7000,23.7,Óptimo
+25.4,67.0,99785,510,6400,25.0,Óptimo
+24.8,64.1,99780,420,6300,24.2,Óptimo
+24.3,69.2,99770,435,6200,24.3,Óptimo
+24.3,67.4,99785,495,5250,23.7,Óptimo
+23.0,64.5,99765,300,5700,24.9,Óptimo
+22.7,66.2,99805,390,4500,24.3,Óptimo
+23.5,68.7,99780,495,6550,23.5,Óptimo
+23.0,69.7,99760,495,5800,23.6,Óptimo
+22.5,68.8,99750,495,5400,24.1,Óptimo
+23.2,71.1,99745,345,5850,24.7,Óptimo
+25.0,64.4,99760,465,5050,25.1,Óptimo
+22.5,64.1,99760,345,6600,24.5,Óptimo
+23.5,63.0,99760,480,6600,24.3,Óptimo
+23.6,68.5,99755,360,6100,23.6,Óptimo
+23.8,70.2,99775,480,6050,24.5,Óptimo
+22.7,65.2,99755,405,5150,25.1,Óptimo
+25.2,69.6,99765,525,4750,24.1,Óptimo
+24.0,67.9,99770,435,6250,23.4,Óptimo
+23.9,73.2,99790,450,5700,23.4,Óptimo
+22.3,70.3,99775,390,5950,23.7,Óptimo
+23.9,69.8,99765,480,6600,24.3,Óptimo
+24.7,69.8,99775,420,4850,25.0,Óptimo
+23.1,73.1,99755,315,5700,23.8,Óptimo
+23.4,72.8,99760,450,6050,23.8,Óptimo
+22.3,68.8,99760,495,6350,24.1,Óptimo
+25.1,68.6,99785,360,5300,25.0,Óptimo
+22.5,67.7,99780,360,6400,24.0,Óptimo
+24.9,68.2,99780,450,6050,23.6,Óptimo
+23.3,68.5,99765,495,5100,23.5,Óptimo
+24.3,65.8,99785,360,6900,24.2,Óptimo
+24.3,72.8,99765,525,4850,24.7,Óptimo
+22.8,68.0,99750,510,6100,23.8,Óptimo
+23.7,71.6,99765,360,6300,24.2,Óptimo
+23.6,68.0,99770,375,6050,24.5,Óptimo
+22.5,70.4,99760,465,5450,24.1,Óptimo
+24.9,66.7,99780,525,6750,23.6,Óptimo
+22.9,68.5,99780,465,6150,25.1,Óptimo
+24.2,68.7,99765,405,5750,24.3,Óptimo
+23.7,66.0,99765,345,6350,24.7,Óptimo
+23.0,71.9,99755,405,6650,24.5,Óptimo
+24.4,64.5,99765,450,5950,25.2,Óptimo
+24.1,68.2,99750,390,6150,24.1,Óptimo
+23.2,64.9,99795,420,5850,24.0,Óptimo
+23.8,71.9,99765,330,5300,23.9,Óptimo
+23.5,64.8,99775,405,7100,24.0,Óptimo
+25.0,69.5,99760,330,6050,23.8,Óptimo
+23.1,65.8,99785,330,5950,25.1,Óptimo
+23.5,64.7,99785,495,6850,25.0,Óptimo
+24.7,72.1,99780,345,6150,23.8,Óptimo
+22.5,64.8,99790,435,5350,23.8,Óptimo
+23.1,69.8,99765,345,4950,23.4,Óptimo
+23.4,65.1,99770,360,5500,24.9,Óptimo
+25.4,64.9,99775,375,6950,24.0,Óptimo
+25.2,68.7,99775,345,6250,24.3,Óptimo
+24.7,68.4,99785,315,6050,25.1,Óptimo
+23.9,69.3,99755,510,6000,24.0,Óptimo
+24.6,68.9,99750,300,6350,24.9,Óptimo
+23.6,65.8,99755,330,6850,24.1,Óptimo
+23.1,68.3,99795,495,5900,24.5,Óptimo
+25.4,63.8,99790,375,5750,24.1,Óptimo
+22.9,70.3,99770,465,7100,24.0,Óptimo
+23.8,70.6,99770,345,7250,25.2,Óptimo
+25.1,65.3,99780,360,4350,24.4,Óptimo
+24.4,65.5,99785,435,5800,23.9,Óptimo
+22.6,63.8,99750,540,6400,23.7,Óptimo
+22.5,72.9,99785,330,4650,23.3,Óptimo
+23.7,71.6,99775,405,5750,24.5,Óptimo
+23.7,67.4,99775,315,5400,23.9,Óptimo
+24.1,67.1,99745,345,7050,24.9,Óptimo
+23.7,65.2,99775,510,7250,24.0,Óptimo
+25.8,68.4,99785,330,6600,24.0,Óptimo
+23.1,70.4,99785,510,4900,24.7,Óptimo
+24.3,66.9,99785,330,5800,24.2,Óptimo
+24.0,70.9,99755,495,7050,25.0,Óptimo
+22.8,68.6,99780,435,5300,24.4,Óptimo
+23.0,64.4,99770,510,5800,23.7,Óptimo
+25.1,69.4,99795,345,5100,24.3,Óptimo
+24.8,68.6,99770,480,6400,23.1,Óptimo
+23.2,72.0,99775,465,7350,23.9,Óptimo
+24.8,67.6,99780,435,6600,23.5,Óptimo
+23.0,67.2,99785,480,6050,24.5,Óptimo
+24.0,70.6,99785,465,6100,23.4,Óptimo
+22.5,68.6,99770,510,5250,23.8,Óptimo
+25.2,66.3,99780,390,7150,23.9,Óptimo
+22.6,73.1,99770,450,5700,23.2,Óptimo
+24.1,66.2,99795,510,6750,23.3,Óptimo
+24.8,65.9,99785,360,6500,23.9,Óptimo
+22.8,71.7,99755,420,6750,23.6,Óptimo
+23.8,63.2,99780,525,7100,23.5,Óptimo
+22.4,65.2,99780,420,5450,23.5,Óptimo
+24.3,69.0,99795,360,6750,24.8,Óptimo
+23.2,64.8,99790,390,4600,24.6,Óptimo
+24.1,73.0,99745,510,7100,24.2,Óptimo
+25.0,68.9,99770,525,5800,24.9,Óptimo
+23.3,69.0,99775,525,6450,23.3,Óptimo
+22.9,62.3,99785,450,5850,23.9,Óptimo
+24.2,67.1,99785,420,5600,24.8,Óptimo
+24.7,69.2,99765,345,6500,24.4,Óptimo
+25.8,67.9,99770,330,7600,25.2,Óptimo
+23.0,70.8,99770,315,5800,25.1,Óptimo
+23.3,66.8,99755,315,5050,23.5,Óptimo
+24.8,69.5,99760,510,5750,25.1,Óptimo
+24.7,66.4,99770,495,6150,25.0,Óptimo
+24.6,68.4,99750,435,7250,24.0,Óptimo
+23.2,69.3,99760,540,5400,25.2,Óptimo
+23.7,63.5,99735,525,5950,23.3,Óptimo
+23.1,67.9,99785,450,6800,24.6,Óptimo
+25.1,63.6,99765,420,5150,23.7,Óptimo
+22.9,68.2,99760,345,6700,23.4,Óptimo
+24.2,70.0,99755,420,6450,24.4,Óptimo
+24.2,63.8,99770,345,6450,23.8,Óptimo
+23.3,73.3,99775,390,6500,24.5,Óptimo
+23.9,66.8,99740,525,6950,24.3,Óptimo
+24.8,71.7,99775,390,6700,24.0,Óptimo
+23.6,64.4,99790,345,5300,23.6,Óptimo
+23.0,73.4,99765,435,5600,24.3,Óptimo
+23.7,64.5,99770,450,6850,24.8,Óptimo
+24.8,67.7,99770,345,5450,24.4,Óptimo
+25.3,72.8,99755,360,6800,24.4,Óptimo
+24.3,65.4,99780,540,5450,24.2,Óptimo
+24.5,64.0,99785,360,5250,23.9,Óptimo
+23.9,71.1,99785,495,4700,24.1,Óptimo
+24.2,69.5,99770,420,6250,25.1,Óptimo
+25.3,68.6,99795,405,6350,24.6,Óptimo
+23.9,62.9,99765,375,6300,24.1,Óptimo
+22.4,70.7,99755,480,5400,24.0,Óptimo
+25.5,64.3,99760,510,6550,24.2,Óptimo
+24.8,72.6,99785,375,4650,24.5,Óptimo
+23.5,69.9,99785,330,6550,24.1,Óptimo
+25.3,70.3,99770,330,5550,24.6,Óptimo
+23.8,64.7,99755,480,7000,23.9,Óptimo
+24.0,71.2,99770,405,7300,24.1,Óptimo
+24.1,68.7,99790,330,5700,24.9,Óptimo
+23.4,71.8,99745,390,7250,23.9,Óptimo
+24.4,65.8,99785,420,5200,25.1,Óptimo
+22.9,70.8,99770,495,5800,23.5,Óptimo
+22.7,68.9,99790,450,5800,23.7,Óptimo
+24.0,63.8,99770,345,5850,24.1,Óptimo
+24.5,66.4,99765,345,6150,24.8,Óptimo
+22.7,65.1,99780,390,6950,24.7,Óptimo
+25.3,66.8,99795,330,5750,23.5,Óptimo
+24.3,66.4,99760,480,6700,23.7,Óptimo
+23.1,67.9,99765,405,7000,24.4,Óptimo
+23.2,69.3,99755,390,5300,23.8,Óptimo
+24.7,69.2,99760,435,6300,24.0,Óptimo
+23.9,63.5,99785,465,5400,24.1,Óptimo
+23.0,70.7,99765,435,5850,24.4,Óptimo
+22.7,72.6,99785,495,6550,23.7,Óptimo
+23.7,66.8,99775,450,4850,23.5,Óptimo
+23.4,64.9,99790,495,6750,24.0,Óptimo
+24.2,69.7,99760,465,6050,23.3,Óptimo
+25.1,70.1,99750,345,6100,24.2,Óptimo
+23.1,69.9,99750,315,5850,24.9,Óptimo
+24.8,70.2,99790,510,5300,23.4,Óptimo
+25.1,64.6,99765,525,6750,23.3,Óptimo
+25.0,71.5,99755,480,5450,23.4,Óptimo
+25.2,67.7,99795,465,5850,24.9,Óptimo
+24.9,65.3,99790,375,6050,23.4,Óptimo
+24.4,64.1,99780,435,6000,25.2,Óptimo
+23.6,67.2,99760,525,4950,24.0,Óptimo
+23.9,69.4,99765,495,7100,23.8,Óptimo
+24.8,70.9,99780,375,6150,23.3,Óptimo
+23.7,72.0,99770,360,5950,24.4,Óptimo
+22.8,64.6,99755,420,6250,24.4,Óptimo
+22.6,73.7,99765,390,6000,24.1,Óptimo
+24.7,70.4,99795,390,6400,23.7,Óptimo
+24.9,67.1,99750,450,6150,24.0,Óptimo
+23.9,72.1,99785,300,7000,23.8,Óptimo
+23.6,69.2,99765,480,7150,24.1,Óptimo
+24.2,67.7,99780,480,6350,23.8,Óptimo
+22.3,72.5,99785,495,5200,24.5,Óptimo
+23.9,70.2,99775,495,5600,23.7,Óptimo
+23.5,70.0,99760,435,5750,23.9,Óptimo
+25.4,72.4,99780,495,6950,24.1,Óptimo
+23.7,68.7,99765,420,5500,23.1,Óptimo
+24.0,69.8,99795,525,5250,24.2,Óptimo
+24.4,70.7,99780,345,4850,23.7,Óptimo
+23.8,67.5,99775,510,5650,23.3,Óptimo
+22.9,64.5,99770,360,5700,24.9,Óptimo
+24.0,71.0,99760,330,6750,23.8,Óptimo
+25.0,64.8,99785,405,5800,24.0,Óptimo
+23.4,71.2,99760,435,6700,24.8,Óptimo
+24.2,72.9,99795,360,6500,23.5,Óptimo
+25.1,67.7,99795,435,5300,24.8,Óptimo
+24.9,64.1,99750,495,6600,23.7,Óptimo
+24.4,65.4,99755,375,6100,24.4,Óptimo
+24.7,68.7,99765,435,7250,24.6,Óptimo
+25.2,72.5,99790,390,5700,25.0,Óptimo
+25.4,68.5,99760,435,6750,24.4,Óptimo
+25.3,64.3,99765,465,5800,24.1,Óptimo
+24.2,69.4,99790,390,5250,24.3,Óptimo
+23.8,70.4,99750,540,5950,23.7,Óptimo
+22.8,67.0,99760,435,5550,24.6,Óptimo
+23.4,70.7,99770,495,5800,23.5,Óptimo
+25.1,66.4,99785,480,6150,24.3,Óptimo
+25.6,70.3,99745,495,7350,24.5,Óptimo
+24.4,65.7,99760,345,6300,25.0,Óptimo
+24.5,65.0,99790,345,5900,24.2,Óptimo
+23.2,71.8,99770,420,5950,24.7,Óptimo
+23.7,68.6,99780,510,6700,23.5,Óptimo
+24.3,66.7,99755,345,5300,23.4,Óptimo
+23.5,72.5,99765,525,6150,24.2,Óptimo
+22.8,70.9,99750,330,5300,24.3,Óptimo
+23.8,64.9,99775,345,5400,24.4,Óptimo
+23.4,68.6,99755,330,6200,24.7,Óptimo
+25.1,72.7,99760,435,5300,23.7,Óptimo
+24.0,67.7,99745,510,6100,24.5,Óptimo
+25.1,65.8,99760,375,5850,23.6,Óptimo
+23.2,69.9,99765,435,5850,23.6,Óptimo
+23.0,69.5,99775,345,6450,23.3,Óptimo
+24.7,68.9,99745,435,5850,24.7,Óptimo
+25.1,64.0,99770,330,6250,24.3,Óptimo
+24.0,70.0,99770,420,5600,23.7,Óptimo
+23.2,63.7,99770,465,6800,24.3,Óptimo
+22.3,69.7,99785,450,5650,23.8,Óptimo
+24.2,72.7,99765,345,6050,24.9,Óptimo
+22.7,64.7,99755,345,5950,24.2,Óptimo
+23.8,65.3,99770,465,6400,23.3,Óptimo
+24.4,69.0,99800,495,4900,25.2,Óptimo
+22.7,70.6,99775,510,4850,23.3,Óptimo
+23.3,65.9,99785,495,6900,24.6,Óptimo
+23.1,69.0,99785,525,7100,24.1,Óptimo
+25.4,72.1,99775,405,6800,23.7,Óptimo
+23.8,69.9,99775,375,6650,24.6,Óptimo
+25.1,70.5,99765,315,6150,23.4,Óptimo
+23.7,66.1,99770,420,6400,25.0,Óptimo
+24.5,72.9,99770,450,5450,23.6,Óptimo
+22.8,66.9,99780,495,6500,23.8,Óptimo
+23.7,66.0,99765,360,5400,24.4,Óptimo
+25.2,66.0,99750,420,7450,23.3,Óptimo
+24.9,69.6,99775,465,6550,24.2,Óptimo
+24.7,71.7,99785,435,5450,25.0,Óptimo
+25.0,64.3,99790,375,6050,24.6,Óptimo
+22.8,72.0,99775,495,6200,23.9,Óptimo
+23.8,71.4,99745,330,6200,24.5,Óptimo
+23.7,69.8,99760,510,5700,25.0,Óptimo
+25.1,70.7,99780,525,6000,23.6,Óptimo
+23.7,64.2,99750,375,5850,24.3,Óptimo
+25.0,66.0,99795,390,5400,23.6,Óptimo
+24.2,70.8,99750,480,6600,25.0,Óptimo
+24.3,68.0,99790,405,6450,24.6,Óptimo
+23.1,65.8,99785,315,5950,24.8,Óptimo
+23.8,70.1,99780,510,6450,25.1,Óptimo
+24.4,72.0,99755,405,5950,23.7,Óptimo
+23.8,69.3,99780,345,5750,23.3,Óptimo
+25.1,66.6,99750,435,6450,23.7,Óptimo
+24.5,68.0,99765,360,4900,24.0,Óptimo
+23.9,71.0,99770,360,5350,24.4,Óptimo
+25.1,63.9,99790,435,5150,24.8,Óptimo
+24.3,65.7,99755,390,5950,23.8,Óptimo
+24.7,65.4,99790,435,5900,24.2,Óptimo
+23.2,69.0,99745,540,6050,24.8,Óptimo
+23.8,66.5,99760,510,6450,23.7,Óptimo
+24.5,66.4,99745,315,5450,23.6,Óptimo
+25.5,61.2,99785,315,7000,24.4,Óptimo
+23.1,64.5,99750,450,6050,24.0,Óptimo
+22.9,66.2,99795,450,6200,25.1,Óptimo
+24.1,68.4,99780,510,4800,23.9,Óptimo
+22.6,68.7,99795,450,5800,24.7,Óptimo
+24.4,67.9,99760,360,6500,24.4,Óptimo
+24.4,67.2,99775,420,5800,23.3,Óptimo
+23.3,66.0,99790,495,5500,23.3,Óptimo
+25.1,67.4,99790,525,6400,23.6,Óptimo
+24.3,63.8,99765,360,7000,23.5,Óptimo
+24.5,63.8,99785,420,6000,23.9,Óptimo
+23.1,66.4,99745,345,6550,24.3,Óptimo
+23.5,74.2,99785,420,5600,24.3,Óptimo
+25.1,66.7,99760,330,6950,24.4,Óptimo
+23.0,72.7,99755,525,4950,23.4,Óptimo
+23.7,67.1,99755,450,5900,24.5,Óptimo
+23.8,66.6,99780,510,6750,24.1,Óptimo
+22.9,71.2,99795,540,7100,25.0,Óptimo
+23.6,63.4,99760,345,7150,25.1,Óptimo
+23.6,64.2,99780,465,6600,24.8,Óptimo
+25.3,73.1,99765,510,6350,24.6,Óptimo
+24.5,68.3,99790,435,5100,23.4,Óptimo
+23.3,63.7,99755,450,4150,23.4,Óptimo
+24.7,63.8,99775,405,5750,24.9,Óptimo
+22.5,72.3,99755,465,5700,24.1,Óptimo
+24.0,72.0,99765,405,4750,24.1,Óptimo
+23.0,68.2,99780,420,5450,24.8,Óptimo
+23.0,64.0,99785,330,7150,24.5,Óptimo
+24.9,72.6,99780,315,5350,23.5,Óptimo
+23.2,65.8,99790,315,6500,23.7,Óptimo
+25.0,67.2,99785,345,6000,23.3,Óptimo
+23.6,70.1,99755,420,6400,24.6,Óptimo
+22.3,67.0,99770,315,5850,24.1,Óptimo
+24.6,69.7,99780,345,6500,25.1,Óptimo
+24.2,72.0,99795,495,5700,24.6,Óptimo
+23.5,71.4,99790,480,6350,23.4,Óptimo
+23.1,67.1,99785,480,6250,23.5,Óptimo
+22.8,65.5,99770,510,6550,24.3,Óptimo
+25.0,67.0,99785,345,5500,25.0,Óptimo
+23.7,67.5,99760,345,6400,23.6,Óptimo
+22.6,68.0,99760,390,5600,24.8,Óptimo
+25.4,66.4,99770,510,6500,23.9,Óptimo
+23.6,62.0,99785,465,5950,23.8,Óptimo
+23.4,63.9,99785,375,6350,25.1,Óptimo
+23.2,66.6,99770,330,5250,23.3,Óptimo
+23.9,69.1,99795,450,5200,24.4,Óptimo
+22.8,69.1,99780,360,7300,23.3,Óptimo
+23.6,68.8,99775,420,6000,24.7,Óptimo
+25.5,69.7,99750,510,6850,24.9,Óptimo
+23.0,70.6,99780,435,6150,25.0,Óptimo
+23.2,68.0,99780,510,6250,23.5,Óptimo
+23.4,64.9,99775,390,5850,23.4,Óptimo
+24.1,68.5,99785,450,6050,24.2,Óptimo
+25.0,67.5,99795,510,6500,23.7,Óptimo
+23.4,65.3,99760,435,6200,24.3,Óptimo
+22.6,73.1,99770,450,4900,24.2,Óptimo
+23.3,67.0,99775,465,6050,23.5,Óptimo
+23.0,69.3,99765,510,5650,24.7,Óptimo
+24.3,68.0,99795,330,5100,24.8,Óptimo
+22.5,64.5,99755,390,5750,25.1,Óptimo
+23.4,64.0,99765,405,6950,24.0,Óptimo
+23.8,70.0,99790,510,5500,23.8,Óptimo
+23.2,65.6,99745,525,6850,23.6,Óptimo
+24.1,65.5,99790,330,5750,23.6,Óptimo
+22.9,72.7,99770,330,6550,23.9,Óptimo
+25.0,68.8,99750,525,6250,25.1,Óptimo
+23.3,63.4,99795,375,5600,23.4,Óptimo
+25.0,67.6,99750,360,6350,23.6,Óptimo
+23.4,68.9,99770,315,6400,23.4,Óptimo
+24.9,66.5,99745,375,6650,23.8,Óptimo
+22.9,64.3,99760,465,6050,23.3,Óptimo
+24.4,67.5,99785,405,5750,24.2,Óptimo
+23.5,64.2,99780,420,6550,24.1,Óptimo
+24.0,69.2,99750,510,5900,23.6,Óptimo
+24.4,69.5,99780,330,5900,23.5,Óptimo
+24.6,62.6,99770,315,7500,24.5,Óptimo
+24.1,66.1,99790,495,6450,24.0,Óptimo
+22.6,67.2,99765,480,6750,23.3,Óptimo
+22.9,69.3,99790,360,5950,25.0,Óptimo
+23.9,66.4,99775,375,5450,23.9,Óptimo
+22.8,65.4,99775,375,6950,24.4,Óptimo
+23.1,73.1,99795,450,6000,25.0,Óptimo
+23.5,62.6,99755,315,6300,24.1,Óptimo
+22.9,73.4,99760,420,6400,24.8,Óptimo
+23.8,64.0,99770,345,6000,24.9,Óptimo
+23.9,67.0,99755,495,5150,23.5,Óptimo
+25.1,68.1,99760,390,6350,25.0,Óptimo
+23.4,64.1,99780,435,5300,23.4,Óptimo
+25.2,64.5,99770,315,6000,23.7,Óptimo
+24.3,65.8,99775,315,6100,24.8,Óptimo
+24.9,73.1,99765,465,6600,24.9,Óptimo
+25.1,67.0,99745,480,7150,24.6,Óptimo
+24.6,68.8,99760,480,7100,23.5,Óptimo
+23.3,69.7,99775,480,6100,24.2,Óptimo
+23.0,70.6,99760,330,5600,24.3,Óptimo
+22.9,70.8,99795,465,5350,23.7,Óptimo
+25.1,67.2,99770,345,5750,25.1,Óptimo
+25.1,65.3,99795,330,5200,23.8,Óptimo
+24.5,66.0,99760,480,4950,23.6,Óptimo
+24.9,65.8,99785,510,6650,23.3,Óptimo
+25.2,64.7,99780,480,4400,23.9,Óptimo
+23.9,63.4,99790,495,6550,24.6,Óptimo
+24.1,73.7,99780,540,5600,23.6,Óptimo
+24.1,71.5,99790,330,6450,24.8,Óptimo
+23.5,64.7,99775,525,5550,23.4,Óptimo
+22.9,64.0,99785,450,6950,24.1,Óptimo
+23.6,64.5,99790,495,5200,24.6,Óptimo
+24.9,65.3,99780,450,6950,23.5,Óptimo
+23.5,65.9,99770,435,5950,24.3,Óptimo
+25.4,70.2,99755,450,6600,24.8,Óptimo
+23.2,64.8,99790,375,5350,24.3,Óptimo
+23.2,64.5,99770,495,6600,24.3,Óptimo
+24.9,64.2,99775,330,5500,24.9,Óptimo
+24.4,73.2,99750,390,6850,25.2,Óptimo
+23.0,72.5,99770,315,5350,23.6,Óptimo
+24.3,69.7,99775,360,7350,24.6,Óptimo
+23.5,67.8,99780,360,5850,23.3,Óptimo
+25.1,65.2,99765,315,6000,23.3,Óptimo
+24.0,65.6,99760,420,5650,23.7,Óptimo
+23.4,66.8,99760,405,6000,25.2,Óptimo
+24.4,70.1,99770,315,6800,24.4,Óptimo
+25.5,65.1,99755,360,6050,23.8,Óptimo
+24.8,65.3,99760,525,7550,23.5,Óptimo
+24.8,69.3,99775,330,5400,25.0,Óptimo
+23.1,65.5,99795,375,6900,23.8,Óptimo
+25.0,69.3,99755,315,5900,23.7,Óptimo
+24.6,67.1,99760,345,5000,24.9,Óptimo
+24.8,63.5,99765,465,6850,24.5,Óptimo
+23.5,67.4,99770,390,5850,23.5,Óptimo
+24.9,73.1,99745,405,5550,24.0,Óptimo
+24.1,67.2,99790,345,4950,25.0,Óptimo
+24.8,67.2,99770,465,6600,24.9,Óptimo
+23.3,64.5,99770,480,5950,23.3,Óptimo
+23.0,69.4,99755,345,7000,23.8,Óptimo
+23.6,71.7,99785,315,6300,23.6,Óptimo
+24.2,64.2,99750,315,6600,24.3,Óptimo
+24.0,65.8,99755,465,6000,24.7,Óptimo
+23.9,72.7,99760,345,5900,23.8,Óptimo
+24.0,70.6,99775,420,5700,24.7,Óptimo
+25.3,68.0,99785,345,6800,24.6,Óptimo
+23.1,66.3,99755,345,6850,24.7,Óptimo
+23.1,66.1,99755,300,5500,25.0,Óptimo
+25.5,69.4,99745,375,7650,24.1,Óptimo
+23.9,68.9,99780,315,5350,23.8,Óptimo
+24.2,68.5,99765,405,4850,24.6,Óptimo
+23.9,63.8,99780,450,5850,24.9,Óptimo
+24.0,68.3,99760,390,4650,23.6,Óptimo
+23.0,71.4,99750,480,7000,24.9,Óptimo
+23.9,72.6,99750,480,6600,23.2,Óptimo
+25.2,64.6,99795,465,6200,23.1,Óptimo
+24.6,68.7,99780,510,7050,23.6,Óptimo
+22.4,68.9,99800,360,5400,25.1,Óptimo
+24.6,73.1,99760,345,6200,24.2,Óptimo
+23.6,70.9,99755,450,6800,23.3,Óptimo
+22.9,72.9,99780,435,5450,25.2,Óptimo
+25.1,72.7,99765,435,6600,24.7,Óptimo
+22.9,65.5,99785,300,5350,24.9,Óptimo
+25.4,70.5,99760,435,5950,23.7,Óptimo
+23.6,68.4,99745,525,6650,23.3,Óptimo
+24.6,65.3,99755,390,4850,24.2,Óptimo
+23.9,65.4,99785,525,6100,24.7,Óptimo
+23.2,63.9,99770,390,6050,24.5,Óptimo
+24.8,70.4,99790,315,6300,24.5,Óptimo
+25.1,66.7,99770,405,5200,24.6,Óptimo
+24.5,72.8,99785,420,6600,23.6,Óptimo
+24.2,69.2,99765,450,5600,24.5,Óptimo
+25.3,69.8,99755,420,5750,24.0,Óptimo
+23.1,65.9,99795,420,6350,23.3,Óptimo
+22.5,67.6,99775,315,5800,23.6,Óptimo
+22.9,64.8,99775,345,7350,24.8,Óptimo
+24.3,66.2,99785,375,5250,24.9,Óptimo
+24.8,71.4,99765,540,5850,23.8,Óptimo
+24.1,69.7,99790,375,5850,23.5,Óptimo
+25.0,63.5,99790,510,5700,23.2,Óptimo
+24.4,71.3,99765,375,5550,25.0,Óptimo
+23.5,64.3,99780,330,6700,24.6,Óptimo
+23.0,67.0,99780,360,7200,25.2,Óptimo
+25.2,68.8,99755,375,5450,24.9,Óptimo
+22.7,63.3,99770,525,5100,23.9,Óptimo
+24.1,69.5,99750,465,7350,23.5,Óptimo
+23.3,69.7,99780,525,5400,24.2,Óptimo
+23.0,70.3,99795,495,6000,23.2,Óptimo
+24.2,65.1,99780,435,5550,23.4,Óptimo
+23.4,65.1,99750,450,6450,23.7,Óptimo
+25.5,64.9,99770,450,6800,24.6,Óptimo
+23.6,73.0,99790,465,6950,24.2,Óptimo
+24.5,63.8,99760,360,6600,23.9,Óptimo
+24.8,67.5,99780,405,7000,24.4,Óptimo
+24.4,72.0,99785,450,6500,23.4,Óptimo
+25.0,70.8,99755,315,5500,24.7,Óptimo
+23.6,70.7,99755,420,6100,24.7,Óptimo
+22.7,73.0,99775,510,6650,23.6,Óptimo
+22.5,66.9,99780,420,5900,24.4,Óptimo
+25.0,66.2,99785,435,5900,24.2,Óptimo
+25.7,62.6,99775,345,7700,23.4,Óptimo
+23.4,64.7,99755,495,7050,23.8,Óptimo
+25.0,68.0,99755,375,7200,25.2,Óptimo
+22.7,64.1,99780,525,6400,23.4,Óptimo
+23.2,70.6,99755,540,7200,24.3,Óptimo
+24.7,63.0,99775,510,6950,24.9,Óptimo
+22.6,65.7,99755,330,6900,23.8,Óptimo
+23.7,70.2,99760,390,6350,23.7,Óptimo
+24.8,64.9,99755,525,7750,25.0,Óptimo
+24.6,70.5,99770,495,6350,23.8,Óptimo
+23.7,73.1,99780,510,4900,24.5,Óptimo
+24.1,72.2,99750,435,6350,24.6,Óptimo
+24.4,65.7,99790,420,6600,24.8,Óptimo
+22.7,72.4,99770,330,6550,25.2,Óptimo
+24.5,63.5,99770,495,6900,24.8,Óptimo
+22.8,70.4,99765,480,5350,24.4,Óptimo
+22.3,64.2,99785,315,6050,24.9,Óptimo
+23.8,64.8,99745,360,6450,25.0,Óptimo
+24.9,73.2,99795,435,5200,25.1,Óptimo
+22.8,67.0,99775,465,5150,24.7,Óptimo
+22.4,71.3,99750,345,5450,23.6,Óptimo
+22.8,67.2,99770,360,5550,24.6,Óptimo
+23.6,71.8,99765,360,6450,23.3,Óptimo
+24.0,72.7,99750,360,6150,23.8,Óptimo
+22.9,67.6,99800,525,4900,23.4,Óptimo
+25.2,66.4,99745,465,7350,25.1,Óptimo
+24.5,70.2,99775,480,6200,23.8,Óptimo
+24.7,72.5,99790,495,6700,24.7,Óptimo
+23.8,65.8,99765,390,5300,24.3,Óptimo
+23.3,70.2,99760,480,5450,23.3,Óptimo
+23.5,66.5,99745,540,6000,24.3,Óptimo
+24.3,64.5,99750,465,7250,24.6,Óptimo
+22.7,63.9,99745,390,6950,25.0,Óptimo
+24.2,70.4,99785,465,5300,23.3,Óptimo
+23.7,72.0,99780,510,7400,23.8,Óptimo
+22.8,67.6,99785,345,5800,24.5,Óptimo
+23.2,68.7,99770,375,5250,23.3,Óptimo
+22.8,69.8,99790,510,6300,23.6,Óptimo
+25.2,67.2,99770,525,6500,23.7,Óptimo
+22.8,72.1,99760,420,6050,24.5,Óptimo
+24.8,67.8,99765,390,6200,23.7,Óptimo
+24.0,64.3,99750,375,5600,24.4,Óptimo
+25.0,64.6,99800,420,6350,25.1,Óptimo
+23.6,72.9,99775,525,5900,24.7,Óptimo
+25.0,73.3,99785,345,5800,23.8,Óptimo
+23.2,65.5,99775,405,7450,24.2,Óptimo
+24.6,63.8,99780,510,6500,23.7,Óptimo
+22.6,68.9,99750,390,5500,23.2,Óptimo
+23.6,70.3,99780,480,6200,23.8,Óptimo
+24.2,69.5,99785,405,5800,23.9,Óptimo
+24.1,72.6,99745,495,5550,24.2,Óptimo
+23.4,71.5,99790,525,4900,25.1,Óptimo
+23.0,70.9,99760,390,7550,25.1,Óptimo
+24.8,67.6,99745,495,6400,23.4,Óptimo
+24.3,65.6,99760,525,6400,24.5,Óptimo
+22.7,70.3,99785,525,5250,23.3,Óptimo
+25.7,66.9,99770,405,6500,24.5,Óptimo
+25.2,66.3,99780,420,5850,23.4,Óptimo
+25.4,63.8,99770,375,7650,25.1,Óptimo
+25.3,66.1,99780,375,6300,25.0,Óptimo
+22.5,69.8,99750,420,5800,23.2,Óptimo

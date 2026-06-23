@@ -4,7 +4,6 @@ const galleries = [
   { region: "sierra", img: "/images/hero_valle_sagrado.png", alt: "Valle Sagrado", tag: "Sierra", title: "Valle Sagrado", desc: "Papas, quinua y cultivos andinos a más de 3,000 m.s.n.m." },
   { region: "costa", img: "/images/costa_agriculture.png", alt: "Costa peruana", tag: "Costa", title: "Valles Costeros", desc: "Espárragos, uvas, arándanos y agroexportación de precisión." },
   { region: "selva", img: "/images/selva_agriculture.png", alt: "Selva peruana", tag: "Selva", title: "Amazonía Peruana", desc: "Café, cacao, frutas tropicales y agroforestería sostenible." },
-  { region: "nativas", img: "/images/papas_nativas.png", alt: "Papas nativas", tag: "Biodiversidad", title: "Papas Nativas", desc: "Más de 3,000 variedades. Patrimonio agrícola del mundo." },
 ];
 
 export default function GallerySection() {

@@ -16,6 +16,7 @@ import { Line, Bar, Radar } from "react-chartjs-2";
 import { generatePDF } from "../utils/pdfGenerator";
 import { FinancialReport } from "./ReportTemplates/FinancialReport";
 import { CropReport } from "./ReportTemplates/CropReport";
+import type { LatestData } from "@/hooks/useDashboardData";
 import { CarbonReport } from "./ReportTemplates/CarbonReport";
 
 ChartJS.register(
@@ -33,9 +34,11 @@ ChartJS.register(
 interface StrategicHubProps {
   activePillar: string | null;
   onClose: () => void;
+  latest: LatestData | null;
+  history: any[];
 }
 
-export default function StrategicHub({ activePillar, onClose }: StrategicHubProps) {
+export default function StrategicHub({ activePillar, onClose, latest, history }: StrategicHubProps) {
   if (!activePillar) return null;
 
   // Custom Chart Style Constants
@@ -46,27 +49,40 @@ export default function StrategicHub({ activePillar, onClose }: StrategicHubProp
   const accentRed = "#EF4444";
 
   const renderAIContent = () => {
+    const chartLabels = history && history.length > 0 
+      ? history.map(h => new Date(h.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }))
+      : ["00:00", "04:00", "08:00", "12:00", "16:00", "20:00"];
+
+    const vpdData = history && history.length > 0
+      ? history.map(h => h.features.vpd_kpa)
+      : [0.2, 0.4, 1.2, 2.8, 2.4, 0.8];
+
+    const tempData = history && history.length > 0
+      ? history.map(h => h.raw.temperature_c)
+      : [18, 19, 24, 30, 28, 22];
+
     const data = {
-      labels: ["00:00", "04:00", "08:00", "12:00", "16:00", "20:00", "23:59"],
+      labels: chartLabels,
       datasets: [
         {
-          label: "VPD (Vapor Pressure Deficit) kPa",
-          data: [0.2, 0.4, 1.2, 2.8, 2.4, 0.8, 0.3],
+          label: "Déficit de Presión de Vapor (VPD) kPa",
+          data: vpdData,
           borderColor: accentBlue,
           backgroundColor: "rgba(59, 130, 246, 0.1)",
           fill: true,
           tension: 0.4,
-          pointRadius: 4,
+          pointRadius: history && history.length > 10 ? 0 : 4,
           pointBackgroundColor: accentBlue,
         },
         {
-          label: "Estrés Estomático (Predicho)",
-          data: [5, 5, 20, 85, 70, 15, 5],
-          borderColor: accentRed,
+          label: "Temperatura Ambiental (°C)",
+          data: tempData,
+          borderColor: accentGold,
           backgroundColor: "transparent",
           borderDash: [5, 5],
           tension: 0.3,
           pointRadius: 0,
+          yAxisID: 'y1',
         },
       ],
     };
@@ -78,62 +94,134 @@ export default function StrategicHub({ activePillar, onClose }: StrategicHubProp
       if (template) template.style.display = 'none';
     };
 
+    const mlStatus = latest?.ml.status || "Analizando...";
+    const mlAlert = latest?.ml.alert || "Recopilando telemetría del ESP32...";
+    const mlColor = latest?.ml.color || accentGreen;
+    const vpdValue = latest?.features.vpd_kpa.toFixed(2) || "0.00";
+    const gddValue = latest?.raw.temperature_c ? (latest.raw.temperature_c - 10).toFixed(2) : "0.00"; // Calculo simple para visual
+    const soilMoisture = latest?.raw.soil_m_analog || 0;
+
+    // Calcular porcentajes de riesgo para la tabla
+    const fungalRisk = Math.min(100, (latest?.raw.humidity_air_pct || 0) > 80 ? 70 : 10);
+    const pestRisk = Math.min(100, (latest?.raw.temperature_c || 0) > 25 ? 65 : 15);
+    const droughtRisk = Math.min(100, (latest?.raw.soil_m_analog || 0) > 3000 ? 90 : 20);
+
     return (
       <div className="premium-view">
         <header className="premium-header">
           <div className="header-icon ai-glow">🧠</div>
           <div className="header-text">
-            <h2>Agro-Brain IA: Bio-Métrica Cuántica</h2>
-            <p>Análisis de correlación multivariable entre microclisma, VPD y fotosíntesis neta.</p>
+            <h2 style={{ background: `linear-gradient(90deg, #fff, ${mlColor})`, WebkitBackgroundClip: 'text' }}>
+              Agro-Brain IA: {mlStatus}
+            </h2>
+            <p>{mlAlert}</p>
           </div>
           <button className="download-report-btn" onClick={handleDownloadCropPDF}>
             <span className="btn-icon">📥</span> REPORTE TÉCNICO
           </button>
         </header>
 
-        {/* Hidden Template for PDF */}
-        <CropReport data={{
-          farmName: "Fundo Santa Rosa",
-          vpd: "1.45",
-          gdd: "840",
-          cropStage: "Floración avanzada",
-          healthScore: "Óptimo (85%)"
-        }} />
-
         <div className="premium-grid">
-          <div className="main-viz glass-panel">
-            <div className="chart-header">
-              <h4>Correlación VPD vs. Respuesta Foliar</h4>
-              <span className="live-tag">LIVE ANALYSIS</span>
+          <div className="main-analytics-container">
+            <div className="main-viz glass-panel mb-4">
+              <div className="chart-header">
+                <h4>Tendencia de VPD y Temperatura</h4>
+                <span className="live-tag">ANÁLISIS EN VIVO</span>
+              </div>
+              <div className="chart-wrapper">
+                <Line data={data} options={{ 
+                  responsive: true, 
+                  maintainAspectRatio: false,
+                  scales: {
+                    y: { 
+                      grid: { color: "rgba(255,255,255,0.05)" }, 
+                      ticks: { color: "rgba(255,255,255,0.5)" },
+                      title: { display: true, text: 'VPD (kPa)', color: 'rgba(255,255,255,0.3)', font: { size: 10 } }
+                    },
+                    y1: {
+                      position: 'right',
+                      grid: { display: false },
+                      ticks: { color: "rgba(255,255,255,0.5)" },
+                      title: { display: true, text: 'Temp (°C)', color: 'rgba(255,255,255,0.3)', font: { size: 10 } }
+                    },
+                    x: { grid: { display: false }, ticks: { color: "rgba(255,255,255,0.5)" } }
+                  },
+                  plugins: { legend: { labels: { color: "#fff", font: { size: 10 } } } }
+                }} />
+              </div>
             </div>
-            <div className="chart-wrapper">
-              <Line data={data} options={{ 
-                responsive: true, 
-                maintainAspectRatio: false,
-                scales: {
-                  y: { grid: { color: "rgba(255,255,255,0.05)" }, ticks: { color: "rgba(255,255,255,0.5)" } },
-                  x: { grid: { display: false }, ticks: { color: "rgba(255,255,255,0.5)" } }
-                },
-                plugins: { legend: { labels: { color: "#fff", font: { size: 10 } } } }
-              }} />
+
+            <div className="risk-table-container glass-panel">
+              <h4>Análisis de Riesgo Fitosanitario (IA)</h4>
+              <table className="risk-table">
+                <thead>
+                  <tr>
+                    <th>Amenaza</th>
+                    <th>Probabilidad/Nivel</th>
+                    <th>Factor Crítico</th>
+                    <th>Acción</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Fúngica (Botrytis)</td>
+                    <td>
+                      <div className="risk-bar-mini"><div className="risk-fill" style={{ width: `${fungalRisk}%`, background: accentGold }}></div></div>
+                      {fungalRisk > 50 ? 'Alto' : 'Bajo'}
+                    </td>
+                    <td>TH {latest?.raw.humidity_air_pct || 0}%</td>
+                    <td>{fungalRisk > 50 ? 'Ventilar' : 'Vigilar'}</td>
+                  </tr>
+                  <tr>
+                    <td>Plagas (Araña Roja)</td>
+                    <td>
+                      <div className="risk-bar-mini"><div className="risk-fill" style={{ width: `${pestRisk}%`, background: accentRed }}></div></div>
+                      {pestRisk > 50 ? 'Alerta' : 'Estable'}
+                    </td>
+                    <td>Temp {latest?.raw.temperature_c || 0}°C</td>
+                    <td>{pestRisk > 50 ? 'Tratamiento' : 'Preventivo'}</td>
+                  </tr>
+                  <tr>
+                    <td>Estrés Hídrico</td>
+                    <td>
+                      <div className="risk-bar-mini"><div className="risk-fill" style={{ width: `${droughtRisk}%`, background: accentBlue }}></div></div>
+                      {droughtRisk > 50 ? 'Severo' : 'Óptimo'}
+                    </td>
+                    <td>Soil {soilMoisture}</td>
+                    <td>{droughtRisk > 50 ? 'Riego Inmediato' : 'Suficiente'}</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
 
           <div className="side-analytics">
             <div className="metric-box glass-panel">
-              <span className="mb-label">VPD Actual</span>
-              <span className="mb-value">1.45 <small>kPa</small></span>
-              <div className="mb-indicator warning" style={{ width: "70%" }}></div>
-              <p className="mb-desc">Transpiración acelerada. Riesgo de cierre estomático en 2h.</p>
+              <span className="mb-label">VPD Actual (IA)</span>
+              <span className="mb-value">{vpdValue} <small>kPa</small></span>
+              <div className="mb-indicator warning" style={{ width: `${Math.min(100, (parseFloat(vpdValue)/2.5)*100)}%` }}></div>
+              <p className="mb-desc">
+                {parseFloat(vpdValue) > 1.2 ? "Transpiración acelerada detectada." : "Condición de transpiración óptima."}
+              </p>
             </div>
             <div className="metric-box glass-panel">
-              <span className="mb-label">GDD (Thermal Sum)</span>
-              <span className="mb-value">840 <small>°C/día</small></span>
-              <div className="mb-indicator success" style={{ width: "85%" }}></div>
-              <p className="mb-desc">Etapa fenológica: **Floración avanzada**. Consumo hídrico máximo.</p>
+              <span className="mb-label">Delta Térmico (GDD-Like)</span>
+              <span className="mb-value">{gddValue} <small>°C</small></span>
+              <div className="mb-indicator success" style={{ width: "60%" }}></div>
+              <p className="mb-desc">Sumatoria sobre base 10°C para cálculo de fenología de plagas.</p>
             </div>
           </div>
         </div>
+
+        <style jsx>{`
+          .main-analytics-container { display: flex; flex-direction: column; gap: 24px; }
+          .mb-4 { margin-bottom: 24px; }
+          .risk-table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+          .risk-table th { text-align: left; color: rgba(255,255,255,0.4); font-size: 0.75rem; padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+          .risk-table td { padding: 12px 10px; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.9rem; color: #fff; }
+          .risk-bar-mini { width: 60px; height: 4px; background: rgba(255,255,255,0.1); border-radius: 2px; margin-bottom: 4px; overflow: hidden; }
+          .risk-fill { height: 100%; transition: width 0.5s ease; }
+        `}</style>
       </div>
     );
   };
@@ -196,11 +284,11 @@ export default function StrategicHub({ activePillar, onClose }: StrategicHubProp
                 <path d="M30 50 L45 65 L70 35" fill="none" stroke={accentGold} strokeWidth="8" strokeLinecap="round" />
               </svg>
             </div>
-            <h3>Financial Evidence Report</h3>
+            <h3>Expediente de Evidencia Financiera</h3>
             <div className="report-metrics">
-              <div className="rm-row"><span>Risk Rating:</span> <strong>AAA+</strong></div>
-              <div className="rm-row"><span>Sensor Uptime:</span> <strong>99.98%</strong></div>
-              <div className="rm-row"><span>Water Efficiency:</span> <strong>+24% vs Avg</strong></div>
+              <div className="rm-row"><span>Calificación de Riesgo:</span> <strong>AAA+</strong></div>
+              <div className="rm-row"><span>Uptime Sensórica:</span> <strong>99.98%</strong></div>
+              <div className="rm-row"><span>Eficiencia Hídrica:</span> <strong>+24% vs Promedio</strong></div>
             </div>
             <button className="gold-action-btn" onClick={async () => {
               const template = document.getElementById('financial-report-template');
@@ -236,7 +324,7 @@ export default function StrategicHub({ activePillar, onClose }: StrategicHubProp
           <div className="header-icon trace-glow">🏷️</div>
           <div className="header-text">
             <h2>Pasaporte Digital: Trazabilidad Global</h2>
-            <p>La historia inmutable de cada fruto, desde la raíz hasta el mercado global.</p>
+            <p>La historia inmutable de cada fruto, desde la raíz hasta el destino.</p>
           </div>
         </header>
 
@@ -360,7 +448,7 @@ export default function StrategicHub({ activePillar, onClose }: StrategicHubProp
         <div className="premium-grid">
           <div className="main-viz glass-panel">
             <div className="chart-header">
-              <h4>Forecast de Captura de Carbono (Machine Learning)</h4>
+              <h4>Pronóstico de Captura de Carbono (Inteligencia Artificial)</h4>
             </div>
             <div className="chart-wrapper">
               <Bar data={barsData} options={{ 

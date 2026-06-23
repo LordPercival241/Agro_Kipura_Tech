@@ -11,9 +11,10 @@ const navItems = [
   { section: "telemetry", label: "Telemetría", icon: <path d="M14 14.76V3.5a2.5 2.5 0 00-5 0v11.26a4.5 4.5 0 105 0z" /> },
   { section: "servicios", label: "Servicios", icon: <><circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" /></> },
   { section: "charts", label: "Gráficos", icon: <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" /> },
-  { section: "pillars", label: "Nuestra Estrategia", icon: <><path d="M2 20h20" /><path d="M5 20V10l7-7 7 7v10" /><path d="M9 20v-4h6v4" /></> },
+  { section: "marketplace", label: "Mercado", icon: <><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" /><line x1="3" y1="6" x2="21" y2="6" /><path d="M16 10a4 4 0 01-8 0" /></> , url: "/marketplace" },
   { section: "mapa", label: "Mapa del Perú", icon: <><path d="M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4z" /><line x1="8" y1="2" x2="8" y2="18" /><line x1="16" y1="6" x2="16" y2="22" /></> },
   { section: "gallery", label: "Regiones", icon: <><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></> },
+  { section: "pillars", label: "Nuestra Estrategia", icon: <><path d="M2 20h20" /><path d="M5 20V10l7-7 7 7v10" /><path d="M9 20v-4h6v4" /></> },
   { section: "contacto", label: "Contacto", icon: <><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" /></> },
 ];
 
@@ -21,12 +22,13 @@ export default function Sidebar({ userName, onLogout }: SidebarProps) {
   const [activeSection, setActiveSection] = useState("overview");
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleNavClick = useCallback((section: string) => {
-    setActiveSection(section);
-    const target = document.getElementById(section);
+  const handleNavClick = useCallback((item: any) => {
+    setActiveSection(item.section);
+    const target = document.getElementById(item.section);
     if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
     if (window.innerWidth <= 992) setIsOpen(false);
   }, []);
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -75,8 +77,12 @@ export default function Sidebar({ userName, onLogout }: SidebarProps) {
 
         <nav className="sidebar-nav">
           {navItems.map((item) => (
-            <a href="#" key={item.section} className={`nav-item ${activeSection === item.section ? "active" : ""}`}
-              onClick={(e) => { e.preventDefault(); handleNavClick(item.section); }}>
+            <a href={item.url || "#"} key={item.section} className={`nav-item ${activeSection === item.section ? "active" : ""}`}
+              onClick={(e) => { 
+                if (!item.url) e.preventDefault(); 
+                handleNavClick(item); 
+              }}
+              target={item.url ? "_blank" : undefined}>
               <svg className="nav-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">{item.icon}</svg>
               <span className="nav-text">{item.label}</span>
             </a>
@@ -93,10 +99,37 @@ export default function Sidebar({ userName, onLogout }: SidebarProps) {
               <span className="user-role">Productor</span>
             </div>
           </div>
-          <button className="btn-logout" onClick={onLogout} title="Cerrar Sesión">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4" /><polyline points="16 17 21 12 16 7" /><line x1="21" y1="12" x2="9" y2="12" /></svg>
-          </button>
+          <div className="sidebar-actions-footer">
+            <button className="btn-logout" onClick={onLogout} title="Cerrar Sesión">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4" /><polyline points="16 17 21 12 16 7" /><line x1="21" y1="12" x2="9" y2="12" /></svg>
+            </button>
+          </div>
         </div>
+
+        <style jsx>{`
+          .sidebar-actions-footer {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            width: 100%;
+          }
+          .btn-logout {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            color: #ef4444;
+            padding: 0.6rem;
+            border-radius: 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+          }
+          .btn-logout:hover {
+            background: #ef4444;
+            color: #fff;
+          }
+        `}</style>
       </aside>
     </>
   );

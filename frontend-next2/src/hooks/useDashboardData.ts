@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect, useCallback, useRef } from "react";
 
-const API_URL = "http://localhost:8000/api/v1/dashboard";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1/dashboard";
 
 export interface RawData {
   temperature_c: number;
@@ -38,6 +38,7 @@ export interface DashboardState {
   latest: LatestData | null;
   history: HistoryEntry[];
   connectionStatus: "connecting" | "connected" | "disconnected";
+  isSensorReady: boolean;
 }
 
 export function useDashboardData() {
@@ -45,6 +46,7 @@ export function useDashboardData() {
     latest: null,
     history: [],
     connectionStatus: "connecting",
+    isSensorReady: false,
   });
 
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -59,11 +61,13 @@ export function useDashboardData() {
           latest: data.latest,
           history: data.history || [],
           connectionStatus: "connected",
+          isSensorReady: true,
         });
       } else {
         setState((prev) => ({
           ...prev,
           connectionStatus: "connected",
+          isSensorReady: false,
           latest: prev.latest,
         }));
       }
@@ -71,6 +75,7 @@ export function useDashboardData() {
       setState((prev) => ({
         ...prev,
         connectionStatus: "disconnected",
+        isSensorReady: false,
       }));
     }
   }, []);

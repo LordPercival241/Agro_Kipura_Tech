@@ -1,9 +1,19 @@
 "use client";
 import React, { useState } from "react";
 import StrategicHub from "./StrategicHub";
+import type { LatestData } from "@/hooks/useDashboardData";
 
-export default function ServicesPillars() {
-  const [activePillar, setActivePillar] = useState<string | null>(null);
+export default function ServicesPillars({ 
+  latest, 
+  history, 
+  activePillar, 
+  setActivePillar 
+}: { 
+  latest: LatestData | null;
+  history: any[];
+  activePillar: string | null;
+  setActivePillar: (id: string | null) => void;
+}) {
 
   const pillars = [
     {
@@ -80,6 +90,8 @@ export default function ServicesPillars() {
       <StrategicHub
         activePillar={activePillar}
         onClose={() => setActivePillar(null)}
+        latest={latest}
+        history={history}
       />
 
       <style jsx>{`

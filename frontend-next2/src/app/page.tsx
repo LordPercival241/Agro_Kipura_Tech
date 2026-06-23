@@ -25,7 +25,8 @@ interface User {
 export default function HomePage() {
   const [user, setUser] = useState<User | null>(null);
   const [ready, setReady] = useState(false);
-  const { latest, history, connectionStatus } = useDashboardData();
+  const [activePillar, setActivePillar] = useState<string | null>(null);
+  const { latest, history, connectionStatus, isSensorReady } = useDashboardData();
 
   useEffect(() => {
     const savedTheme = localStorage.getItem("agroKipuraTheme") || "light";
@@ -53,16 +54,21 @@ export default function HomePage() {
     <div className="dashboard-app">
       <Sidebar userName={user.name} onLogout={handleLogout} />
       <main className="main-content">
-        <Topbar connectionStatus={connectionStatus} />
+        <Topbar connectionStatus={connectionStatus} isSensorReady={isSensorReady} />
         <div className="content-scroll">
           <HeroBanner />
-          <PredictionCard latest={latest} />
-          <PillarsSection />
+          <PredictionCard latest={latest} onOpenAI={() => setActivePillar("ai")} />
           <TelemetryGrid latest={latest} />
-          <ServicesPillars />
+          <ServicesPillars 
+            latest={latest} 
+            history={history} 
+            activePillar={activePillar} 
+            setActivePillar={setActivePillar} 
+          />
           <ChartSection history={history} />
           <MapSection />
           <GallerySection />
+          <PillarsSection />
           <ContactSection />
           <Footer />
         </div>
