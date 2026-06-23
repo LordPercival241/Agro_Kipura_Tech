@@ -1,10 +1,10 @@
 #  AgroPredict — Sistema de Monitoreo Agrícola con IoT e Inteligencia Artificial
 
-Sistema de monitoreo de plantas en tiempo real desarrollado para la **UTEC (Universidad de Tecnología e Ingeniería)**. Combina un dispositivo de medición de campo basado en **ESP32** con una **API de predicción** que utiliza un modelo de **Árbol de Decisión** entrenado con datos recolectados directamente en campo para determinar el estado de salud de la planta.
+Sistema de monitoreo de plantas en tiempo real. Combina un dispositivo de medición de campo basado en **ESP32** con una **API de predicción** que utiliza un modelo de **Árbol de Decisión** entrenado con datos recolectados directamente en campo para determinar el estado de salud de la planta.
 
 ---
 
-## 📋 Descripción del Sistema
+##  Descripción del Sistema
 
 El ESP32 actúa como una **estación meteorológica y agronómica** que mide:
 - Temperatura y humedad del aire (DHT22)
