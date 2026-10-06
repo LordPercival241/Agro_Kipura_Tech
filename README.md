@@ -116,4 +116,4 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ##  Equipo
 
-Proyecto desarrollado en la **Universidad de Tecnología e Ingeniería - UTEC**.
+Proyecto desarrollado para los cursos Introducción a python y Energía Solar.
